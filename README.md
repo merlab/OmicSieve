@@ -266,6 +266,8 @@ If you use this pipeline in your research, please cite:
 
 ## Pipeline Architecture
 
+
+### TODO: Diagram will be added soon
 ```
 Raw Gene Expression (19,310 genes)
           ↓
