@@ -1,0 +1,56 @@
+{
+  "pipeline_name": "Cancer Multi-Task Pipeline (Component Predictor + Downstream Models)",
+  "version": "2.2",
+  "created": "2026-03-06T13:46:56.601471",
+  "data_info": {
+    "n_genes_raw": 19310,
+    "n_top_components": 30,
+    "n_training_samples": 1745,
+    "n_validation_samples": 374,
+    "n_test_samples": 375
+  },
+  "model_performance": {
+    "grade_test_accuracy": 0.8906666666666667,
+    "grade_test_f1": 0.8728667560492881,
+    "grade_confusion_matrix": [
+      [
+        14,
+        33
+      ],
+      [
+        8,
+        320
+      ]
+    ],
+    "component_predictor_test_mse": 2.5574539559912937e-06,
+    "mutation_test_micro_f1": 0.043009512827904293,
+    "tp53_test_accuracy": 0.6026666666666667,
+    "tp53_test_f1": 0.565597667638484,
+    "tp53_confusion_matrix": [
+      [
+        129,
+        75
+      ],
+      [
+        74,
+        97
+      ]
+    ]
+  },
+  "capabilities": {
+    "predict_top_components": true,
+    "grade_prediction_from_components": true,
+    "tp53_prediction_from_components": true,
+    "component_gene_mapping": true,
+    "downstream_ready_embedding": true
+  },
+  "artifacts": {
+    "scaler": "scaler.pkl",
+    "component_predictor_mlp": "component_predictor_mlp.pt",
+    "top_components": "top_k_components.json",
+    "final_xgboost_grade": "xgboost_grade_predictor.pkl",
+    "gene_mapping": "component_gene_mapping.json",
+    "tp53_model_optional": "tp53_predictor.pkl",
+    "phate_config_optional": "phate_supervision_config.json"
+  }
+}

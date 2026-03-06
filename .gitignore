@@ -1,1 +1,3 @@
-deployment/*
+deployment/feature_selector_mlp.pt
+deployment/component_predictor_mlp.pt
+deployment/supervised_phate.pkl
