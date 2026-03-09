@@ -265,22 +265,8 @@ If you use this pipeline in your research, please cite:
 
 
 ## Pipeline Architecture
+![Architecture](Architecture.jpg "Architecture Pipeline")
 
-
-### TODO: Diagram will be added soon
-```
-Raw Gene Expression (19,310 genes)
-          ↓
-   StandardScaler
-          ↓
-   MLP Component Predictor (PyTorch)
-          ↓
-   Top-30 PHATE Components
-          ↓
-    ┌─────┴─────┐
-    ↓           ↓
-Grade (XGB)   TP53 (XGB)
-```
 
 The pipeline uses a two-stage approach:
 1. **Stage 1**: MLP predicts 30 supervised PHATE components from raw genes
