@@ -18,8 +18,8 @@ import numpy as np
 
 predictor = CancerGradePredictor(deployment_dir='.')
 # results = predictor.predict_grade(X_new, y_labels=None)
-print("✓ Predictor initialized successfully")
-print("✓ Ready to make predictions on new data")
+print("Predictor initialized successfully")
+print("Ready to make predictions on new data")
 PYTHON_EOF
 
 # Option B: Command line

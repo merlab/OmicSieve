@@ -238,17 +238,17 @@ for comp in sample_0_genes:
 
 ### Component Predictor
 - **Test MSE**: ~0.0000 (excellent reconstruction of PHATE components)
-- **Spearman Rank Correlation**: 0.08 (maintains component ranking)
 
 ### Grade Predictor (XGBoost on Components)
-- **Test Accuracy**: 89.1%
-- **Test F1 Score**: 87.3%
+- **Test Accuracy**: 83.83%
+- **Test F1 Score**: 85.25%
+- *est Balanced Accuracy**: 73.12%
 - **Confusion Matrix**: Low false positive/negative rates
 
-### TP53 Mutation Predictor (XGBoost with Class Weights)
-- **Test Accuracy**: 60.3%
-- **Test F1 Score**: 56.6%
-- **Class Balance**: scale_pos_weight = 1.217
+### TP53 Mutation Predictor (SVM on Components)
+- **Test Accuracy**: 63.34%
+- **Test F1 Score**: 65.66%
+- **Test AUC-ROC**: 71.29%
 - **Note**: TP53 mutation is a challenging task due to class imbalance
 
 Performance metrics are stored in `metadata.json`.

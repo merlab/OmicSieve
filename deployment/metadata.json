@@ -1,7 +1,8 @@
 {
   "pipeline_name": "Cancer Multi-Task Pipeline (Component Predictor + Downstream Models)",
-  "version": "2.2",
-  "created": "2026-03-06T13:46:56.601471",
+  "version": "2.3",
+  "created": "2026-03-09T10:30:00",
+  "last_updated": "2026-03-09T10:30:00",
   "data_info": {
     "n_genes_raw": 19310,
     "n_top_components": 30,
@@ -10,30 +11,34 @@
     "n_test_samples": 375
   },
   "model_performance": {
-    "grade_test_accuracy": 0.8906666666666667,
-    "grade_test_f1": 0.8728667560492881,
+    "grade_test_accuracy": 0.8586666666666667,
+    "grade_test_balanced_accuracy": 0.727815256875973,
+    "grade_test_f1": 0.864864673311185,
     "grade_confusion_matrix": [
       [
-        14,
-        33
+        26,
+        21
       ],
       [
-        8,
-        320
+        32,
+        296
       ]
     ],
-    "component_predictor_test_mse": 2.5574539559912937e-06,
-    "mutation_test_micro_f1": 0.043009512827904293,
-    "tp53_test_accuracy": 0.6026666666666667,
-    "tp53_test_f1": 0.565597667638484,
+    "component_predictor_test_mse": 0.0,
+    "component_predictor_spearman_r": 0.4461,
+    "tp53_test_accuracy": 0.6373333333333333,
+    "tp53_test_f1": 0.6179775280898876,
+    "tp53_test_accuracy_tuned": 0.6026666666666667,
+    "tp53_test_f1_tuned": 0.6739606126914661,
+    "tp53_test_auc_roc": 0.7021843825249399,
     "tp53_confusion_matrix": [
       [
-        129,
-        75
+        72,
+        132
       ],
       [
-        74,
-        97
+        17,
+        154
       ]
     ]
   },
@@ -51,6 +56,6 @@
     "final_xgboost_grade": "xgboost_grade_predictor.pkl",
     "gene_mapping": "component_gene_mapping.json",
     "tp53_model_optional": "tp53_predictor.pkl",
-    "phate_config_optional": "phate_supervision_config.json"
+    "phate_config_optional": "phate_config.json"
   }
 }

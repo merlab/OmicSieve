@@ -1,6 +1,0 @@
-{
-  "supervision_weight": 5.0,
-  "n_classes": 2,
-  "n_components": 100,
-  "n_label_features": 2
-}
