@@ -22,9 +22,8 @@ This deployment package provides a complete cancer prediction pipeline with thre
 Use `gdown` to download the required deployment files:
 
 ```bash
-gdown 1NYpS6_PlrFtUNXDOB-q0669zBVRnh7EU   # supervised_phate.pkl
-gdown 1M61lFXz-kvpTh5RxrKD9oPIVet0BjLDV   # component_predictor_mlp.pt
-gdown 16Fs7lzs5F6I2nMy5NHv9Zw6l5BlrBi0p   # feature_selector_mlp.pt
+gdown 1uY9HWxV2V4UK5EJO3I_zyAv8YZOXdikn   # phate.pkl
+gdown 1T4oNumTgYwuxF7drKEoPELi2BO111-Xk   # component_predictor_mlp.pt 
 ```
 
 After downloading, place the files in the `deployment/` directory:
