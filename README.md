@@ -31,8 +31,8 @@ This deployment package provides a complete cancer prediction pipeline with thre
 Use `gdown` to download the required deployment files:
 
 ```bash
-gdown 1uY9HWxV2V4UK5EJO3I_zyAv8YZOXdikn   # cgrade_phate.pkl
-gdown 1T4oNumTgYwuxF7drKEoPELi2BO111-Xk   # cgrade_component_predictor_mlp.pt 
+gdown 1VoiOg9sqwVf0HbVefb-_YN7_tCE6mO7-  # cgrade_phate.pkl
+gdown 14s8pPSfHmcheKTTStfW2Lqy8F7zGw9p6   # cgrade_component_predictor_mlp.pt 
 gdown 12BTHNW6q2Ifl8fRtKTRsXjOAMFpacW8m   # mutation_phate.pkl
 gdown 1hqOUhsmDVaHfH9JkY1Vxrz68mLh1YQ9O   # mutation_component_predictor_mlp.pt 
 ```
@@ -238,15 +238,30 @@ Or use the built-in method by inspecting the returned interpretability fields fr
 - **Test MSE**: ~0.0000 (excellent reconstruction of PHATE components)
 
 ### Grade Predictor (XGBoost on Components)
-- **Test Accuracy**: 83.83%
-- **Test F1 Score**: 85.25%
-- **Test Balanced Accuracy**: 73.12%
+- **Test Accuracy**: 87.47%
+- **Test F1 (weighted) Score**: 87.74%
+- **Test Balanced Accuracy**: 73.70%
 
 ### TP53 Mutation Predictor
-- **Test Accuracy**: 0.7327
-- **Test Balanced Accuracy**: 0.7203
-- **Test F1 (weighted)**: 0.7341
+**30 component:**
+- **Test Accuracy**: 73.27%
+- **Test Balanced Accuracy**: 72.03%
+- **Test F1 (weighted)**: 73,41%
 
+**50 component:**
+- **Test Accuracy**: 0.7493
+- **Test Balanced Accuracy**: 0.7419
+- **Test F1 (weighted)**: 0.7514
+
+
+### Execution time details
+
+**Grade Prediction**
+- **PHATE 100 Component Extraction:** 226.42s / 3.7m
+- **SHAP computation time:** 3.16s
+- **MLP Component Predictor:** 242.71s / 4.04m
+-  **MLP infer time/sample:** 0.147ms
+-  **XGBoost infer time/sample:** 0.027ms
 
 ---
 
@@ -264,7 +279,7 @@ If you use this pipeline in your research, please cite:
 
 The pipeline uses a two-stage approach:
 1. **Stage 1**: MLP predicts 30 supervised PHATE components from raw genes
-2. **Stage 2**: Downstream XGBoost classifiers use these components for predictions
+2. **Stage 2**: Downstream XGBoost classifiers use these components for predictionsMLP Component Predictor
 
 This design allows you to:
 - Reuse components for new prediction tasks
