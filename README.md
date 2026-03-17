@@ -8,44 +8,52 @@ This deployment package provides a complete cancer prediction pipeline with thre
 ## Package Contents
 
 ### Required Files
-- `scaler.pkl` - StandardScaler for gene expression normalization
-- `component_predictor_mlp.pt` - PyTorch MLP model for component prediction
-- `top_k_components.json` - Top-30 PHATE component indices
-- `xgboost_grade_predictor.pkl` - XGBoost model for grade classification
-- `component_gene_mapping.json` - Maps components to top contributing genes
-- `supervised_phate.pkl` - PHATE dimensionality reduction model
-- `phate_supervision_config.json` - PHATE configuration parameters
+1. **Grade Prediction**:
+    - `cgrade_scaler.pkl` - StandardScaler for gene expression normalization
+    - `cgrade_component_predictor_mlp.pt` - PyTorch MLP model for component prediction
+    - `cgrade_top_k_components.json` - Top-30 PHATE component indices
+    - `cgrade_xgboost_grade_predictor.pkl` - XGBoost model for grade classification
+    - `cgrade_component_gene_mapping.json` - Maps components to top contributing genes
+    - `cgrade_phate.pkl` - PHATE dimensionality reduction model
+    - `cgrade_phate_supervision_config.json` - PHATE configuration parameters
 
+2. **TP53 Mutatuion Prediction**:
+    - `mutation_scaler.pkl`
+    - `mutation_component_predictor_mlp.pt`
+    - `mutation_top_k_components.json`
+    - `mutation_xgboost_grade_predictor.pkl`
+    - `mutation_component_gene_mapping.json`
+    - `mutation_phate.pkl`
+    - `mutation_phate_supervision_config.json`
 
 ### Download Pretrained Models
 
 Use `gdown` to download the required deployment files:
 
 ```bash
-gdown 1uY9HWxV2V4UK5EJO3I_zyAv8YZOXdikn   # phate.pkl
-gdown 1T4oNumTgYwuxF7drKEoPELi2BO111-Xk   # component_predictor_mlp.pt 
+gdown 1VoiOg9sqwVf0HbVefb-_YN7_tCE6mO7-  # cgrade_phate.pkl
+gdown 14s8pPSfHmcheKTTStfW2Lqy8F7zGw9p6   # cgrade_component_predictor_mlp.pt 
+gdown 12BTHNW6q2Ifl8fRtKTRsXjOAMFpacW8m   # mutation_phate.pkl
+gdown 1hqOUhsmDVaHfH9JkY1Vxrz68mLh1YQ9O   # mutation_component_predictor_mlp.pt 
 ```
 
-After downloading, place the files in the `deployment/` directory:
+After downloading, place the files in the following directories:
 
 ```
 deployment/
-├── supervised_phate.pkl
-├── component_predictor_mlp.pt
-└── feature_selector_mlp.pt
+├────Cancer Grade
+        ├── cgrade_phate.pkl
+        ├── cgrade_component_predictor_mlp.pt
+├────TP53 Mutation
+        ├── mutation_phate.pkl
+        ├── mutation_component_predictor_mlp.pt
 ```
 
-`
-### Optional Files
-- `tp53_predictor.pkl` - XGBoost model for TP53 mutation prediction
-
-
 ### Generated Files
-- `metadata.json` - Pipeline metadata and performance metrics
-- `predict_grade.py` - Standalone inference script
+- `predict.py` - Standalone universal inference script
+
 
 ---
-
 
 ### Installation
 
@@ -57,15 +65,17 @@ pip install numpy pandas scikit-learn xgboost torch joblib
 ### Basic Usage
 
 ```bash
-# Predict components (reusable embeddings)
-python predict_grade.py --input your_data.csv --output components.csv --mode components
+# Predict components (reusable embeddings) for grade pipeline
+python predict.py --task grade --mode components --input your_data.csv --output grade_components.csv
 
 # Predict cancer grade
-python predict_grade.py --input your_data.csv --output grade_predictions.csv --mode grade
+python predict.py --task grade --mode predict --input your_data.csv --output grade_predictions.csv
 
 # Predict TP53 mutation status
-python predict_grade.py --input your_data.csv --output tp53_predictions.csv --mode tp53
+python predict.py --task tp53 --mode predict --input your_data.csv --output tp53_predictions.csv
 ```
+
+
 
 ---
 
@@ -91,13 +101,26 @@ TCGA-A1-A0SD-01,4.567,2.987,6.543,...,3.789
 
 ### 1. Component Prediction (Embeddings)
 
-Extract 30-dimensional component embeddings for downstream tasks:
+Extract 30-dimensional component embeddings for downstream tasks.
+
+Grade pipeline:
 
 ```bash
-python predict_grade.py \
+python predict.py \
+    --task grade \
+    --mode components \
     --input expression_data.csv \
-    --output components.csv \
-    --mode components
+    --output grade_components.csv
+```
+
+TP53 pipeline:
+
+```bash
+python predict.py \
+    --task tp53 \
+    --mode components \
+    --input expression_data.csv \
+    --output tp53_components.csv
 ```
 
 **Output**: CSV with 30 columns (pred_component_0 to pred_component_29)
@@ -115,19 +138,21 @@ python predict_grade.py \
 Predict cancer histological grade (binary classification):
 
 ```bash
-python predict_grade.py \
+python predict.py \
+    --task grade \
+    --mode predict \
     --input expression_data.csv \
-    --output grade_predictions.csv \
-    --mode grade
+    --output grade_predictions.csv
 ```
 
 **Output**: CSV with two columns:
 - `grade_prediction`: 0 (low risk) or 1 (high risk)
 - `high_risk_probability`: Probability of high-risk grade (0-1)
 
-**Performance Metrics** (from metadata.json):
-- Test Accuracy: ~89%
-- Test F1 Score: ~87%
+**Performance Metrics**:
+- Test Accuracy: 83.83%
+- Test F1 Score: 85.25%
+- Test Balanced Accuracy: 73.12%
 
 ---
 
@@ -136,61 +161,53 @@ python predict_grade.py \
 Predict TP53 mutation status:
 
 ```bash
-python predict_grade.py \
+python predict.py \
+    --task tp53 \
+    --mode predict \
     --input expression_data.csv \
-    --output tp53_predictions.csv \
-    --mode tp53
+    --output tp53_predictions.csv
 ```
 
 **Output**: CSV with two columns:
 - `tp53_prediction`: 0 (wild-type) or 1 (mutated)
 - `tp53_probability`: Probability of mutation (0-1)
 
-**Performance Metrics** (from metadata.json):
-- Test Accuracy: ~60%
-- Test F1 Score: ~57%
+**Performance Metrics**:
+- Test Accuracy: 0.7327
+- Test Balanced Accuracy: 0.7203
+- Test F1 (weighted): 0.7341
 
 ---
 
 ## Python API Usage
 
-For programmatic access, use the `CancerFeaturePipeline` class:
+For programmatic access, use the `UniversalCancerPredictor` class:
 
 ```python
-from predict_grade import CancerFeaturePipeline
+from predict import UniversalCancerPredictor
 import pandas as pd
-
-# Load the pipeline
-pipe = CancerFeaturePipeline(deployment_dir='deployment')
 
 # Load your data (samples × genes)
 X_raw = pd.read_csv('expression_data.csv', index_col=0).values
 
-# 1. Get component embeddings
-components = pipe.predict_components(X_raw)
-print(f"Component shape: {components.shape}")  # (n_samples, 30)
+# Grade pipeline
+grade_pipe = UniversalCancerPredictor(deployment_dir='deployment', task='grade')
+grade_components = grade_pipe.predict_components(X_raw)
+grade_results = grade_pipe.predict_task(X_raw)
 
-# 2. Predict cancer grade
-grade_results = pipe.predict_grade(X_raw)
-print(f"Predictions: {grade_results['grade_predictions']}")
-print(f"Probabilities: {grade_results['grade_probabilities']}")
+print(grade_results['grade_predictions'])
+print(grade_results['grade_probabilities'])
 
-# 3. Predict TP53 mutation
-tp53_results = pipe.predict_tp53(X_raw)
-print(f"TP53 predictions: {tp53_results['tp53_predictions']}")
-print(f"TP53 probabilities: {tp53_results['tp53_probabilities']}")
+# TP53 pipeline
+tp53_pipe = UniversalCancerPredictor(deployment_dir='deployment', task='tp53')
+tp53_components = tp53_pipe.predict_components(X_raw)
+tp53_results = tp53_pipe.predict_task(X_raw)
 
-# 4. Map components to genes
-gene_mapping = pipe.map_components_to_genes(
-    components, 
-    top_n_components=10,  # Top 10 strongest components
-    top_n_genes=10        # Top 10 genes per component
-)
-print(gene_mapping['sample_0'])  # Gene contributors for first sample
+print(tp53_results['tp53_predictions'])
+print(tp53_results['tp53_probabilities'])
 ```
 
 ---
-
 
 ## Gene Interpretation
 
@@ -199,8 +216,8 @@ Each component is associated with its top contributing genes. To find which gene
 ```python
 import json
 
-# Load gene mapping
-with open('deployment/component_gene_mapping.json', 'r') as f:
+# Example path for one task-specific deployment folder
+with open('deployment/Cancer Grade/cgrade_component_gene_mapping.json', 'r') as f:
     gene_map = json.load(f)
 
 # Get top genes for component 42
@@ -211,25 +228,7 @@ for gene_info in top_genes:
     print(f"{gene_info['gene_name']}: {gene_info['abs_coefficient']:.4f}")
 ```
 
-Or use the built-in method:
-
-```python
-# Get gene mapping for specific samples
-components = pipe.predict_components(X_raw)
-gene_mapping = pipe.map_components_to_genes(
-    components, 
-    top_n_components=5,   # Top 5 components per sample
-    top_n_genes=10        # Top 10 genes per component
-)
-
-# Examine first sample
-sample_0_genes = gene_mapping['sample_0']
-for comp in sample_0_genes:
-    print(f"\nComponent {comp['component_index']} (score: {comp['component_score']:.3f})")
-    for gene in comp['top_genes'][:5]:
-        print(f"  - {gene['gene_name']}: {gene['abs_coefficient']:.4f}")
-```
-
+Or use the built-in method by inspecting the returned interpretability fields from the predictor output.
 
 ---
 
@@ -239,18 +238,30 @@ for comp in sample_0_genes:
 - **Test MSE**: ~0.0000 (excellent reconstruction of PHATE components)
 
 ### Grade Predictor (XGBoost on Components)
-- **Test Accuracy**: 83.83%
-- **Test F1 Score**: 85.25%
-- *est Balanced Accuracy**: 73.12%
-- **Confusion Matrix**: Low false positive/negative rates
+- **Test Accuracy**: 87.47%
+- **Test F1 (weighted) Score**: 87.74%
+- **Test Balanced Accuracy**: 73.70%
 
-### TP53 Mutation Predictor (SVM on Components)
-- **Test Accuracy**: 63.34%
-- **Test F1 Score**: 65.66%
-- **Test AUC-ROC**: 71.29%
-- **Note**: TP53 mutation is a challenging task due to class imbalance
+### TP53 Mutation Predictor
+**30 component:**
+- **Test Accuracy**: 73.27%
+- **Test Balanced Accuracy**: 72.03%
+- **Test F1 (weighted)**: 73,41%
 
-Performance metrics are stored in `metadata.json`.
+**50 component:**
+- **Test Accuracy**: 0.7493
+- **Test Balanced Accuracy**: 0.7419
+- **Test F1 (weighted)**: 0.7514
+
+
+### Execution time details
+
+**Grade Prediction**
+- **PHATE 100 Component Extraction:** 226.42s / 3.7m
+- **SHAP computation time:** 3.16s
+- **MLP Component Predictor:** 242.71s / 4.04m
+-  **MLP infer time/sample:** 0.147ms
+-  **XGBoost infer time/sample:** 0.027ms
 
 ---
 
@@ -262,14 +273,13 @@ If you use this pipeline in your research, please cite:
 [Add appropriate citation here]
 ``` -->
 
-
 ## Pipeline Architecture
 ![Architecture](Architecture.jpg "Architecture Pipeline")
 
 
 The pipeline uses a two-stage approach:
 1. **Stage 1**: MLP predicts 30 supervised PHATE components from raw genes
-2. **Stage 2**: Downstream XGBoost classifiers use these components for predictions
+2. **Stage 2**: Downstream XGBoost classifiers use these components for predictionsMLP Component Predictor
 
 This design allows you to:
 - Reuse components for new prediction tasks

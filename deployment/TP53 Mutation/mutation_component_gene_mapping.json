@@ -1,0 +1,2752 @@
+{
+  "component_0": {
+    "intercept": 0.01760599002095173,
+    "top_10_genes": [
+      {
+        "gene_name": "RHOB",
+        "coefficient": -0.00011084413116339858,
+        "abs_coefficient": 0.00011084413116339858
+      },
+      {
+        "gene_name": "PTK7",
+        "coefficient": 0.00010669414068777456,
+        "abs_coefficient": 0.00010669414068777456
+      },
+      {
+        "gene_name": "IQCD",
+        "coefficient": 0.00010646466343941677,
+        "abs_coefficient": 0.00010646466343941677
+      },
+      {
+        "gene_name": "NEGR1",
+        "coefficient": 0.00010606681970920295,
+        "abs_coefficient": 0.00010606681970920295
+      },
+      {
+        "gene_name": "SLC27A2",
+        "coefficient": -0.00010308714410368485,
+        "abs_coefficient": 0.00010308714410368485
+      },
+      {
+        "gene_name": "GOLGA8Q",
+        "coefficient": -0.00010131655369099143,
+        "abs_coefficient": 0.00010131655369099143
+      },
+      {
+        "gene_name": "SHROOM3",
+        "coefficient": 0.00010125607852287292,
+        "abs_coefficient": 0.00010125607852287292
+      },
+      {
+        "gene_name": "RIT2",
+        "coefficient": -0.00010002277807181164,
+        "abs_coefficient": 0.00010002277807181164
+      },
+      {
+        "gene_name": "TEX36",
+        "coefficient": 9.909515524098313e-05,
+        "abs_coefficient": 9.909515524098313e-05
+      },
+      {
+        "gene_name": "ITIH3",
+        "coefficient": -9.735268655661425e-05,
+        "abs_coefficient": 9.735268655661425e-05
+      }
+    ]
+  },
+  "component_3": {
+    "intercept": 0.009292195298049045,
+    "top_10_genes": [
+      {
+        "gene_name": "NECAB1",
+        "coefficient": -4.0815568939426774e-05,
+        "abs_coefficient": 4.0815568939426774e-05
+      },
+      {
+        "gene_name": "FRMPD2",
+        "coefficient": -4.068760831480753e-05,
+        "abs_coefficient": 4.068760831480753e-05
+      },
+      {
+        "gene_name": "KCP",
+        "coefficient": -3.9907333089528726e-05,
+        "abs_coefficient": 3.9907333089528726e-05
+      },
+      {
+        "gene_name": "GABRA6",
+        "coefficient": -3.9475130105098337e-05,
+        "abs_coefficient": 3.9475130105098337e-05
+      },
+      {
+        "gene_name": "MEIG1",
+        "coefficient": 3.801186609169365e-05,
+        "abs_coefficient": 3.801186609169365e-05
+      },
+      {
+        "gene_name": "RP11.54C4.3",
+        "coefficient": 3.4641710608339996e-05,
+        "abs_coefficient": 3.4641710608339996e-05
+      },
+      {
+        "gene_name": "SMR3A",
+        "coefficient": -3.460614614861502e-05,
+        "abs_coefficient": 3.460614614861502e-05
+      },
+      {
+        "gene_name": "IL27",
+        "coefficient": 3.456890069932878e-05,
+        "abs_coefficient": 3.456890069932878e-05
+      },
+      {
+        "gene_name": "MYF5",
+        "coefficient": -3.379085056376339e-05,
+        "abs_coefficient": 3.379085056376339e-05
+      },
+      {
+        "gene_name": "CXCR1",
+        "coefficient": -3.355537765808271e-05,
+        "abs_coefficient": 3.355537765808271e-05
+      }
+    ]
+  },
+  "component_2": {
+    "intercept": 0.02956237268318303,
+    "top_10_genes": [
+      {
+        "gene_name": "NCBP2L",
+        "coefficient": -7.1306890246046e-05,
+        "abs_coefficient": 7.1306890246046e-05
+      },
+      {
+        "gene_name": "CH507.396I9.6",
+        "coefficient": 5.611784490213334e-05,
+        "abs_coefficient": 5.611784490213334e-05
+      },
+      {
+        "gene_name": "HOXB7",
+        "coefficient": -5.556907918032659e-05,
+        "abs_coefficient": 5.556907918032659e-05
+      },
+      {
+        "gene_name": "FPR2",
+        "coefficient": 5.364628235558335e-05,
+        "abs_coefficient": 5.364628235558335e-05
+      },
+      {
+        "gene_name": "TTC36",
+        "coefficient": -5.055316945118036e-05,
+        "abs_coefficient": 5.055316945118036e-05
+      },
+      {
+        "gene_name": "NFIB",
+        "coefficient": 5.0021996861809924e-05,
+        "abs_coefficient": 5.0021996861809924e-05
+      },
+      {
+        "gene_name": "GPR78",
+        "coefficient": -4.9381958241319166e-05,
+        "abs_coefficient": 4.9381958241319166e-05
+      },
+      {
+        "gene_name": "ALPK2",
+        "coefficient": 4.898981301865309e-05,
+        "abs_coefficient": 4.898981301865309e-05
+      },
+      {
+        "gene_name": "PRKAR1B",
+        "coefficient": 4.897277806896708e-05,
+        "abs_coefficient": 4.897277806896708e-05
+      },
+      {
+        "gene_name": "DNTT",
+        "coefficient": 4.8931497962310387e-05,
+        "abs_coefficient": 4.8931497962310387e-05
+      }
+    ]
+  },
+  "component_47": {
+    "intercept": 7.767377176496681e-05,
+    "top_10_genes": [
+      {
+        "gene_name": "KIAA1217",
+        "coefficient": 7.09666150457228e-07,
+        "abs_coefficient": 7.09666150457228e-07
+      },
+      {
+        "gene_name": "CACNG7",
+        "coefficient": 6.673779421279733e-07,
+        "abs_coefficient": 6.673779421279733e-07
+      },
+      {
+        "gene_name": "FOXF1",
+        "coefficient": 6.585984482492449e-07,
+        "abs_coefficient": 6.585984482492449e-07
+      },
+      {
+        "gene_name": "FBXO16",
+        "coefficient": -6.384544399390673e-07,
+        "abs_coefficient": 6.384544399390673e-07
+      },
+      {
+        "gene_name": "SLC35E2",
+        "coefficient": -6.335891300626413e-07,
+        "abs_coefficient": 6.335891300626413e-07
+      },
+      {
+        "gene_name": "HIST1H4F",
+        "coefficient": 6.281855110804442e-07,
+        "abs_coefficient": 6.281855110804442e-07
+      },
+      {
+        "gene_name": "OR51T1",
+        "coefficient": -6.136846102049533e-07,
+        "abs_coefficient": 6.136846102049533e-07
+      },
+      {
+        "gene_name": "ZNF528",
+        "coefficient": 5.947537852530804e-07,
+        "abs_coefficient": 5.947537852530804e-07
+      },
+      {
+        "gene_name": "TCL1A",
+        "coefficient": -5.919747558751438e-07,
+        "abs_coefficient": 5.919747558751438e-07
+      },
+      {
+        "gene_name": "ZFP91.CNTF",
+        "coefficient": 5.832805605946442e-07,
+        "abs_coefficient": 5.832805605946442e-07
+      }
+    ]
+  },
+  "component_11": {
+    "intercept": 0.0016307782133158626,
+    "top_10_genes": [
+      {
+        "gene_name": "C11orf94",
+        "coefficient": 2.6370221295711194e-05,
+        "abs_coefficient": 2.6370221295711194e-05
+      },
+      {
+        "gene_name": "CCL15.CCL14",
+        "coefficient": -2.4346009368463975e-05,
+        "abs_coefficient": 2.4346009368463975e-05
+      },
+      {
+        "gene_name": "AP000275.65",
+        "coefficient": 2.371211819012927e-05,
+        "abs_coefficient": 2.371211819012927e-05
+      },
+      {
+        "gene_name": "UBBP4",
+        "coefficient": 2.3361216297005252e-05,
+        "abs_coefficient": 2.3361216297005252e-05
+      },
+      {
+        "gene_name": "NR4A1",
+        "coefficient": -2.213847262891118e-05,
+        "abs_coefficient": 2.213847262891118e-05
+      },
+      {
+        "gene_name": "ANGPT2",
+        "coefficient": 2.2093387762718463e-05,
+        "abs_coefficient": 2.2093387762718463e-05
+      },
+      {
+        "gene_name": "GPX5",
+        "coefficient": -2.1909316136776303e-05,
+        "abs_coefficient": 2.1909316136776303e-05
+      },
+      {
+        "gene_name": "B3GNT4",
+        "coefficient": 2.1896686997169003e-05,
+        "abs_coefficient": 2.1896686997169003e-05
+      },
+      {
+        "gene_name": "AL135745.1",
+        "coefficient": 2.1873924178777355e-05,
+        "abs_coefficient": 2.1873924178777355e-05
+      },
+      {
+        "gene_name": "ATOH7",
+        "coefficient": -2.1682322158597942e-05,
+        "abs_coefficient": 2.1682322158597942e-05
+      }
+    ]
+  },
+  "component_4": {
+    "intercept": 0.03043204263889123,
+    "top_10_genes": [
+      {
+        "gene_name": "MS4A18",
+        "coefficient": -5.2768040091646346e-05,
+        "abs_coefficient": 5.2768040091646346e-05
+      },
+      {
+        "gene_name": "CH17.270A2.2",
+        "coefficient": 4.6611984854486075e-05,
+        "abs_coefficient": 4.6611984854486075e-05
+      },
+      {
+        "gene_name": "SLC7A9",
+        "coefficient": 4.218670281339448e-05,
+        "abs_coefficient": 4.218670281339448e-05
+      },
+      {
+        "gene_name": "CCNB3",
+        "coefficient": -4.188078605996609e-05,
+        "abs_coefficient": 4.188078605996609e-05
+      },
+      {
+        "gene_name": "F8A2",
+        "coefficient": -4.183354646012813e-05,
+        "abs_coefficient": 4.183354646012813e-05
+      },
+      {
+        "gene_name": "CAGE1",
+        "coefficient": -3.8427584745563564e-05,
+        "abs_coefficient": 3.8427584745563564e-05
+      },
+      {
+        "gene_name": "ZIC5",
+        "coefficient": -3.7593149535778424e-05,
+        "abs_coefficient": 3.7593149535778424e-05
+      },
+      {
+        "gene_name": "C9orf131",
+        "coefficient": -3.6471889851153365e-05,
+        "abs_coefficient": 3.6471889851153365e-05
+      },
+      {
+        "gene_name": "KRT85",
+        "coefficient": -3.615526180589365e-05,
+        "abs_coefficient": 3.615526180589365e-05
+      },
+      {
+        "gene_name": "CTC.360G5.8",
+        "coefficient": -3.609939211369919e-05,
+        "abs_coefficient": 3.609939211369919e-05
+      }
+    ]
+  },
+  "component_1": {
+    "intercept": -0.011602154447775305,
+    "top_10_genes": [
+      {
+        "gene_name": "PARK2",
+        "coefficient": -5.986196292216839e-05,
+        "abs_coefficient": 5.986196292216839e-05
+      },
+      {
+        "gene_name": "TMEM257",
+        "coefficient": -5.6863919117041544e-05,
+        "abs_coefficient": 5.6863919117041544e-05
+      },
+      {
+        "gene_name": "DACT1",
+        "coefficient": 5.438455590090608e-05,
+        "abs_coefficient": 5.438455590090608e-05
+      },
+      {
+        "gene_name": "NEU2",
+        "coefficient": -5.170412266929073e-05,
+        "abs_coefficient": 5.170412266929073e-05
+      },
+      {
+        "gene_name": "LIPN",
+        "coefficient": -5.154965622763803e-05,
+        "abs_coefficient": 5.154965622763803e-05
+      },
+      {
+        "gene_name": "CTAGE8",
+        "coefficient": -5.1329104056529583e-05,
+        "abs_coefficient": 5.1329104056529583e-05
+      },
+      {
+        "gene_name": "HOOK1",
+        "coefficient": 5.060830330308507e-05,
+        "abs_coefficient": 5.060830330308507e-05
+      },
+      {
+        "gene_name": "CREB3L1",
+        "coefficient": -5.044704332739682e-05,
+        "abs_coefficient": 5.044704332739682e-05
+      },
+      {
+        "gene_name": "FGD4",
+        "coefficient": -4.991890093467721e-05,
+        "abs_coefficient": 4.991890093467721e-05
+      },
+      {
+        "gene_name": "SLC18A2",
+        "coefficient": 4.964193165174133e-05,
+        "abs_coefficient": 4.964193165174133e-05
+      }
+    ]
+  },
+  "component_6": {
+    "intercept": 0.0015292970076492985,
+    "top_10_genes": [
+      {
+        "gene_name": "TMEFF1",
+        "coefficient": 3.5313010091000944e-05,
+        "abs_coefficient": 3.5313010091000944e-05
+      },
+      {
+        "gene_name": "GABRA1",
+        "coefficient": 3.216727442749731e-05,
+        "abs_coefficient": 3.216727442749731e-05
+      },
+      {
+        "gene_name": "SLC45A3",
+        "coefficient": -2.920627252347258e-05,
+        "abs_coefficient": 2.920627252347258e-05
+      },
+      {
+        "gene_name": "TRIB2",
+        "coefficient": -2.7127267570286853e-05,
+        "abs_coefficient": 2.7127267570286853e-05
+      },
+      {
+        "gene_name": "TPRX1",
+        "coefficient": -2.568904719599587e-05,
+        "abs_coefficient": 2.568904719599587e-05
+      },
+      {
+        "gene_name": "GRAP",
+        "coefficient": -2.5638865924669928e-05,
+        "abs_coefficient": 2.5638865924669928e-05
+      },
+      {
+        "gene_name": "CTD.2583A14.10",
+        "coefficient": -2.4977842466431403e-05,
+        "abs_coefficient": 2.4977842466431403e-05
+      },
+      {
+        "gene_name": "SLX1A.SULT1A3",
+        "coefficient": -2.4952269137155295e-05,
+        "abs_coefficient": 2.4952269137155295e-05
+      },
+      {
+        "gene_name": "KIR2DL3",
+        "coefficient": 2.4889629504116462e-05,
+        "abs_coefficient": 2.4889629504116462e-05
+      },
+      {
+        "gene_name": "C7orf57",
+        "coefficient": 2.48357581048653e-05,
+        "abs_coefficient": 2.48357581048653e-05
+      }
+    ]
+  },
+  "component_8": {
+    "intercept": 0.01318711634729007,
+    "top_10_genes": [
+      {
+        "gene_name": "SOX17",
+        "coefficient": -3.176403866574525e-05,
+        "abs_coefficient": 3.176403866574525e-05
+      },
+      {
+        "gene_name": "CRCT1",
+        "coefficient": 3.0330658825452854e-05,
+        "abs_coefficient": 3.0330658825452854e-05
+      },
+      {
+        "gene_name": "RGS7BP",
+        "coefficient": 2.784447744978495e-05,
+        "abs_coefficient": 2.784447744978495e-05
+      },
+      {
+        "gene_name": "TAS2R31",
+        "coefficient": -2.758367847196945e-05,
+        "abs_coefficient": 2.758367847196945e-05
+      },
+      {
+        "gene_name": "F8A3",
+        "coefficient": -2.6932909784305244e-05,
+        "abs_coefficient": 2.6932909784305244e-05
+      },
+      {
+        "gene_name": "NOG",
+        "coefficient": -2.63889843702897e-05,
+        "abs_coefficient": 2.63889843702897e-05
+      },
+      {
+        "gene_name": "TMEM52B",
+        "coefficient": 2.6366072489615233e-05,
+        "abs_coefficient": 2.6366072489615233e-05
+      },
+      {
+        "gene_name": "SERF1B",
+        "coefficient": -2.5581652678679076e-05,
+        "abs_coefficient": 2.5581652678679076e-05
+      },
+      {
+        "gene_name": "PLCD3",
+        "coefficient": -2.557756115734081e-05,
+        "abs_coefficient": 2.557756115734081e-05
+      },
+      {
+        "gene_name": "GPX3",
+        "coefficient": -2.5150935158749508e-05,
+        "abs_coefficient": 2.5150935158749508e-05
+      }
+    ]
+  },
+  "component_30": {
+    "intercept": -0.0006089224032983421,
+    "top_10_genes": [
+      {
+        "gene_name": "CYP17A1",
+        "coefficient": -3.334377608693736e-06,
+        "abs_coefficient": 3.334377608693736e-06
+      },
+      {
+        "gene_name": "OR6B3",
+        "coefficient": 3.0305190075217457e-06,
+        "abs_coefficient": 3.0305190075217457e-06
+      },
+      {
+        "gene_name": "C10orf120",
+        "coefficient": -2.9808036284133406e-06,
+        "abs_coefficient": 2.9808036284133406e-06
+      },
+      {
+        "gene_name": "BIK",
+        "coefficient": 2.9295306486402763e-06,
+        "abs_coefficient": 2.9295306486402763e-06
+      },
+      {
+        "gene_name": "GHRL",
+        "coefficient": -2.8308264562171016e-06,
+        "abs_coefficient": 2.8308264562171016e-06
+      },
+      {
+        "gene_name": "XXbac.BPG181M17.5",
+        "coefficient": 2.7300825858154456e-06,
+        "abs_coefficient": 2.7300825858154456e-06
+      },
+      {
+        "gene_name": "ASTL",
+        "coefficient": -2.720442711536682e-06,
+        "abs_coefficient": 2.720442711536682e-06
+      },
+      {
+        "gene_name": "LYZL2",
+        "coefficient": -2.6952078814788707e-06,
+        "abs_coefficient": 2.6952078814788707e-06
+      },
+      {
+        "gene_name": "MAGEB4",
+        "coefficient": 2.6881024167341938e-06,
+        "abs_coefficient": 2.6881024167341938e-06
+      },
+      {
+        "gene_name": "GPR155",
+        "coefficient": -2.6827380595987336e-06,
+        "abs_coefficient": 2.6827380595987336e-06
+      }
+    ]
+  },
+  "component_85": {
+    "intercept": -2.9142122478962405e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "SPATC1",
+        "coefficient": 9.667286762349026e-08,
+        "abs_coefficient": 9.667286762349026e-08
+      },
+      {
+        "gene_name": "DDX53",
+        "coefficient": -9.232997237019461e-08,
+        "abs_coefficient": 9.232997237019461e-08
+      },
+      {
+        "gene_name": "UBE2F.SCLY",
+        "coefficient": 8.818536681125602e-08,
+        "abs_coefficient": 8.818536681125602e-08
+      },
+      {
+        "gene_name": "FAM71A",
+        "coefficient": -8.487607630310817e-08,
+        "abs_coefficient": 8.487607630310817e-08
+      },
+      {
+        "gene_name": "NBPF19",
+        "coefficient": 8.407746273159464e-08,
+        "abs_coefficient": 8.407746273159464e-08
+      },
+      {
+        "gene_name": "SLC25A47",
+        "coefficient": 8.286966234412665e-08,
+        "abs_coefficient": 8.286966234412665e-08
+      },
+      {
+        "gene_name": "LRRC24",
+        "coefficient": -8.132204337437324e-08,
+        "abs_coefficient": 8.132204337437324e-08
+      },
+      {
+        "gene_name": "GOLGA6B",
+        "coefficient": -8.09752200835779e-08,
+        "abs_coefficient": 8.09752200835779e-08
+      },
+      {
+        "gene_name": "RP11.106M3.2",
+        "coefficient": -7.993468458754256e-08,
+        "abs_coefficient": 7.993468458754256e-08
+      },
+      {
+        "gene_name": "PRDM9",
+        "coefficient": 7.898068352945351e-08,
+        "abs_coefficient": 7.898068352945351e-08
+      }
+    ]
+  },
+  "component_29": {
+    "intercept": 0.00046921506408288547,
+    "top_10_genes": [
+      {
+        "gene_name": "OR2G6",
+        "coefficient": 3.575922823836994e-06,
+        "abs_coefficient": 3.575922823836994e-06
+      },
+      {
+        "gene_name": "METTL7B",
+        "coefficient": -2.9100075787983436e-06,
+        "abs_coefficient": 2.9100075787983436e-06
+      },
+      {
+        "gene_name": "KRTAP2.3",
+        "coefficient": -2.8594732846626995e-06,
+        "abs_coefficient": 2.8594732846626995e-06
+      },
+      {
+        "gene_name": "SLC26A8",
+        "coefficient": 2.813063919632417e-06,
+        "abs_coefficient": 2.813063919632417e-06
+      },
+      {
+        "gene_name": "OR52E8",
+        "coefficient": 2.670955804160285e-06,
+        "abs_coefficient": 2.670955804160285e-06
+      },
+      {
+        "gene_name": "CCDC140",
+        "coefficient": 2.6689531586795435e-06,
+        "abs_coefficient": 2.6689531586795435e-06
+      },
+      {
+        "gene_name": "GCOM1",
+        "coefficient": -2.6595585437956426e-06,
+        "abs_coefficient": 2.6595585437956426e-06
+      },
+      {
+        "gene_name": "MATN1",
+        "coefficient": 2.6429601420806244e-06,
+        "abs_coefficient": 2.6429601420806244e-06
+      },
+      {
+        "gene_name": "RP11.234B24.6",
+        "coefficient": 2.641554318580204e-06,
+        "abs_coefficient": 2.641554318580204e-06
+      },
+      {
+        "gene_name": "CDK5R2",
+        "coefficient": -2.5984959602006697e-06,
+        "abs_coefficient": 2.5984959602006697e-06
+      }
+    ]
+  },
+  "component_38": {
+    "intercept": -0.0001647228688097262,
+    "top_10_genes": [
+      {
+        "gene_name": "S100A5",
+        "coefficient": -1.6155634534636982e-06,
+        "abs_coefficient": 1.6155634534636982e-06
+      },
+      {
+        "gene_name": "TUB",
+        "coefficient": -1.494194403044323e-06,
+        "abs_coefficient": 1.494194403044323e-06
+      },
+      {
+        "gene_name": "NEBL",
+        "coefficient": -1.4710339198550165e-06,
+        "abs_coefficient": 1.4710339198550165e-06
+      },
+      {
+        "gene_name": "TMEM98",
+        "coefficient": -1.4335732893242005e-06,
+        "abs_coefficient": 1.4335732893242005e-06
+      },
+      {
+        "gene_name": "EVX2",
+        "coefficient": -1.4162229795944728e-06,
+        "abs_coefficient": 1.4162229795944728e-06
+      },
+      {
+        "gene_name": "CCDC114",
+        "coefficient": 1.3676146103352583e-06,
+        "abs_coefficient": 1.3676146103352583e-06
+      },
+      {
+        "gene_name": "LY6G6F",
+        "coefficient": -1.364265770041637e-06,
+        "abs_coefficient": 1.364265770041637e-06
+      },
+      {
+        "gene_name": "C1QTNF1",
+        "coefficient": -1.3274830518454128e-06,
+        "abs_coefficient": 1.3274830518454128e-06
+      },
+      {
+        "gene_name": "FHL2",
+        "coefficient": 1.3217973012523417e-06,
+        "abs_coefficient": 1.3217973012523417e-06
+      },
+      {
+        "gene_name": "HOXD12",
+        "coefficient": 1.3202888367254524e-06,
+        "abs_coefficient": 1.3202888367254524e-06
+      }
+    ]
+  },
+  "component_58": {
+    "intercept": 2.3027418133933004e-05,
+    "top_10_genes": [
+      {
+        "gene_name": "C3orf84",
+        "coefficient": -4.073108374690516e-07,
+        "abs_coefficient": 4.073108374690516e-07
+      },
+      {
+        "gene_name": "ACSBG1",
+        "coefficient": -3.634935815552833e-07,
+        "abs_coefficient": 3.634935815552833e-07
+      },
+      {
+        "gene_name": "NT5E",
+        "coefficient": -3.4072916649225246e-07,
+        "abs_coefficient": 3.4072916649225246e-07
+      },
+      {
+        "gene_name": "ANKRD13B",
+        "coefficient": -3.3074258306729693e-07,
+        "abs_coefficient": 3.3074258306729693e-07
+      },
+      {
+        "gene_name": "C17orf105",
+        "coefficient": 3.2700098184762345e-07,
+        "abs_coefficient": 3.2700098184762345e-07
+      },
+      {
+        "gene_name": "CYS1",
+        "coefficient": -3.2133767101096655e-07,
+        "abs_coefficient": 3.2133767101096655e-07
+      },
+      {
+        "gene_name": "OTOP1",
+        "coefficient": 3.1216016910973454e-07,
+        "abs_coefficient": 3.1216016910973454e-07
+      },
+      {
+        "gene_name": "ADAM29",
+        "coefficient": -3.0893359701001286e-07,
+        "abs_coefficient": 3.0893359701001286e-07
+      },
+      {
+        "gene_name": "AC018867.1",
+        "coefficient": 3.02898274996053e-07,
+        "abs_coefficient": 3.02898274996053e-07
+      },
+      {
+        "gene_name": "FCN1",
+        "coefficient": 2.965653435399615e-07,
+        "abs_coefficient": 2.965653435399615e-07
+      }
+    ]
+  },
+  "component_17": {
+    "intercept": -0.0011697642892525473,
+    "top_10_genes": [
+      {
+        "gene_name": "OR51T1",
+        "coefficient": -1.3342236529738325e-05,
+        "abs_coefficient": 1.3342236529738325e-05
+      },
+      {
+        "gene_name": "XKR3",
+        "coefficient": 1.0397430711143413e-05,
+        "abs_coefficient": 1.0397430711143413e-05
+      },
+      {
+        "gene_name": "SLX1A.SULT1A3",
+        "coefficient": -1.005632608793894e-05,
+        "abs_coefficient": 1.005632608793894e-05
+      },
+      {
+        "gene_name": "NBPF26",
+        "coefficient": 9.467232155844392e-06,
+        "abs_coefficient": 9.467232155844392e-06
+      },
+      {
+        "gene_name": "FOXN1",
+        "coefficient": 9.403490881017933e-06,
+        "abs_coefficient": 9.403490881017933e-06
+      },
+      {
+        "gene_name": "TIGD3",
+        "coefficient": 9.397833228451529e-06,
+        "abs_coefficient": 9.397833228451529e-06
+      },
+      {
+        "gene_name": "GATA3",
+        "coefficient": -9.38114143434541e-06,
+        "abs_coefficient": 9.38114143434541e-06
+      },
+      {
+        "gene_name": "SLC46A2",
+        "coefficient": 9.373098806134503e-06,
+        "abs_coefficient": 9.373098806134503e-06
+      },
+      {
+        "gene_name": "GRXCR2",
+        "coefficient": -8.854459665891723e-06,
+        "abs_coefficient": 8.854459665891723e-06
+      },
+      {
+        "gene_name": "NACA2",
+        "coefficient": 8.82958115483787e-06,
+        "abs_coefficient": 8.82958115483787e-06
+      }
+    ]
+  },
+  "component_43": {
+    "intercept": -9.088538399856464e-05,
+    "top_10_genes": [
+      {
+        "gene_name": "OR4K2",
+        "coefficient": -1.2243934420848422e-06,
+        "abs_coefficient": 1.2243934420848422e-06
+      },
+      {
+        "gene_name": "FAM160A1",
+        "coefficient": 9.579346357440813e-07,
+        "abs_coefficient": 9.579346357440813e-07
+      },
+      {
+        "gene_name": "SLC35G5",
+        "coefficient": -9.5784966678907e-07,
+        "abs_coefficient": 9.5784966678907e-07
+      },
+      {
+        "gene_name": "HIST1H2BI",
+        "coefficient": -9.493847913433159e-07,
+        "abs_coefficient": 9.493847913433159e-07
+      },
+      {
+        "gene_name": "DEFB134",
+        "coefficient": -9.04876625926598e-07,
+        "abs_coefficient": 9.04876625926598e-07
+      },
+      {
+        "gene_name": "GSTM5",
+        "coefficient": 9.044576492254413e-07,
+        "abs_coefficient": 9.044576492254413e-07
+      },
+      {
+        "gene_name": "INSL3",
+        "coefficient": 8.73349368172411e-07,
+        "abs_coefficient": 8.73349368172411e-07
+      },
+      {
+        "gene_name": "DEFB119",
+        "coefficient": -8.642340810991975e-07,
+        "abs_coefficient": 8.642340810991975e-07
+      },
+      {
+        "gene_name": "RAB36",
+        "coefficient": 8.63516425112737e-07,
+        "abs_coefficient": 8.63516425112737e-07
+      },
+      {
+        "gene_name": "TRPA1",
+        "coefficient": 8.469925453653211e-07,
+        "abs_coefficient": 8.469925453653211e-07
+      }
+    ]
+  },
+  "component_96": {
+    "intercept": 4.722579714831205e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "CCL14",
+        "coefficient": 6.894698270507293e-08,
+        "abs_coefficient": 6.894698270507293e-08
+      },
+      {
+        "gene_name": "ABHD14A.ACY1",
+        "coefficient": -5.35817699856131e-08,
+        "abs_coefficient": 5.35817699856131e-08
+      },
+      {
+        "gene_name": "CSNK2B.LY6G5B.562",
+        "coefficient": -5.242551644591121e-08,
+        "abs_coefficient": 5.242551644591121e-08
+      },
+      {
+        "gene_name": "MOCOS",
+        "coefficient": -5.234208315264154e-08,
+        "abs_coefficient": 5.234208315264154e-08
+      },
+      {
+        "gene_name": "CH17.335B8.4",
+        "coefficient": -5.210090687312433e-08,
+        "abs_coefficient": 5.210090687312433e-08
+      },
+      {
+        "gene_name": "ZNF280B",
+        "coefficient": 5.142503628730475e-08,
+        "abs_coefficient": 5.142503628730475e-08
+      },
+      {
+        "gene_name": "DYNC2H1",
+        "coefficient": -5.023330654636847e-08,
+        "abs_coefficient": 5.023330654636847e-08
+      },
+      {
+        "gene_name": "RP11.872D17.8",
+        "coefficient": 4.964026819083363e-08,
+        "abs_coefficient": 4.964026819083363e-08
+      },
+      {
+        "gene_name": "CA12",
+        "coefficient": -4.9508092093463765e-08,
+        "abs_coefficient": 4.9508092093463765e-08
+      },
+      {
+        "gene_name": "ARHGEF5",
+        "coefficient": 4.922105815331011e-08,
+        "abs_coefficient": 4.922105815331011e-08
+      }
+    ]
+  },
+  "component_18": {
+    "intercept": -0.0003614821328475457,
+    "top_10_genes": [
+      {
+        "gene_name": "TMEFF1",
+        "coefficient": -1.4043170454748002e-05,
+        "abs_coefficient": 1.4043170454748002e-05
+      },
+      {
+        "gene_name": "HOXA7",
+        "coefficient": -1.2053646247471794e-05,
+        "abs_coefficient": 1.2053646247471794e-05
+      },
+      {
+        "gene_name": "CXorf57",
+        "coefficient": 1.1154473982040432e-05,
+        "abs_coefficient": 1.1154473982040432e-05
+      },
+      {
+        "gene_name": "MYF5",
+        "coefficient": -1.1032680392455395e-05,
+        "abs_coefficient": 1.1032680392455395e-05
+      },
+      {
+        "gene_name": "NPR1",
+        "coefficient": -1.0982849118334906e-05,
+        "abs_coefficient": 1.0982849118334906e-05
+      },
+      {
+        "gene_name": "MS4A12",
+        "coefficient": -1.0919795901614925e-05,
+        "abs_coefficient": 1.0919795901614925e-05
+      },
+      {
+        "gene_name": "C10orf67",
+        "coefficient": -1.0619375167589e-05,
+        "abs_coefficient": 1.0619375167589e-05
+      },
+      {
+        "gene_name": "TTC39A",
+        "coefficient": -1.0585392659748035e-05,
+        "abs_coefficient": 1.0585392659748035e-05
+      },
+      {
+        "gene_name": "FKBP1C",
+        "coefficient": 1.0508122601568973e-05,
+        "abs_coefficient": 1.0508122601568973e-05
+      },
+      {
+        "gene_name": "WEE2",
+        "coefficient": 1.0475537033440921e-05,
+        "abs_coefficient": 1.0475537033440921e-05
+      }
+    ]
+  },
+  "component_94": {
+    "intercept": 3.1082240256227407e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "B3GALT2",
+        "coefficient": 6.709479375123374e-08,
+        "abs_coefficient": 6.709479375123374e-08
+      },
+      {
+        "gene_name": "MS4A4E",
+        "coefficient": -6.56088652252997e-08,
+        "abs_coefficient": 6.56088652252997e-08
+      },
+      {
+        "gene_name": "ABCA9",
+        "coefficient": 5.667611142857731e-08,
+        "abs_coefficient": 5.667611142857731e-08
+      },
+      {
+        "gene_name": "IL22",
+        "coefficient": 5.6505837972615304e-08,
+        "abs_coefficient": 5.6505837972615304e-08
+      },
+      {
+        "gene_name": "C19orf81",
+        "coefficient": 5.645321845601989e-08,
+        "abs_coefficient": 5.645321845601989e-08
+      },
+      {
+        "gene_name": "TEX12",
+        "coefficient": -5.5953148005691696e-08,
+        "abs_coefficient": 5.5953148005691696e-08
+      },
+      {
+        "gene_name": "ZBTB7C",
+        "coefficient": 5.581434049294305e-08,
+        "abs_coefficient": 5.581434049294305e-08
+      },
+      {
+        "gene_name": "FUT2",
+        "coefficient": -5.532611581746878e-08,
+        "abs_coefficient": 5.532611581746878e-08
+      },
+      {
+        "gene_name": "FAM46D",
+        "coefficient": -5.345117224068971e-08,
+        "abs_coefficient": 5.345117224068971e-08
+      },
+      {
+        "gene_name": "CCL17",
+        "coefficient": 5.193689610023221e-08,
+        "abs_coefficient": 5.193689610023221e-08
+      }
+    ]
+  },
+  "component_69": {
+    "intercept": -5.575820702302213e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "AC004754.3",
+        "coefficient": -2.650129243345213e-07,
+        "abs_coefficient": 2.650129243345213e-07
+      },
+      {
+        "gene_name": "TMEM125",
+        "coefficient": -2.1665448196479636e-07,
+        "abs_coefficient": 2.1665448196479636e-07
+      },
+      {
+        "gene_name": "PPP1R36",
+        "coefficient": -1.961567486861961e-07,
+        "abs_coefficient": 1.961567486861961e-07
+      },
+      {
+        "gene_name": "CYTL1",
+        "coefficient": -1.8925976037845373e-07,
+        "abs_coefficient": 1.8925976037845373e-07
+      },
+      {
+        "gene_name": "CTSL",
+        "coefficient": -1.8465153435945893e-07,
+        "abs_coefficient": 1.8465153435945893e-07
+      },
+      {
+        "gene_name": "CCR4",
+        "coefficient": -1.766066221000484e-07,
+        "abs_coefficient": 1.766066221000484e-07
+      },
+      {
+        "gene_name": "MINOS1.NBL1",
+        "coefficient": 1.7533193921228238e-07,
+        "abs_coefficient": 1.7533193921228238e-07
+      },
+      {
+        "gene_name": "CAND2",
+        "coefficient": 1.7060945800027807e-07,
+        "abs_coefficient": 1.7060945800027807e-07
+      },
+      {
+        "gene_name": "MGAT4C",
+        "coefficient": -1.7001132242707126e-07,
+        "abs_coefficient": 1.7001132242707126e-07
+      },
+      {
+        "gene_name": "MMP16",
+        "coefficient": 1.698287688045331e-07,
+        "abs_coefficient": 1.698287688045331e-07
+      }
+    ]
+  },
+  "component_65": {
+    "intercept": -2.381876681682392e-05,
+    "top_10_genes": [
+      {
+        "gene_name": "KLC3",
+        "coefficient": 2.646257632150598e-07,
+        "abs_coefficient": 2.646257632150598e-07
+      },
+      {
+        "gene_name": "EVA1A",
+        "coefficient": -2.491715315427246e-07,
+        "abs_coefficient": 2.491715315427246e-07
+      },
+      {
+        "gene_name": "CDKN2C",
+        "coefficient": 2.287062973165627e-07,
+        "abs_coefficient": 2.287062973165627e-07
+      },
+      {
+        "gene_name": "CA3",
+        "coefficient": 2.22013954704964e-07,
+        "abs_coefficient": 2.22013954704964e-07
+      },
+      {
+        "gene_name": "WBSCR17",
+        "coefficient": -2.150196550324613e-07,
+        "abs_coefficient": 2.150196550324613e-07
+      },
+      {
+        "gene_name": "FHL5",
+        "coefficient": 2.1407258674842835e-07,
+        "abs_coefficient": 2.1407258674842835e-07
+      },
+      {
+        "gene_name": "GLIS3",
+        "coefficient": 2.0974301600793705e-07,
+        "abs_coefficient": 2.0974301600793705e-07
+      },
+      {
+        "gene_name": "SLC25A31",
+        "coefficient": -2.0759294566517657e-07,
+        "abs_coefficient": 2.0759294566517657e-07
+      },
+      {
+        "gene_name": "CHRNB4",
+        "coefficient": 2.0714168114680746e-07,
+        "abs_coefficient": 2.0714168114680746e-07
+      },
+      {
+        "gene_name": "AC008810.1",
+        "coefficient": -2.0358417150728064e-07,
+        "abs_coefficient": 2.0358417150728064e-07
+      }
+    ]
+  },
+  "component_73": {
+    "intercept": 2.669543219486309e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "OR3A1",
+        "coefficient": -1.724541649518884e-07,
+        "abs_coefficient": 1.724541649518884e-07
+      },
+      {
+        "gene_name": "FPR2",
+        "coefficient": 1.6975672502666236e-07,
+        "abs_coefficient": 1.6975672502666236e-07
+      },
+      {
+        "gene_name": "WNT10A",
+        "coefficient": 1.5818604592226656e-07,
+        "abs_coefficient": 1.5818604592226656e-07
+      },
+      {
+        "gene_name": "SFRP4",
+        "coefficient": -1.534272579994555e-07,
+        "abs_coefficient": 1.534272579994555e-07
+      },
+      {
+        "gene_name": "ZCCHC18",
+        "coefficient": 1.5108567850564768e-07,
+        "abs_coefficient": 1.5108567850564768e-07
+      },
+      {
+        "gene_name": "ADAM32",
+        "coefficient": 1.4707620442229845e-07,
+        "abs_coefficient": 1.4707620442229845e-07
+      },
+      {
+        "gene_name": "FGF7",
+        "coefficient": 1.463877195370459e-07,
+        "abs_coefficient": 1.463877195370459e-07
+      },
+      {
+        "gene_name": "RP1.130H16.18",
+        "coefficient": 1.4592745810168977e-07,
+        "abs_coefficient": 1.4592745810168977e-07
+      },
+      {
+        "gene_name": "CCDC27",
+        "coefficient": -1.453102695607809e-07,
+        "abs_coefficient": 1.453102695607809e-07
+      },
+      {
+        "gene_name": "MARC2",
+        "coefficient": 1.4490227613399003e-07,
+        "abs_coefficient": 1.4490227613399003e-07
+      }
+    ]
+  },
+  "component_41": {
+    "intercept": -5.4794188345384256e-05,
+    "top_10_genes": [
+      {
+        "gene_name": "AWAT1",
+        "coefficient": -1.276549873738497e-06,
+        "abs_coefficient": 1.276549873738497e-06
+      },
+      {
+        "gene_name": "LRRC26",
+        "coefficient": -1.269539052068228e-06,
+        "abs_coefficient": 1.269539052068228e-06
+      },
+      {
+        "gene_name": "RPS4Y2",
+        "coefficient": 1.2480586402134348e-06,
+        "abs_coefficient": 1.2480586402134348e-06
+      },
+      {
+        "gene_name": "AC012363.2",
+        "coefficient": 1.215242527711047e-06,
+        "abs_coefficient": 1.215242527711047e-06
+      },
+      {
+        "gene_name": "GPRASP1",
+        "coefficient": -1.1752661318094449e-06,
+        "abs_coefficient": 1.1752661318094449e-06
+      },
+      {
+        "gene_name": "LIPM",
+        "coefficient": 1.1726982741478952e-06,
+        "abs_coefficient": 1.1726982741478952e-06
+      },
+      {
+        "gene_name": "OR51T1",
+        "coefficient": -1.1595088136283684e-06,
+        "abs_coefficient": 1.1595088136283684e-06
+      },
+      {
+        "gene_name": "ZBED2",
+        "coefficient": 1.1592008690701141e-06,
+        "abs_coefficient": 1.1592008690701141e-06
+      },
+      {
+        "gene_name": "GPR152",
+        "coefficient": -1.1222306649565305e-06,
+        "abs_coefficient": 1.1222306649565305e-06
+      },
+      {
+        "gene_name": "VEGFC",
+        "coefficient": -1.1220361878767256e-06,
+        "abs_coefficient": 1.1220361878767256e-06
+      }
+    ]
+  },
+  "component_61": {
+    "intercept": 3.0291688200675343e-05,
+    "top_10_genes": [
+      {
+        "gene_name": "AL357140.1",
+        "coefficient": 3.6230526907989226e-07,
+        "abs_coefficient": 3.6230526907989226e-07
+      },
+      {
+        "gene_name": "CYP2C19",
+        "coefficient": -3.3462874411125706e-07,
+        "abs_coefficient": 3.3462874411125706e-07
+      },
+      {
+        "gene_name": "ZNRF3",
+        "coefficient": 3.2972569027148196e-07,
+        "abs_coefficient": 3.2972569027148196e-07
+      },
+      {
+        "gene_name": "FGF18",
+        "coefficient": -3.259225569439413e-07,
+        "abs_coefficient": 3.259225569439413e-07
+      },
+      {
+        "gene_name": "OR51T1",
+        "coefficient": 3.237887790174864e-07,
+        "abs_coefficient": 3.237887790174864e-07
+      },
+      {
+        "gene_name": "CGB",
+        "coefficient": 3.136241743029327e-07,
+        "abs_coefficient": 3.136241743029327e-07
+      },
+      {
+        "gene_name": "GPR139",
+        "coefficient": -3.1004722232258914e-07,
+        "abs_coefficient": 3.1004722232258914e-07
+      },
+      {
+        "gene_name": "CTC.435M10.3",
+        "coefficient": -3.052786957278927e-07,
+        "abs_coefficient": 3.052786957278927e-07
+      },
+      {
+        "gene_name": "ZNF479",
+        "coefficient": -3.029837829657562e-07,
+        "abs_coefficient": 3.029837829657562e-07
+      },
+      {
+        "gene_name": "NBPF6",
+        "coefficient": -3.0227001907940424e-07,
+        "abs_coefficient": 3.0227001907940424e-07
+      }
+    ]
+  },
+  "component_87": {
+    "intercept": -1.365002555820025e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "GPR139",
+        "coefficient": 7.786763006421966e-08,
+        "abs_coefficient": 7.786763006421966e-08
+      },
+      {
+        "gene_name": "AC104534.3",
+        "coefficient": 7.598787371803929e-08,
+        "abs_coefficient": 7.598787371803929e-08
+      },
+      {
+        "gene_name": "PRLH",
+        "coefficient": -7.191700307825686e-08,
+        "abs_coefficient": 7.191700307825686e-08
+      },
+      {
+        "gene_name": "NR0B2",
+        "coefficient": 7.017274145101461e-08,
+        "abs_coefficient": 7.017274145101461e-08
+      },
+      {
+        "gene_name": "GTSF1L",
+        "coefficient": -7.006128413661472e-08,
+        "abs_coefficient": 7.006128413661472e-08
+      },
+      {
+        "gene_name": "JPH2",
+        "coefficient": 6.961459210255322e-08,
+        "abs_coefficient": 6.961459210255322e-08
+      },
+      {
+        "gene_name": "NAP1L2",
+        "coefficient": 6.848812728413785e-08,
+        "abs_coefficient": 6.848812728413785e-08
+      },
+      {
+        "gene_name": "FAM19A3",
+        "coefficient": -6.826238268570009e-08,
+        "abs_coefficient": 6.826238268570009e-08
+      },
+      {
+        "gene_name": "CXCR3",
+        "coefficient": -6.683591187131678e-08,
+        "abs_coefficient": 6.683591187131678e-08
+      },
+      {
+        "gene_name": "RP11.544M22.13",
+        "coefficient": 6.671347771677883e-08,
+        "abs_coefficient": 6.671347771677883e-08
+      }
+    ]
+  },
+  "component_40": {
+    "intercept": -0.00014153056635183154,
+    "top_10_genes": [
+      {
+        "gene_name": "MFSD4",
+        "coefficient": -1.3535238192191869e-06,
+        "abs_coefficient": 1.3535238192191869e-06
+      },
+      {
+        "gene_name": "UGT1A4",
+        "coefficient": 1.3256251696811053e-06,
+        "abs_coefficient": 1.3256251696811053e-06
+      },
+      {
+        "gene_name": "LCNL1",
+        "coefficient": 1.315219257518577e-06,
+        "abs_coefficient": 1.315219257518577e-06
+      },
+      {
+        "gene_name": "CPA3",
+        "coefficient": 1.3125033824855141e-06,
+        "abs_coefficient": 1.3125033824855141e-06
+      },
+      {
+        "gene_name": "LIMS3",
+        "coefficient": 1.3016535830754904e-06,
+        "abs_coefficient": 1.3016535830754904e-06
+      },
+      {
+        "gene_name": "OR1F1",
+        "coefficient": -1.284280567488357e-06,
+        "abs_coefficient": 1.284280567488357e-06
+      },
+      {
+        "gene_name": "ZFP91.CNTF",
+        "coefficient": -1.2842254834520741e-06,
+        "abs_coefficient": 1.2842254834520741e-06
+      },
+      {
+        "gene_name": "SPATA31E1",
+        "coefficient": -1.283348979693618e-06,
+        "abs_coefficient": 1.283348979693618e-06
+      },
+      {
+        "gene_name": "DEFB4B",
+        "coefficient": -1.2501024230055793e-06,
+        "abs_coefficient": 1.2501024230055793e-06
+      },
+      {
+        "gene_name": "PNPLA5",
+        "coefficient": 1.210189641634914e-06,
+        "abs_coefficient": 1.210189641634914e-06
+      }
+    ]
+  },
+  "component_82": {
+    "intercept": -5.162436810456826e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "KIR3DL1",
+        "coefficient": -1.0459273894692189e-07,
+        "abs_coefficient": 1.0459273894692189e-07
+      },
+      {
+        "gene_name": "POLR2J2.1",
+        "coefficient": -9.845040015963513e-08,
+        "abs_coefficient": 9.845040015963513e-08
+      },
+      {
+        "gene_name": "SHBG",
+        "coefficient": 9.2802032302171e-08,
+        "abs_coefficient": 9.2802032302171e-08
+      },
+      {
+        "gene_name": "XCR1",
+        "coefficient": 9.021492335536026e-08,
+        "abs_coefficient": 9.021492335536026e-08
+      },
+      {
+        "gene_name": "DUOX2",
+        "coefficient": 9.005139123568859e-08,
+        "abs_coefficient": 9.005139123568859e-08
+      },
+      {
+        "gene_name": "GRAMD1B",
+        "coefficient": -8.907186589528972e-08,
+        "abs_coefficient": 8.907186589528972e-08
+      },
+      {
+        "gene_name": "ARAP2",
+        "coefficient": 8.880555607162615e-08,
+        "abs_coefficient": 8.880555607162615e-08
+      },
+      {
+        "gene_name": "PTGES3L",
+        "coefficient": -8.809159607477474e-08,
+        "abs_coefficient": 8.809159607477474e-08
+      },
+      {
+        "gene_name": "ALG1L2",
+        "coefficient": 8.807064049124806e-08,
+        "abs_coefficient": 8.807064049124806e-08
+      },
+      {
+        "gene_name": "KRT86",
+        "coefficient": 8.69161120209534e-08,
+        "abs_coefficient": 8.69161120209534e-08
+      }
+    ]
+  },
+  "component_35": {
+    "intercept": -2.725035582327334e-05,
+    "top_10_genes": [
+      {
+        "gene_name": "C1orf141",
+        "coefficient": 2.2717152053184456e-06,
+        "abs_coefficient": 2.2717152053184456e-06
+      },
+      {
+        "gene_name": "OR2A1",
+        "coefficient": -2.2005803409969277e-06,
+        "abs_coefficient": 2.2005803409969277e-06
+      },
+      {
+        "gene_name": "HNRNPCL3",
+        "coefficient": -2.129485773042368e-06,
+        "abs_coefficient": 2.129485773042368e-06
+      },
+      {
+        "gene_name": "HLF",
+        "coefficient": -2.1090497424742413e-06,
+        "abs_coefficient": 2.1090497424742413e-06
+      },
+      {
+        "gene_name": "ITK",
+        "coefficient": -1.9027271007449967e-06,
+        "abs_coefficient": 1.9027271007449967e-06
+      },
+      {
+        "gene_name": "TEX36",
+        "coefficient": -1.8734229973672426e-06,
+        "abs_coefficient": 1.8734229973672426e-06
+      },
+      {
+        "gene_name": "NBPF8",
+        "coefficient": 1.86172432578999e-06,
+        "abs_coefficient": 1.86172432578999e-06
+      },
+      {
+        "gene_name": "ST3GAL1",
+        "coefficient": 1.8406205356591666e-06,
+        "abs_coefficient": 1.8406205356591666e-06
+      },
+      {
+        "gene_name": "PLGLB2",
+        "coefficient": -1.7616625081692047e-06,
+        "abs_coefficient": 1.7616625081692047e-06
+      },
+      {
+        "gene_name": "ANKS1B",
+        "coefficient": -1.7594149858758514e-06,
+        "abs_coefficient": 1.7594149858758514e-06
+      }
+    ]
+  },
+  "component_72": {
+    "intercept": 3.831979516739156e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "OIT3",
+        "coefficient": 1.6627592741771803e-07,
+        "abs_coefficient": 1.6627592741771803e-07
+      },
+      {
+        "gene_name": "XXbac.BPG116M5.17",
+        "coefficient": 1.5919146425497664e-07,
+        "abs_coefficient": 1.5919146425497664e-07
+      },
+      {
+        "gene_name": "XAF1",
+        "coefficient": -1.5643988963967845e-07,
+        "abs_coefficient": 1.5643988963967845e-07
+      },
+      {
+        "gene_name": "OR1J2",
+        "coefficient": 1.524438530653073e-07,
+        "abs_coefficient": 1.524438530653073e-07
+      },
+      {
+        "gene_name": "MCTP2",
+        "coefficient": -1.5087083632649021e-07,
+        "abs_coefficient": 1.5087083632649021e-07
+      },
+      {
+        "gene_name": "OR13C2",
+        "coefficient": -1.503293440223457e-07,
+        "abs_coefficient": 1.503293440223457e-07
+      },
+      {
+        "gene_name": "B3GAT2",
+        "coefficient": -1.4862062632642475e-07,
+        "abs_coefficient": 1.4862062632642475e-07
+      },
+      {
+        "gene_name": "ZNF177",
+        "coefficient": -1.4548600892303397e-07,
+        "abs_coefficient": 1.4548600892303397e-07
+      },
+      {
+        "gene_name": "BTBD8",
+        "coefficient": -1.4516685268731375e-07,
+        "abs_coefficient": 1.4516685268731375e-07
+      },
+      {
+        "gene_name": "FGF22",
+        "coefficient": 1.43405008925177e-07,
+        "abs_coefficient": 1.43405008925177e-07
+      }
+    ]
+  },
+  "component_67": {
+    "intercept": 1.7051404945698853e-05,
+    "top_10_genes": [
+      {
+        "gene_name": "RGPD4",
+        "coefficient": -2.02489151059349e-07,
+        "abs_coefficient": 2.02489151059349e-07
+      },
+      {
+        "gene_name": "CHRNB3",
+        "coefficient": 1.9391005801709148e-07,
+        "abs_coefficient": 1.9391005801709148e-07
+      },
+      {
+        "gene_name": "LMOD2",
+        "coefficient": -1.900237596183132e-07,
+        "abs_coefficient": 1.900237596183132e-07
+      },
+      {
+        "gene_name": "APOBEC1",
+        "coefficient": -1.8981463781908837e-07,
+        "abs_coefficient": 1.8981463781908837e-07
+      },
+      {
+        "gene_name": "CYP2C19",
+        "coefficient": -1.8726137899398077e-07,
+        "abs_coefficient": 1.8726137899398077e-07
+      },
+      {
+        "gene_name": "AC084219.2",
+        "coefficient": -1.868089337464329e-07,
+        "abs_coefficient": 1.868089337464329e-07
+      },
+      {
+        "gene_name": "SLC6A12",
+        "coefficient": 1.8454693761367714e-07,
+        "abs_coefficient": 1.8454693761367714e-07
+      },
+      {
+        "gene_name": "ZSWIM2",
+        "coefficient": 1.8182735015739368e-07,
+        "abs_coefficient": 1.8182735015739368e-07
+      },
+      {
+        "gene_name": "LYVE1",
+        "coefficient": -1.7935961679462942e-07,
+        "abs_coefficient": 1.7935961679462942e-07
+      },
+      {
+        "gene_name": "HIST1H4E",
+        "coefficient": -1.7933715838792447e-07,
+        "abs_coefficient": 1.7933715838792447e-07
+      }
+    ]
+  },
+  "component_64": {
+    "intercept": 1.1960895182541953e-05,
+    "top_10_genes": [
+      {
+        "gene_name": "TIMM10B.1",
+        "coefficient": -2.3777079914598836e-07,
+        "abs_coefficient": 2.3777079914598836e-07
+      },
+      {
+        "gene_name": "MBOAT2",
+        "coefficient": -2.3056713576438401e-07,
+        "abs_coefficient": 2.3056713576438401e-07
+      },
+      {
+        "gene_name": "CCDC81",
+        "coefficient": -2.2864856625307167e-07,
+        "abs_coefficient": 2.2864856625307167e-07
+      },
+      {
+        "gene_name": "RP11.20I23.3",
+        "coefficient": 2.223229193180924e-07,
+        "abs_coefficient": 2.223229193180924e-07
+      },
+      {
+        "gene_name": "IL36B",
+        "coefficient": 2.145042507132752e-07,
+        "abs_coefficient": 2.145042507132752e-07
+      },
+      {
+        "gene_name": "SLC2A5",
+        "coefficient": 2.1091068550965787e-07,
+        "abs_coefficient": 2.1091068550965787e-07
+      },
+      {
+        "gene_name": "RAB15",
+        "coefficient": 2.10191140669906e-07,
+        "abs_coefficient": 2.10191140669906e-07
+      },
+      {
+        "gene_name": "ARL11",
+        "coefficient": -2.0596749584689936e-07,
+        "abs_coefficient": 2.0596749584689936e-07
+      },
+      {
+        "gene_name": "HIST1H4D",
+        "coefficient": 2.0549788296698105e-07,
+        "abs_coefficient": 2.0549788296698105e-07
+      },
+      {
+        "gene_name": "ACSBG1",
+        "coefficient": -2.053032316741226e-07,
+        "abs_coefficient": 2.053032316741226e-07
+      }
+    ]
+  },
+  "component_80": {
+    "intercept": 1.718116152404336e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "GLUD2",
+        "coefficient": 1.1671860851013591e-07,
+        "abs_coefficient": 1.1671860851013591e-07
+      },
+      {
+        "gene_name": "GOLGA8R",
+        "coefficient": -1.1364741477119838e-07,
+        "abs_coefficient": 1.1364741477119838e-07
+      },
+      {
+        "gene_name": "PCDHB12",
+        "coefficient": -1.1295895486227752e-07,
+        "abs_coefficient": 1.1295895486227752e-07
+      },
+      {
+        "gene_name": "TIMP4",
+        "coefficient": -1.1287332949302345e-07,
+        "abs_coefficient": 1.1287332949302345e-07
+      },
+      {
+        "gene_name": "DEFA4",
+        "coefficient": -1.076518863738785e-07,
+        "abs_coefficient": 1.076518863738785e-07
+      },
+      {
+        "gene_name": "OMD",
+        "coefficient": 1.0740106289302655e-07,
+        "abs_coefficient": 1.0740106289302655e-07
+      },
+      {
+        "gene_name": "ST14",
+        "coefficient": 1.0635543212544332e-07,
+        "abs_coefficient": 1.0635543212544332e-07
+      },
+      {
+        "gene_name": "FAM65B",
+        "coefficient": 1.0491245675119693e-07,
+        "abs_coefficient": 1.0491245675119693e-07
+      },
+      {
+        "gene_name": "NEURL2",
+        "coefficient": 1.0405329119106966e-07,
+        "abs_coefficient": 1.0405329119106966e-07
+      },
+      {
+        "gene_name": "HEATR9",
+        "coefficient": 1.0260499587772292e-07,
+        "abs_coefficient": 1.0260499587772292e-07
+      }
+    ]
+  },
+  "component_89": {
+    "intercept": -5.246630862078399e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "AC008759.1",
+        "coefficient": -8.815564674003791e-08,
+        "abs_coefficient": 8.815564674003791e-08
+      },
+      {
+        "gene_name": "OR2W3",
+        "coefficient": 8.790722674309644e-08,
+        "abs_coefficient": 8.790722674309644e-08
+      },
+      {
+        "gene_name": "NEK5",
+        "coefficient": -8.655334262154807e-08,
+        "abs_coefficient": 8.655334262154807e-08
+      },
+      {
+        "gene_name": "DEFA4",
+        "coefficient": -8.21099977045668e-08,
+        "abs_coefficient": 8.21099977045668e-08
+      },
+      {
+        "gene_name": "HCN4",
+        "coefficient": 8.018866386576429e-08,
+        "abs_coefficient": 8.018866386576429e-08
+      },
+      {
+        "gene_name": "AP002884.2",
+        "coefficient": -7.891964028277881e-08,
+        "abs_coefficient": 7.891964028277881e-08
+      },
+      {
+        "gene_name": "FAM198B",
+        "coefficient": 7.869557538309258e-08,
+        "abs_coefficient": 7.869557538309258e-08
+      },
+      {
+        "gene_name": "USH1C",
+        "coefficient": -7.812327361169396e-08,
+        "abs_coefficient": 7.812327361169396e-08
+      },
+      {
+        "gene_name": "AC069499.1",
+        "coefficient": -7.796594514165801e-08,
+        "abs_coefficient": 7.796594514165801e-08
+      },
+      {
+        "gene_name": "RAET1G",
+        "coefficient": -7.670600407506463e-08,
+        "abs_coefficient": 7.670600407506463e-08
+      }
+    ]
+  },
+  "component_19": {
+    "intercept": 0.0012646335346591139,
+    "top_10_genes": [
+      {
+        "gene_name": "CARD14",
+        "coefficient": 1.2457629600021931e-05,
+        "abs_coefficient": 1.2457629600021931e-05
+      },
+      {
+        "gene_name": "NABP1",
+        "coefficient": -1.1734098981909217e-05,
+        "abs_coefficient": 1.1734098981909217e-05
+      },
+      {
+        "gene_name": "GLRA3",
+        "coefficient": -1.152924171635127e-05,
+        "abs_coefficient": 1.152924171635127e-05
+      },
+      {
+        "gene_name": "GABRA6",
+        "coefficient": 1.1400803954337467e-05,
+        "abs_coefficient": 1.1400803954337467e-05
+      },
+      {
+        "gene_name": "NXF3",
+        "coefficient": -1.0231644592943152e-05,
+        "abs_coefficient": 1.0231644592943152e-05
+      },
+      {
+        "gene_name": "IL17F",
+        "coefficient": 1.001508769964866e-05,
+        "abs_coefficient": 1.001508769964866e-05
+      },
+      {
+        "gene_name": "PTHLH",
+        "coefficient": 9.84007596676282e-06,
+        "abs_coefficient": 9.84007596676282e-06
+      },
+      {
+        "gene_name": "TKTL2",
+        "coefficient": -9.792142405875864e-06,
+        "abs_coefficient": 9.792142405875864e-06
+      },
+      {
+        "gene_name": "HCAR2",
+        "coefficient": 9.744448642452573e-06,
+        "abs_coefficient": 9.744448642452573e-06
+      },
+      {
+        "gene_name": "AMELX",
+        "coefficient": 9.71269939807245e-06,
+        "abs_coefficient": 9.71269939807245e-06
+      }
+    ]
+  },
+  "component_79": {
+    "intercept": 1.3176061593679626e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "RNF113B",
+        "coefficient": 1.2685065720429403e-07,
+        "abs_coefficient": 1.2685065720429403e-07
+      },
+      {
+        "gene_name": "BCL2L15",
+        "coefficient": -1.2258465647082107e-07,
+        "abs_coefficient": 1.2258465647082107e-07
+      },
+      {
+        "gene_name": "AL356289.1",
+        "coefficient": -1.1738398442134031e-07,
+        "abs_coefficient": 1.1738398442134031e-07
+      },
+      {
+        "gene_name": "CCDC73",
+        "coefficient": -1.168411164990554e-07,
+        "abs_coefficient": 1.168411164990554e-07
+      },
+      {
+        "gene_name": "ABCC3",
+        "coefficient": -1.1195585526959667e-07,
+        "abs_coefficient": 1.1195585526959667e-07
+      },
+      {
+        "gene_name": "KCNE1",
+        "coefficient": 1.1122420010496685e-07,
+        "abs_coefficient": 1.1122420010496685e-07
+      },
+      {
+        "gene_name": "POMZP3",
+        "coefficient": 1.103413120284621e-07,
+        "abs_coefficient": 1.103413120284621e-07
+      },
+      {
+        "gene_name": "C4B",
+        "coefficient": 1.1012990336127971e-07,
+        "abs_coefficient": 1.1012990336127971e-07
+      },
+      {
+        "gene_name": "MECOM",
+        "coefficient": 1.097356639176059e-07,
+        "abs_coefficient": 1.097356639176059e-07
+      },
+      {
+        "gene_name": "LRRC3C",
+        "coefficient": -1.0912682622791194e-07,
+        "abs_coefficient": 1.0912682622791194e-07
+      }
+    ]
+  },
+  "component_90": {
+    "intercept": -1.0992474425382002e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "CTD.2192J16.22",
+        "coefficient": 8.160115992532834e-08,
+        "abs_coefficient": 8.160115992532834e-08
+      },
+      {
+        "gene_name": "RP11.849F2.7",
+        "coefficient": -7.890349187521804e-08,
+        "abs_coefficient": 7.890349187521804e-08
+      },
+      {
+        "gene_name": "SLC35G2",
+        "coefficient": 7.836914312150515e-08,
+        "abs_coefficient": 7.836914312150515e-08
+      },
+      {
+        "gene_name": "NPBWR2",
+        "coefficient": 7.547605376456325e-08,
+        "abs_coefficient": 7.547605376456325e-08
+      },
+      {
+        "gene_name": "C16orf92",
+        "coefficient": -7.355641154320245e-08,
+        "abs_coefficient": 7.355641154320245e-08
+      },
+      {
+        "gene_name": "DRD3",
+        "coefficient": 7.102889527096225e-08,
+        "abs_coefficient": 7.102889527096225e-08
+      },
+      {
+        "gene_name": "ZSWIM2",
+        "coefficient": -7.013071794765456e-08,
+        "abs_coefficient": 7.013071794765456e-08
+      },
+      {
+        "gene_name": "TCP10L",
+        "coefficient": -6.971337809613177e-08,
+        "abs_coefficient": 6.971337809613177e-08
+      },
+      {
+        "gene_name": "WEE2",
+        "coefficient": -6.715152070702627e-08,
+        "abs_coefficient": 6.715152070702627e-08
+      },
+      {
+        "gene_name": "KCNA7",
+        "coefficient": -6.608669439482584e-08,
+        "abs_coefficient": 6.608669439482584e-08
+      }
+    ]
+  },
+  "component_71": {
+    "intercept": -1.5394475381666125e-05,
+    "top_10_genes": [
+      {
+        "gene_name": "HLA.DQB1",
+        "coefficient": 2.284049646144178e-07,
+        "abs_coefficient": 2.284049646144178e-07
+      },
+      {
+        "gene_name": "P2RY8",
+        "coefficient": 2.280232741603367e-07,
+        "abs_coefficient": 2.280232741603367e-07
+      },
+      {
+        "gene_name": "EGR2",
+        "coefficient": 2.153752889845236e-07,
+        "abs_coefficient": 2.153752889845236e-07
+      },
+      {
+        "gene_name": "IRGM",
+        "coefficient": -2.0259264672763257e-07,
+        "abs_coefficient": 2.0259264672763257e-07
+      },
+      {
+        "gene_name": "HTR1A",
+        "coefficient": 1.949075958969353e-07,
+        "abs_coefficient": 1.949075958969353e-07
+      },
+      {
+        "gene_name": "TAS2R46",
+        "coefficient": -1.8113051069199744e-07,
+        "abs_coefficient": 1.8113051069199744e-07
+      },
+      {
+        "gene_name": "CTRL",
+        "coefficient": -1.809785206946741e-07,
+        "abs_coefficient": 1.809785206946741e-07
+      },
+      {
+        "gene_name": "THEM5",
+        "coefficient": -1.7289694933495316e-07,
+        "abs_coefficient": 1.7289694933495316e-07
+      },
+      {
+        "gene_name": "TTC36",
+        "coefficient": -1.7011876000522642e-07,
+        "abs_coefficient": 1.7011876000522642e-07
+      },
+      {
+        "gene_name": "KIR3DL1",
+        "coefficient": -1.6845055519581023e-07,
+        "abs_coefficient": 1.6845055519581023e-07
+      }
+    ]
+  },
+  "component_75": {
+    "intercept": -3.021102048474814e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "DRGX",
+        "coefficient": -1.6644916612140002e-07,
+        "abs_coefficient": 1.6644916612140002e-07
+      },
+      {
+        "gene_name": "C2orf66",
+        "coefficient": -1.6310958427386932e-07,
+        "abs_coefficient": 1.6310958427386932e-07
+      },
+      {
+        "gene_name": "GOLGA6B",
+        "coefficient": 1.5610851084276587e-07,
+        "abs_coefficient": 1.5610851084276587e-07
+      },
+      {
+        "gene_name": "CAPN11",
+        "coefficient": 1.502314037814665e-07,
+        "abs_coefficient": 1.502314037814665e-07
+      },
+      {
+        "gene_name": "ARHGEF33",
+        "coefficient": 1.4812430268358388e-07,
+        "abs_coefficient": 1.4812430268358388e-07
+      },
+      {
+        "gene_name": "DAPK1",
+        "coefficient": -1.4729588316149802e-07,
+        "abs_coefficient": 1.4729588316149802e-07
+      },
+      {
+        "gene_name": "CTD.2135J3.4",
+        "coefficient": -1.471300202418678e-07,
+        "abs_coefficient": 1.471300202418678e-07
+      },
+      {
+        "gene_name": "FSBP",
+        "coefficient": 1.4514036209883358e-07,
+        "abs_coefficient": 1.4514036209883358e-07
+      },
+      {
+        "gene_name": "DOCK10",
+        "coefficient": -1.4466244665299038e-07,
+        "abs_coefficient": 1.4466244665299038e-07
+      },
+      {
+        "gene_name": "GOLGA8Q",
+        "coefficient": -1.4362956572073177e-07,
+        "abs_coefficient": 1.4362956572073177e-07
+      }
+    ]
+  },
+  "component_91": {
+    "intercept": -4.474802407428032e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "TAS2R4",
+        "coefficient": -6.635985706703841e-08,
+        "abs_coefficient": 6.635985706703841e-08
+      },
+      {
+        "gene_name": "NPR2",
+        "coefficient": 6.209397417802357e-08,
+        "abs_coefficient": 6.209397417802357e-08
+      },
+      {
+        "gene_name": "SLC9A5",
+        "coefficient": -6.0544329139205e-08,
+        "abs_coefficient": 6.0544329139205e-08
+      },
+      {
+        "gene_name": "KRTAP10.3",
+        "coefficient": -6.02319787403311e-08,
+        "abs_coefficient": 6.02319787403311e-08
+      },
+      {
+        "gene_name": "ASB18",
+        "coefficient": -5.920743091673639e-08,
+        "abs_coefficient": 5.920743091673639e-08
+      },
+      {
+        "gene_name": "SLC22A10",
+        "coefficient": -5.9030911920137544e-08,
+        "abs_coefficient": 5.9030911920137544e-08
+      },
+      {
+        "gene_name": "CHMP4C",
+        "coefficient": -5.837241363220116e-08,
+        "abs_coefficient": 5.837241363220116e-08
+      },
+      {
+        "gene_name": "ZNF300",
+        "coefficient": 5.804136393248868e-08,
+        "abs_coefficient": 5.804136393248868e-08
+      },
+      {
+        "gene_name": "CAPSL",
+        "coefficient": 5.7101356849568855e-08,
+        "abs_coefficient": 5.7101356849568855e-08
+      },
+      {
+        "gene_name": "CRHBP",
+        "coefficient": 5.6736312465035255e-08,
+        "abs_coefficient": 5.6736312465035255e-08
+      }
+    ]
+  },
+  "component_45": {
+    "intercept": -4.927580016887133e-05,
+    "top_10_genes": [
+      {
+        "gene_name": "XXbac.BPG116M5.17",
+        "coefficient": 1.078177013843701e-06,
+        "abs_coefficient": 1.078177013843701e-06
+      },
+      {
+        "gene_name": "ZNRF4",
+        "coefficient": -9.629518846381939e-07,
+        "abs_coefficient": 9.629518846381939e-07
+      },
+      {
+        "gene_name": "NDUFA7",
+        "coefficient": -9.354381902247272e-07,
+        "abs_coefficient": 9.354381902247272e-07
+      },
+      {
+        "gene_name": "VNN2",
+        "coefficient": 9.15443765541907e-07,
+        "abs_coefficient": 9.15443765541907e-07
+      },
+      {
+        "gene_name": "PCDHB4",
+        "coefficient": -8.733388973680096e-07,
+        "abs_coefficient": 8.733388973680096e-07
+      },
+      {
+        "gene_name": "CARD9",
+        "coefficient": 8.67874719909231e-07,
+        "abs_coefficient": 8.67874719909231e-07
+      },
+      {
+        "gene_name": "SPATA4",
+        "coefficient": -8.657393084416833e-07,
+        "abs_coefficient": 8.657393084416833e-07
+      },
+      {
+        "gene_name": "RPS4Y1",
+        "coefficient": -8.595645050909923e-07,
+        "abs_coefficient": 8.595645050909923e-07
+      },
+      {
+        "gene_name": "AMELX",
+        "coefficient": 8.593383066713311e-07,
+        "abs_coefficient": 8.593383066713311e-07
+      },
+      {
+        "gene_name": "CSNK2B.LY6G5B.562",
+        "coefficient": 8.562829421343588e-07,
+        "abs_coefficient": 8.562829421343588e-07
+      }
+    ]
+  },
+  "component_53": {
+    "intercept": 1.6094917782048424e-07,
+    "top_10_genes": [
+      {
+        "gene_name": "GOLGA6B",
+        "coefficient": -6.131849223858572e-07,
+        "abs_coefficient": 6.131849223858572e-07
+      },
+      {
+        "gene_name": "TOP3B",
+        "coefficient": 5.543582088492594e-07,
+        "abs_coefficient": 5.543582088492594e-07
+      },
+      {
+        "gene_name": "OR2T8",
+        "coefficient": 5.287687468925397e-07,
+        "abs_coefficient": 5.287687468925397e-07
+      },
+      {
+        "gene_name": "TMSB15A",
+        "coefficient": -5.142226015971795e-07,
+        "abs_coefficient": 5.142226015971795e-07
+      },
+      {
+        "gene_name": "TNP1",
+        "coefficient": -5.098120386141346e-07,
+        "abs_coefficient": 5.098120386141346e-07
+      },
+      {
+        "gene_name": "MEI1",
+        "coefficient": -5.077878951732952e-07,
+        "abs_coefficient": 5.077878951732952e-07
+      },
+      {
+        "gene_name": "RP11.314N13.10",
+        "coefficient": 5.051562324134023e-07,
+        "abs_coefficient": 5.051562324134023e-07
+      },
+      {
+        "gene_name": "APOBEC4",
+        "coefficient": -4.948860034652792e-07,
+        "abs_coefficient": 4.948860034652792e-07
+      },
+      {
+        "gene_name": "OR5AN1",
+        "coefficient": -4.907280281487479e-07,
+        "abs_coefficient": 4.907280281487479e-07
+      },
+      {
+        "gene_name": "RRH",
+        "coefficient": -4.794023003250821e-07,
+        "abs_coefficient": 4.794023003250821e-07
+      }
+    ]
+  },
+  "component_46": {
+    "intercept": -8.867246843254812e-05,
+    "top_10_genes": [
+      {
+        "gene_name": "KRT85",
+        "coefficient": 8.693867800070897e-07,
+        "abs_coefficient": 8.693867800070897e-07
+      },
+      {
+        "gene_name": "LRIT1",
+        "coefficient": 7.68669239945577e-07,
+        "abs_coefficient": 7.68669239945577e-07
+      },
+      {
+        "gene_name": "ZNF528",
+        "coefficient": 7.672011423993479e-07,
+        "abs_coefficient": 7.672011423993479e-07
+      },
+      {
+        "gene_name": "DNAH14",
+        "coefficient": -7.350594974341876e-07,
+        "abs_coefficient": 7.350594974341876e-07
+      },
+      {
+        "gene_name": "TECTA",
+        "coefficient": -6.989490005406419e-07,
+        "abs_coefficient": 6.989490005406419e-07
+      },
+      {
+        "gene_name": "CGB8",
+        "coefficient": -6.909336276185572e-07,
+        "abs_coefficient": 6.909336276185572e-07
+      },
+      {
+        "gene_name": "RAB37",
+        "coefficient": -6.90839124532495e-07,
+        "abs_coefficient": 6.90839124532495e-07
+      },
+      {
+        "gene_name": "OR11H4",
+        "coefficient": -6.869228119950789e-07,
+        "abs_coefficient": 6.869228119950789e-07
+      },
+      {
+        "gene_name": "NPY5R",
+        "coefficient": 6.81026659638713e-07,
+        "abs_coefficient": 6.81026659638713e-07
+      },
+      {
+        "gene_name": "DACH1",
+        "coefficient": -6.805620258096151e-07,
+        "abs_coefficient": 6.805620258096151e-07
+      }
+    ]
+  },
+  "component_97": {
+    "intercept": 1.7950444145657154e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "SPRY3",
+        "coefficient": -5.8709916285393736e-08,
+        "abs_coefficient": 5.8709916285393736e-08
+      },
+      {
+        "gene_name": "ZSWIM2",
+        "coefficient": 5.783899082068192e-08,
+        "abs_coefficient": 5.783899082068192e-08
+      },
+      {
+        "gene_name": "LDOC1",
+        "coefficient": -5.727792784191826e-08,
+        "abs_coefficient": 5.727792784191826e-08
+      },
+      {
+        "gene_name": "LRRC69",
+        "coefficient": -5.638437710188216e-08,
+        "abs_coefficient": 5.638437710188216e-08
+      },
+      {
+        "gene_name": "KLRG2",
+        "coefficient": -5.54374749210173e-08,
+        "abs_coefficient": 5.54374749210173e-08
+      },
+      {
+        "gene_name": "C12orf5",
+        "coefficient": -5.532497285313364e-08,
+        "abs_coefficient": 5.532497285313364e-08
+      },
+      {
+        "gene_name": "ASB18",
+        "coefficient": -5.4889027660075545e-08,
+        "abs_coefficient": 5.4889027660075545e-08
+      },
+      {
+        "gene_name": "FABP12",
+        "coefficient": 5.4003380983037844e-08,
+        "abs_coefficient": 5.4003380983037844e-08
+      },
+      {
+        "gene_name": "GLT6D1",
+        "coefficient": -5.386057281647834e-08,
+        "abs_coefficient": 5.386057281647834e-08
+      },
+      {
+        "gene_name": "CCDC65",
+        "coefficient": 5.359013274124459e-08,
+        "abs_coefficient": 5.359013274124459e-08
+      }
+    ]
+  },
+  "component_34": {
+    "intercept": -0.0002564847228614844,
+    "top_10_genes": [
+      {
+        "gene_name": "CMC4",
+        "coefficient": -2.1484167452742224e-06,
+        "abs_coefficient": 2.1484167452742224e-06
+      },
+      {
+        "gene_name": "F10",
+        "coefficient": -1.9985025164208198e-06,
+        "abs_coefficient": 1.9985025164208198e-06
+      },
+      {
+        "gene_name": "ASPDH",
+        "coefficient": 1.9080204340656764e-06,
+        "abs_coefficient": 1.9080204340656764e-06
+      },
+      {
+        "gene_name": "PID1",
+        "coefficient": -1.876404935373631e-06,
+        "abs_coefficient": 1.876404935373631e-06
+      },
+      {
+        "gene_name": "MAS1L",
+        "coefficient": 1.8651421875139559e-06,
+        "abs_coefficient": 1.8651421875139559e-06
+      },
+      {
+        "gene_name": "HIST1H3B",
+        "coefficient": 1.8077128846009426e-06,
+        "abs_coefficient": 1.8077128846009426e-06
+      },
+      {
+        "gene_name": "PRAMEF17",
+        "coefficient": -1.8022284610590948e-06,
+        "abs_coefficient": 1.8022284610590948e-06
+      },
+      {
+        "gene_name": "LRRC74A",
+        "coefficient": 1.7782742731847709e-06,
+        "abs_coefficient": 1.7782742731847709e-06
+      },
+      {
+        "gene_name": "C11orf91",
+        "coefficient": -1.76031992187697e-06,
+        "abs_coefficient": 1.76031992187697e-06
+      },
+      {
+        "gene_name": "NXPH2",
+        "coefficient": -1.7545948199890533e-06,
+        "abs_coefficient": 1.7545948199890533e-06
+      }
+    ]
+  },
+  "component_23": {
+    "intercept": -0.001412820873675465,
+    "top_10_genes": [
+      {
+        "gene_name": "RP11.322E11.6",
+        "coefficient": -9.395839520578849e-06,
+        "abs_coefficient": 9.395839520578849e-06
+      },
+      {
+        "gene_name": "DNAH10",
+        "coefficient": -9.042369747093453e-06,
+        "abs_coefficient": 9.042369747093453e-06
+      },
+      {
+        "gene_name": "SLC4A11",
+        "coefficient": -7.917318364649858e-06,
+        "abs_coefficient": 7.917318364649858e-06
+      },
+      {
+        "gene_name": "SPINT4",
+        "coefficient": 7.787210170040517e-06,
+        "abs_coefficient": 7.787210170040517e-06
+      },
+      {
+        "gene_name": "APOBEC4",
+        "coefficient": 7.728860767220203e-06,
+        "abs_coefficient": 7.728860767220203e-06
+      },
+      {
+        "gene_name": "RNF225",
+        "coefficient": 7.712670648394513e-06,
+        "abs_coefficient": 7.712670648394513e-06
+      },
+      {
+        "gene_name": "AL357140.1",
+        "coefficient": 7.680028147234898e-06,
+        "abs_coefficient": 7.680028147234898e-06
+      },
+      {
+        "gene_name": "ANGPTL2",
+        "coefficient": 7.672833242573486e-06,
+        "abs_coefficient": 7.672833242573486e-06
+      },
+      {
+        "gene_name": "RGPD4",
+        "coefficient": -7.652189229388497e-06,
+        "abs_coefficient": 7.652189229388497e-06
+      },
+      {
+        "gene_name": "ISL2",
+        "coefficient": 7.454879904966708e-06,
+        "abs_coefficient": 7.454879904966708e-06
+      }
+    ]
+  },
+  "component_86": {
+    "intercept": -3.504912912526325e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "ANKRD7",
+        "coefficient": 9.284396103499711e-08,
+        "abs_coefficient": 9.284396103499711e-08
+      },
+      {
+        "gene_name": "HMHB1",
+        "coefficient": -8.41753066333543e-08,
+        "abs_coefficient": 8.41753066333543e-08
+      },
+      {
+        "gene_name": "PLCD4",
+        "coefficient": 8.347096980156955e-08,
+        "abs_coefficient": 8.347096980156955e-08
+      },
+      {
+        "gene_name": "NANOGNB",
+        "coefficient": -7.973617803984672e-08,
+        "abs_coefficient": 7.973617803984672e-08
+      },
+      {
+        "gene_name": "RPA4",
+        "coefficient": -7.897888838158265e-08,
+        "abs_coefficient": 7.897888838158265e-08
+      },
+      {
+        "gene_name": "SCN4B",
+        "coefficient": -7.878697266680308e-08,
+        "abs_coefficient": 7.878697266680308e-08
+      },
+      {
+        "gene_name": "ACOT1",
+        "coefficient": -7.861616773877793e-08,
+        "abs_coefficient": 7.861616773877793e-08
+      },
+      {
+        "gene_name": "C21orf62",
+        "coefficient": -7.796830433551132e-08,
+        "abs_coefficient": 7.796830433551132e-08
+      },
+      {
+        "gene_name": "OR3A1",
+        "coefficient": -7.695751126706477e-08,
+        "abs_coefficient": 7.695751126706477e-08
+      },
+      {
+        "gene_name": "TMED6",
+        "coefficient": 7.635869361429749e-08,
+        "abs_coefficient": 7.635869361429749e-08
+      }
+    ]
+  },
+  "component_81": {
+    "intercept": 1.5347380761749626e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "TMEM200A",
+        "coefficient": 1.2344876120801423e-07,
+        "abs_coefficient": 1.2344876120801423e-07
+      },
+      {
+        "gene_name": "EFCAB3",
+        "coefficient": -1.1760970760718362e-07,
+        "abs_coefficient": 1.1760970760718362e-07
+      },
+      {
+        "gene_name": "AL049794.1",
+        "coefficient": 1.1238642138692164e-07,
+        "abs_coefficient": 1.1238642138692164e-07
+      },
+      {
+        "gene_name": "FKSG56",
+        "coefficient": -1.1177701512738246e-07,
+        "abs_coefficient": 1.1177701512738246e-07
+      },
+      {
+        "gene_name": "BIVM.ERCC5",
+        "coefficient": -1.1120197057618396e-07,
+        "abs_coefficient": 1.1120197057618396e-07
+      },
+      {
+        "gene_name": "SIX1",
+        "coefficient": -1.1016048289890388e-07,
+        "abs_coefficient": 1.1016048289890388e-07
+      },
+      {
+        "gene_name": "SERINC4",
+        "coefficient": -1.0926897707296571e-07,
+        "abs_coefficient": 1.0926897707296571e-07
+      },
+      {
+        "gene_name": "RP11.195F19.29",
+        "coefficient": 1.0465925447256575e-07,
+        "abs_coefficient": 1.0465925447256575e-07
+      },
+      {
+        "gene_name": "PDPN",
+        "coefficient": 1.0326088938934257e-07,
+        "abs_coefficient": 1.0326088938934257e-07
+      },
+      {
+        "gene_name": "AMELX",
+        "coefficient": -1.0002800640738384e-07,
+        "abs_coefficient": 1.0002800640738384e-07
+      }
+    ]
+  },
+  "component_62": {
+    "intercept": 5.98609452360322e-07,
+    "top_10_genes": [
+      {
+        "gene_name": "IL17F",
+        "coefficient": 2.9817464303941063e-07,
+        "abs_coefficient": 2.9817464303941063e-07
+      },
+      {
+        "gene_name": "FSCN3",
+        "coefficient": -2.7819863796681846e-07,
+        "abs_coefficient": 2.7819863796681846e-07
+      },
+      {
+        "gene_name": "ZNF286B",
+        "coefficient": 2.731261277465218e-07,
+        "abs_coefficient": 2.731261277465218e-07
+      },
+      {
+        "gene_name": "RHBDL3",
+        "coefficient": -2.637441376928739e-07,
+        "abs_coefficient": 2.637441376928739e-07
+      },
+      {
+        "gene_name": "DYTN",
+        "coefficient": -2.5913539081486617e-07,
+        "abs_coefficient": 2.5913539081486617e-07
+      },
+      {
+        "gene_name": "SERPINB4",
+        "coefficient": 2.420893873070192e-07,
+        "abs_coefficient": 2.420893873070192e-07
+      },
+      {
+        "gene_name": "HORMAD2",
+        "coefficient": 2.410351434102674e-07,
+        "abs_coefficient": 2.410351434102674e-07
+      },
+      {
+        "gene_name": "TRO",
+        "coefficient": -2.404560228012738e-07,
+        "abs_coefficient": 2.404560228012738e-07
+      },
+      {
+        "gene_name": "PPP3R2",
+        "coefficient": -2.255513712715367e-07,
+        "abs_coefficient": 2.255513712715367e-07
+      },
+      {
+        "gene_name": "IFNL1",
+        "coefficient": -2.2399086554185886e-07,
+        "abs_coefficient": 2.2399086554185886e-07
+      }
+    ]
+  },
+  "component_9": {
+    "intercept": -0.0030372155627392755,
+    "top_10_genes": [
+      {
+        "gene_name": "MS4A12",
+        "coefficient": 2.8635910469305454e-05,
+        "abs_coefficient": 2.8635910469305454e-05
+      },
+      {
+        "gene_name": "PTGES3L.AARSD1",
+        "coefficient": 2.6981093635079113e-05,
+        "abs_coefficient": 2.6981093635079113e-05
+      },
+      {
+        "gene_name": "BHLHE23",
+        "coefficient": 2.6766087534393533e-05,
+        "abs_coefficient": 2.6766087534393533e-05
+      },
+      {
+        "gene_name": "TCP10",
+        "coefficient": 2.6678646201572433e-05,
+        "abs_coefficient": 2.6678646201572433e-05
+      },
+      {
+        "gene_name": "RP11.407N17.3",
+        "coefficient": -2.593753730962416e-05,
+        "abs_coefficient": 2.593753730962416e-05
+      },
+      {
+        "gene_name": "INMT.FAM188B",
+        "coefficient": -2.5079189522026028e-05,
+        "abs_coefficient": 2.5079189522026028e-05
+      },
+      {
+        "gene_name": "GPR101",
+        "coefficient": -2.4401158467197327e-05,
+        "abs_coefficient": 2.4401158467197327e-05
+      },
+      {
+        "gene_name": "CRYGS",
+        "coefficient": -2.3611040383343047e-05,
+        "abs_coefficient": 2.3611040383343047e-05
+      },
+      {
+        "gene_name": "TEX43",
+        "coefficient": 2.353937945743013e-05,
+        "abs_coefficient": 2.353937945743013e-05
+      },
+      {
+        "gene_name": "PHGR1",
+        "coefficient": -2.3485990115822673e-05,
+        "abs_coefficient": 2.3485990115822673e-05
+      }
+    ]
+  },
+  "component_55": {
+    "intercept": 2.4693868436824153e-06,
+    "top_10_genes": [
+      {
+        "gene_name": "LRP5L",
+        "coefficient": 4.0800578628563303e-07,
+        "abs_coefficient": 4.0800578628563303e-07
+      },
+      {
+        "gene_name": "NPIPB4",
+        "coefficient": -3.844358643659062e-07,
+        "abs_coefficient": 3.844358643659062e-07
+      },
+      {
+        "gene_name": "EPOR",
+        "coefficient": 3.772817475639639e-07,
+        "abs_coefficient": 3.772817475639639e-07
+      },
+      {
+        "gene_name": "RNF225",
+        "coefficient": -3.713566779238472e-07,
+        "abs_coefficient": 3.713566779238472e-07
+      },
+      {
+        "gene_name": "R3HDML",
+        "coefficient": -3.6983599168925146e-07,
+        "abs_coefficient": 3.6983599168925146e-07
+      },
+      {
+        "gene_name": "MBD3L1",
+        "coefficient": 3.4528830664065383e-07,
+        "abs_coefficient": 3.4528830664065383e-07
+      },
+      {
+        "gene_name": "SLC16A2",
+        "coefficient": 3.4224544635077205e-07,
+        "abs_coefficient": 3.4224544635077205e-07
+      },
+      {
+        "gene_name": "PCDH11Y",
+        "coefficient": 3.3611175837999484e-07,
+        "abs_coefficient": 3.3611175837999484e-07
+      },
+      {
+        "gene_name": "FGF3",
+        "coefficient": 3.349456153823852e-07,
+        "abs_coefficient": 3.349456153823852e-07
+      },
+      {
+        "gene_name": "OR5M11",
+        "coefficient": -3.34650497960874e-07,
+        "abs_coefficient": 3.34650497960874e-07
+      }
+    ]
+  }
+}
