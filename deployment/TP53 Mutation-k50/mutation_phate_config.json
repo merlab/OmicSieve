@@ -1,0 +1,5 @@
+{
+  "supervision_weight": 0.0,
+  "n_components": 100,
+  "supervised": false
+}

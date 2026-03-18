@@ -32,9 +32,13 @@ Use `gdown` to download the required deployment files:
 
 ```bash
 gdown 1VoiOg9sqwVf0HbVefb-_YN7_tCE6mO7-  # cgrade_phate.pkl
-gdown 14s8pPSfHmcheKTTStfW2Lqy8F7zGw9p6   # cgrade_component_predictor_mlp.pt 
-gdown 12BTHNW6q2Ifl8fRtKTRsXjOAMFpacW8m   # mutation_phate.pkl
-gdown 1hqOUhsmDVaHfH9JkY1Vxrz68mLh1YQ9O   # mutation_component_predictor_mlp.pt 
+gdown 14s8pPSfHmcheKTTStfW2Lqy8F7zGw9p6  # cgrade_component_predictor_mlp.pt 
+gdown 12KgrbBWlVxycZRYwH_BTvIaEaKPeqEoM  # mutation_phate.pkl
+gdown 11cCVYPjG783Rug5ucwlqzZT_8HDNsxhf  # mutation_component_predictor_mlp.pt 
+
+gdown 1Mkgy--OAP3hq_ke42mBCD_QFWAfa_mLT  # mutation_component_predictor_mlp_k50.pt
+gdown 1zf2WAx5q0gieIRJBIGy2Gye8dGUJIvV0  # mutation_phate_k50.pkl
+
 ```
 
 After downloading, place the files in the following directories:
@@ -259,10 +263,16 @@ Or use the built-in method by inspecting the returned interpretability fields fr
 **Grade Prediction**
 - **PHATE 100 Component Extraction:** 226.42s / 3.7m
 - **SHAP computation time:** 3.16s
-- **MLP Component Predictor:** 242.71s / 4.04m
+- **MLP Component Training:** 242.71s / 4.04m
 -  **MLP infer time/sample:** 0.147ms
 -  **XGBoost infer time/sample:** 0.027ms
 
+**TP53 Mutation Prediction**
+- **PHATE 100 Component Extraction:** 288.73s / 4.8m
+- **SHAP computation time:** 8.67s
+- **MLP Component Training:**  1772.09s / 12.8m
+-  **MLP infer time/sample:** 0.169ms
+-  **XGBoost infer time/sample:** 0.031ms
 ---
 
 <!-- ##  Citation
