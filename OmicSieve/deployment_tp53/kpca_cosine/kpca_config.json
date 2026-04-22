@@ -1,0 +1,6 @@
+{
+  "method": "kpca",
+  "n_components": 100,
+  "random_state": 42,
+  "kernel": "cosine"
+}

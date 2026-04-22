@@ -1,299 +1,193 @@
-# Cancer Multi-Task Prediction Pipeline - Deployment Guide
+# OmicSieve
 
-This deployment package provides a complete cancer prediction pipeline with three capabilities:
-1. **Component Prediction**: Extract reusable 30-dimensional embeddings from gene expression
-2. **Grade Prediction**: Predict cancer histological grade (low vs high risk)
-3. **TP53 Mutation Prediction**: Predict TP53 mutation status
+OmicSieve is a generalized unsupervised representation-learning pipeline for omics data. It uses non-linear compression to convert high-dimensional molecular profiles into compact embeddings that can be reused for many downstream tasks.
+
+The saved OmicSieve MLP model lets users project their own samples into the same compressed embedding space. Those embeddings can then be used as input features for any downstream analysis or model, such as binary or multi-class classification, regression, clustering, survival analysis, visualization, or biomarker discovery.
+
+Cancer grade and TP53 mutation prediction from RNA-seq gene expression are included as example downstream classifiers built on top of the learned embeddings. OmicSieve itself is not limited to binary classification.
+
+![OmicSieve architecture](Architecture.jpg "OmicSieve architecture")
+
+## What OmicSieve Provides
+
+- A saved non-linear MLP encoder for predicting compressed omics embeddings.
+- A fixed feature-order file so input features can be reordered correctly.
+- Component-to-gene mapping files for interpreting compressed embeddings.
+- Example downstream XGBoost models for:
+  - **Cancer grade**: low-risk (`0`) vs high-risk (`1`)
+  - **TP53 mutation**: wild-type (`0`) vs mutated (`1`)
 
 ## Package Contents
 
-### Required Files
-1. **Grade Prediction**:
-    - `cgrade_scaler.pkl` - StandardScaler for gene expression normalization
-    - `cgrade_component_predictor_mlp.pt` - PyTorch MLP model for component prediction
-    - `cgrade_top_k_components.json` - Top-30 PHATE component indices
-    - `cgrade_xgboost_grade_predictor.pkl` - XGBoost model for grade classification
-    - `cgrade_component_gene_mapping.json` - Maps components to top contributing genes
-    - `cgrade_phate.pkl` - PHATE dimensionality reduction model
-    - `cgrade_phate_supervision_config.json` - PHATE configuration parameters
+Only a few files are required to generate compressed embeddings from new samples. After downloading the encoder weights, the expected layout is:
 
-2. **TP53 Mutatuion Prediction**:
-    - `mutation_scaler.pkl`
-    - `mutation_component_predictor_mlp.pt`
-    - `mutation_top_k_components.json`
-    - `mutation_xgboost_grade_predictor.pkl`
-    - `mutation_component_gene_mapping.json`
-    - `mutation_phate.pkl`
-    - `mutation_phate_supervision_config.json`
+```text
+deployment_grade/
+|-- gene_order.json
+|-- scaler.pkl
+|-- kpca_rbf/
+|   `-- component_predictor_attention_mlp.pt
+`-- kpca_cosine/
+    `-- component_predictor_attention_mlp.pt
 
-### Download Pretrained Models
+deployment_tp53/
+|-- gene_order.json
+|-- scaler.pkl
+|-- kpca_rbf/
+|   `-- component_predictor_attention_mlp.pt
+`-- kpca_cosine/
+    `-- component_predictor_attention_mlp.pt
+```
 
-Use `gdown` to download the required deployment files:
+`gene_order.json` aligns incoming features, `scaler.pkl` applies the training normalization, and `component_predictor_attention_mlp.pt` generates the 50-dimensional compressed embedding. Configuration files, ranking plots, and training curves are useful for analysis and reproducibility, but are not needed by `predict.py` to embed new samples.
+
+Optional files for `--mode predict`:
+
+- A downstream classifier model is required only for `--mode predict`:
+
+```text
+deployment_grade/KPCA_RBF/xgboost_grade_predictor_cv.pkl
+deployment_grade/KPCA_COSINE/xgboost_grade_predictor_cv.pkl
+deployment_tp53/KPCA_RBF/xgboost_tp53_predictor_cv.pkl
+deployment_tp53/KPCA_COSINE/xgboost_tp53_predictor_cv.pkl
+```
+
+- Component-to-gene mapping files can be provided separately for grade and TP53 interpretation.
+
+## Download Large Files
 
 ```bash
-gdown 1VoiOg9sqwVf0HbVefb-_YN7_tCE6mO7-  # cgrade_phate.pkl
-gdown 14s8pPSfHmcheKTTStfW2Lqy8F7zGw9p6  # cgrade_component_predictor_mlp.pt 
-gdown 12KgrbBWlVxycZRYwH_BTvIaEaKPeqEoM  # mutation_phate.pkl
-gdown 11cCVYPjG783Rug5ucwlqzZT_8HDNsxhf  # mutation_component_predictor_mlp.pt 
+mkdir -p deployment_grade/kpca_rbf deployment_grade/kpca_cosine
+mkdir -p deployment_tp53/kpca_rbf deployment_tp53/kpca_cosine
 
-gdown 1Mkgy--OAP3hq_ke42mBCD_QFWAfa_mLT  # mutation_component_predictor_mlp_k50.pt
-gdown 1zf2WAx5q0gieIRJBIGy2Gye8dGUJIvV0  # mutation_phate_k50.pkl
+# Grade encoder - RBF
+gdown 1Ap7CXaGOjPunefzySrFsuVH4jF6Q_BHS -O deployment_grade/kpca_rbf/component_predictor_attention_mlp.pt
+# Grade KPCA - RBF
+gdown 1JJoa-3b3J1rgyHNcXNj3M1yojE7I3hkE -O deployment_grade/kpca_rbf/kpca.pkl
+# Grade encoder - Cosine
+gdown 1GLLGWkEVakDsrQtvrwnSwJEVHejCHC-W -O deployment_grade/kpca_cosine/component_predictor_attention_mlp.pt
+# Grade KPCA - Cosine
+gdown 1wi3hnXcX3CycUcv4eSV58vZyBuCdsdpR -O deployment_grade/kpca_cosine/kpca.pkl
 
+# TP53 encoder - RBF
+gdown 1I0HNoTgDUVpG5bwAp8GX1_g3NoukLXVA -O deployment_tp53/kpca_rbf/component_predictor_attention_mlp.pt
+# TP53 KPCA - RBF
+gdown 1TKa-YrBWl0UUK_CORors3q7kRAjyEkXK -O deployment_tp53/kpca_rbf/kpca.pkl
+# TP53 encoder - Cosine
+gdown 145GibC68P-g-Yumf_L1h-cyrl90dhGIH -O deployment_tp53/kpca_cosine/component_predictor_attention_mlp.pt
+# TP53 KPCA - Cosine
+gdown 1-fRfVsm8GU9kW1Q5Jrgxqi58TACaBurP -O deployment_tp53/kpca_cosine/kpca.pkl
 ```
 
-After downloading, place the files in the following directories:
+## Input Format
 
-```
-deployment/
-├────Cancer Grade
-        ├── cgrade_phate.pkl
-        ├── cgrade_component_predictor_mlp.pt
-├────TP53 Mutation
-        ├── mutation_phate.pkl
-        ├── mutation_component_predictor_mlp.pt
+Input CSV files should have samples as rows and omics features as columns. For the provided examples, these features are RNA-seq genes. The first column is treated as the sample ID.
+
+```csv
+sample_id,TP53,BRCA1,BRCA2,...
+TCGA-02-0047-01,4.31,2.18,3.92,...
+TCGA-02-0055-01,5.02,2.44,4.10,...
 ```
 
-### Generated Files
-- `predict.py` - Standalone universal inference script
-
-
----
-
-### Installation
+`predict.py` reorders input columns to the provided training feature order. The RNA-seq example model expects 19,310 genes.
 
 ```bash
-# Install required packages
+python predict.py --task grade --mode predict --input your_data.csv --output grade_predictions.csv --gene-order gene_order.json
+```
+
+## Install
+
+```bash
 pip install numpy pandas scikit-learn xgboost torch joblib
 ```
 
-### Basic Usage
+## Usage
+
+Predict reusable compressed embeddings:
 
 ```bash
-# Predict components (reusable embeddings) for grade pipeline
 python predict.py --task grade --mode components --input your_data.csv --output grade_components.csv
+```
 
-# Predict cancer grade
+Embeddings can also be saved as compressed NumPy archives:
+
+```bash
+python predict.py --task grade --mode components --input your_data.csv --output grade_components.npz
+```
+
+
+The output embeddings can be used for any downstream task. For example, you can train your own classifier or regressor on `grade_components.csv`:
+
+```python
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+
+X = pd.read_csv("grade_components.csv", index_col=0)
+y = pd.read_csv("your_labels.csv", index_col=0)["label"]
+
+model = RandomForestClassifier(random_state=42)
+model.fit(X, y)
+```
+
+Predict cancer grade:
+
+```bash
 python predict.py --task grade --mode predict --input your_data.csv --output grade_predictions.csv
-
-# Predict TP53 mutation status
-python predict.py --task tp53 --mode predict --input your_data.csv --output tp53_predictions.csv
 ```
-
-
-
----
-
-## Input Data Format
-
-Your input CSV file should have:
-- **Rows**: Samples/patients
-- **Columns**: 19,310 gene expression values (same order as training data)
-- **Index**: Sample IDs (first column)
-
-Example structure:
-```csv
-sample_id,gene1,gene2,gene3,...,gene19310
-TCGA-A1-A0SB-01,5.234,3.142,7.891,...,2.456
-TCGA-A1-A0SD-01,4.567,2.987,6.543,...,3.789
-```
-
-**Important**: Gene expression values should be **raw counts** or **normalized** in the same way as the training data.
-
----
-
-##  Detailed Usage
-
-### 1. Component Prediction (Embeddings)
-
-Extract 30-dimensional component embeddings for downstream tasks.
-
-Grade pipeline:
-
-```bash
-python predict.py \
-    --task grade \
-    --mode components \
-    --input expression_data.csv \
-    --output grade_components.csv
-```
-
-TP53 pipeline:
-
-```bash
-python predict.py \
-    --task tp53 \
-    --mode components \
-    --input expression_data.csv \
-    --output tp53_components.csv
-```
-
-**Output**: CSV with 30 columns (pred_component_0 to pred_component_29)
-
-**Use cases**:
-- Transfer learning to new tasks
-- Visualization and clustering
-- Custom downstream predictors
-- Biomarker discovery
-
----
-
-### 2. Grade Prediction
-
-Predict cancer histological grade (binary classification):
-
-```bash
-python predict.py \
-    --task grade \
-    --mode predict \
-    --input expression_data.csv \
-    --output grade_predictions.csv
-```
-
-**Output**: CSV with two columns:
-- `grade_prediction`: 0 (low risk) or 1 (high risk)
-- `high_risk_probability`: Probability of high-risk grade (0-1)
-
-**Performance Metrics**:
-- Test Accuracy: 83.83%
-- Test F1 Score: 85.25%
-- Test Balanced Accuracy: 73.12%
-
----
-
-### 3. TP53 Mutation Prediction
 
 Predict TP53 mutation status:
 
 ```bash
-python predict.py \
-    --task tp53 \
-    --mode predict \
-    --input expression_data.csv \
-    --output tp53_predictions.csv
+python predict.py --task tp53 --mode predict --input your_data.csv --output tp53_predictions.csv
 ```
 
-**Output**: CSV with two columns:
-- `tp53_prediction`: 0 (wild-type) or 1 (mutated)
-- `tp53_probability`: Probability of mutation (0-1)
+Useful options:
 
-**Performance Metrics**:
-- Test Accuracy: 0.7327
-- Test Balanced Accuracy: 0.7203
-- Test F1 (weighted): 0.7341
-
----
-
-## Python API Usage
-
-For programmatic access, use the `UniversalCancerPredictor` class:
-
-```python
-from predict import UniversalCancerPredictor
-import pandas as pd
-
-# Load your data (samples × genes)
-X_raw = pd.read_csv('expression_data.csv', index_col=0).values
-
-# Grade pipeline
-grade_pipe = UniversalCancerPredictor(deployment_dir='deployment', task='grade')
-grade_components = grade_pipe.predict_components(X_raw)
-grade_results = grade_pipe.predict_task(X_raw)
-
-print(grade_results['grade_predictions'])
-print(grade_results['grade_probabilities'])
-
-# TP53 pipeline
-tp53_pipe = UniversalCancerPredictor(deployment_dir='deployment', task='tp53')
-tp53_components = tp53_pipe.predict_components(X_raw)
-tp53_results = tp53_pipe.predict_task(X_raw)
-
-print(tp53_results['tp53_predictions'])
-print(tp53_results['tp53_probabilities'])
+```bash
+--method kpca_rbf      # or kpca_cosine
+--model-root PATH      # model artifact folder
+--gene-order PATH      # JSON/TXT/CSV training feature order
 ```
 
----
+Default methods:
 
-## Gene Interpretation
+- Grade: `kpca_rbf`
+- TP53: `kpca_cosine`
 
-Each component is associated with its top contributing genes. To find which genes drive a particular component:
+## Output
 
-```python
-import json
+Component mode writes 50 compressed embedding columns:
 
-# Example path for one task-specific deployment folder
-with open('deployment/Cancer Grade/cgrade_component_gene_mapping.json', 'r') as f:
-    gene_map = json.load(f)
-
-# Get top genes for component 42
-component_key = 'component_42'
-top_genes = gene_map[component_key]['top_10_genes']
-
-for gene_info in top_genes:
-    print(f"{gene_info['gene_name']}: {gene_info['abs_coefficient']:.4f}")
+```text
+pred_component_0 ... pred_component_49
 ```
 
-Or use the built-in method by inspecting the returned interpretability fields from the predictor output.
+Prediction mode writes:
 
----
-
-## Model Performance
-
-### Component Predictor
-- **Test MSE**: ~0.0000 (excellent reconstruction of PHATE components)
-
-### Grade Predictor (XGBoost on Components)
-- **Test Accuracy**: 87.47%
-- **Test F1 (weighted) Score**: 87.74%
-- **Test Balanced Accuracy**: 73.70%
-
-### TP53 Mutation Predictor
-**30 component:**
-- **Test Accuracy**: 73.27%
-- **Test Balanced Accuracy**: 72.03%
-- **Test F1 (weighted)**: 73,41%
-
-**50 component:**
-- **Test Accuracy**: 0.7493
-- **Test Balanced Accuracy**: 0.7419
-- **Test F1 (weighted)**: 0.7514
+- Grade: `grade_prediction`, `high_risk_probability`
+- TP53: `tp53_prediction`, `tp53_mutation_probability`
 
 
-### Execution time details
+## Results
 
-**Grade Prediction**
-- **PHATE 100 Component Extraction:** 226.42s / 3.7m
-- **SHAP computation time:** 3.16s
-- **MLP Component Training:** 242.71s / 4.04m
--  **MLP infer time/sample:** 0.147ms
--  **XGBoost infer time/sample:** 0.027ms
+Hold-out test performance:
 
-**TP53 Mutation Prediction**
-- **PHATE 100 Component Extraction:** 288.73s / 4.8m
-- **SHAP computation time:** 8.67s
-- **MLP Component Training:**  1772.09s / 12.8m
--  **MLP infer time/sample:** 0.169ms
--  **XGBoost infer time/sample:** 0.031ms
----
+| Task | Method | Accuracy | Balanced accuracy | Weighted F1 |
+| --- | --- | ---: | ---: | ---: |
+| Grade | KPCA RBF | 0.8827 | 0.8691 | 0.8940 |
+| TP53 | KPCA Cosine | 0.8352 | 0.8329 | 0.8364 |
 
-<!-- ##  Citation
+5-fold cross-validation out-of-fold performance:
 
-If you use this pipeline in your research, please cite:
+| Task | Method | Accuracy | Balanced accuracy | Weighted F1 |
+| --- | --- | ---: | ---: | ---: |
+| Grade | KPCA RBF | 0.8749 | 0.8296 | 0.8857 |
+| TP53 | KPCA Cosine | 0.8419 | 0.8385 | 0.8429 |
 
-```
-[Add appropriate citation here]
-``` -->
+## Notes
 
-## Pipeline Architecture
-![Architecture](Architecture.jpg "Architecture Pipeline")
-
-
-The pipeline uses a two-stage approach:
-1. **Stage 1**: MLP predicts 30 supervised PHATE components from raw genes
-2. **Stage 2**: Downstream XGBoost classifiers use these components for predictionsMLP Component Predictor
-
-This design allows you to:
-- Reuse components for new prediction tasks
-- Interpret results via gene mapping
-- Achieve strong performance with compact representations
-
----
+- The RNA-seq example model expects 19,310 gene-expression features.
+- Use the provided `gene_order.json` to align input features before inference.
+- Extra input columns are ignored when `gene_order.json` is provided.
+- Missing required features stop inference with an error.
+- For new downstream tasks, use `--mode components` and train your task-specific model on the generated embeddings.
