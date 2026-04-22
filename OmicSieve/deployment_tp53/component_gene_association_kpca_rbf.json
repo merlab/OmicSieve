@@ -1,0 +1,2752 @@
+{
+  "component_1": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "SFN",
+        "spearman_correlation": -0.7036511757634883,
+        "abs_spearman_correlation": 0.7036511757634883
+      },
+      {
+        "gene_name": "LAD1",
+        "spearman_correlation": -0.6986549544418261,
+        "abs_spearman_correlation": 0.6986549544418261
+      },
+      {
+        "gene_name": "TNS4",
+        "spearman_correlation": -0.6672104927771018,
+        "abs_spearman_correlation": 0.6672104927771018
+      },
+      {
+        "gene_name": "AIM1L",
+        "spearman_correlation": -0.6652256129290024,
+        "abs_spearman_correlation": 0.6652256129290024
+      },
+      {
+        "gene_name": "MMP12",
+        "spearman_correlation": -0.6630661503126143,
+        "abs_spearman_correlation": 0.6630661503126143
+      },
+      {
+        "gene_name": "SERPINB5",
+        "spearman_correlation": -0.6618057584833442,
+        "abs_spearman_correlation": 0.6618057584833442
+      },
+      {
+        "gene_name": "MMP1",
+        "spearman_correlation": -0.6578659915352807,
+        "abs_spearman_correlation": 0.6578659915352807
+      },
+      {
+        "gene_name": "LAMB3",
+        "spearman_correlation": -0.6557710673888627,
+        "abs_spearman_correlation": 0.6557710673888627
+      },
+      {
+        "gene_name": "PKP3",
+        "spearman_correlation": -0.6532003160535773,
+        "abs_spearman_correlation": 0.6532003160535773
+      },
+      {
+        "gene_name": "GPR115",
+        "spearman_correlation": -0.649286591799075,
+        "abs_spearman_correlation": 0.649286591799075
+      }
+    ]
+  },
+  "component_3": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "HGD",
+        "spearman_correlation": -0.623053941706969,
+        "abs_spearman_correlation": 0.623053941706969
+      },
+      {
+        "gene_name": "RORC",
+        "spearman_correlation": -0.6106428926420585,
+        "abs_spearman_correlation": 0.6106428926420585
+      },
+      {
+        "gene_name": "SLC7A5",
+        "spearman_correlation": 0.5956570651006045,
+        "abs_spearman_correlation": 0.5956570651006045
+      },
+      {
+        "gene_name": "FSCN1",
+        "spearman_correlation": 0.5922713543676189,
+        "abs_spearman_correlation": 0.5922713543676189
+      },
+      {
+        "gene_name": "ANLN",
+        "spearman_correlation": 0.591854504765391,
+        "abs_spearman_correlation": 0.591854504765391
+      },
+      {
+        "gene_name": "RAB17",
+        "spearman_correlation": -0.5877701069027794,
+        "abs_spearman_correlation": 0.5877701069027794
+      },
+      {
+        "gene_name": "DPF1",
+        "spearman_correlation": 0.5837965795404534,
+        "abs_spearman_correlation": 0.5837965795404534
+      },
+      {
+        "gene_name": "HPN",
+        "spearman_correlation": -0.5837307245343476,
+        "abs_spearman_correlation": 0.5837307245343476
+      },
+      {
+        "gene_name": "PTPRZ1",
+        "spearman_correlation": 0.5752960286307903,
+        "abs_spearman_correlation": 0.5752960286307903
+      },
+      {
+        "gene_name": "KIF12",
+        "spearman_correlation": -0.5748710580638333,
+        "abs_spearman_correlation": 0.5748710580638333
+      }
+    ]
+  },
+  "component_0": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "THRAP3",
+        "spearman_correlation": -0.8204681197946451,
+        "abs_spearman_correlation": 0.8204681197946451
+      },
+      {
+        "gene_name": "CREB1",
+        "spearman_correlation": -0.8151070307829534,
+        "abs_spearman_correlation": 0.8151070307829534
+      },
+      {
+        "gene_name": "YTHDC1",
+        "spearman_correlation": -0.8109929173242462,
+        "abs_spearman_correlation": 0.8109929173242462
+      },
+      {
+        "gene_name": "ZBTB14",
+        "spearman_correlation": -0.8097690816159172,
+        "abs_spearman_correlation": 0.8097690816159172
+      },
+      {
+        "gene_name": "GOSR1",
+        "spearman_correlation": -0.8043902685812936,
+        "abs_spearman_correlation": 0.8043902685812936
+      },
+      {
+        "gene_name": "CUL3",
+        "spearman_correlation": -0.8034269204126949,
+        "abs_spearman_correlation": 0.8034269204126949
+      },
+      {
+        "gene_name": "KCTD18",
+        "spearman_correlation": -0.8032053796426355,
+        "abs_spearman_correlation": 0.8032053796426355
+      },
+      {
+        "gene_name": "ZNF148",
+        "spearman_correlation": -0.8027750455252296,
+        "abs_spearman_correlation": 0.8027750455252296
+      },
+      {
+        "gene_name": "EFCAB14",
+        "spearman_correlation": -0.8022095302545691,
+        "abs_spearman_correlation": 0.8022095302545691
+      },
+      {
+        "gene_name": "UBXN4",
+        "spearman_correlation": -0.8018011988942558,
+        "abs_spearman_correlation": 0.8018011988942558
+      }
+    ]
+  },
+  "component_6": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "SLC17A4",
+        "spearman_correlation": -0.5685156476815068,
+        "abs_spearman_correlation": 0.5685156476815068
+      },
+      {
+        "gene_name": "DDC",
+        "spearman_correlation": -0.5611892685841317,
+        "abs_spearman_correlation": 0.5611892685841317
+      },
+      {
+        "gene_name": "HSD17B11",
+        "spearman_correlation": -0.5605427947256035,
+        "abs_spearman_correlation": 0.5605427947256035
+      },
+      {
+        "gene_name": "NR1H4",
+        "spearman_correlation": -0.5565601053133757,
+        "abs_spearman_correlation": 0.5565601053133757
+      },
+      {
+        "gene_name": "ALDOB",
+        "spearman_correlation": -0.5505177331829068,
+        "abs_spearman_correlation": 0.5505177331829068
+      },
+      {
+        "gene_name": "CRABP2",
+        "spearman_correlation": 0.5436047075802692,
+        "abs_spearman_correlation": 0.5436047075802692
+      },
+      {
+        "gene_name": "PRR26",
+        "spearman_correlation": -0.5396262845566876,
+        "abs_spearman_correlation": 0.5396262845566876
+      },
+      {
+        "gene_name": "GLYCTK",
+        "spearman_correlation": -0.5389180961338673,
+        "abs_spearman_correlation": 0.5389180961338673
+      },
+      {
+        "gene_name": "CYP3A5",
+        "spearman_correlation": -0.5340090766315793,
+        "abs_spearman_correlation": 0.5340090766315793
+      },
+      {
+        "gene_name": "A1CF",
+        "spearman_correlation": -0.528894388076085,
+        "abs_spearman_correlation": 0.528894388076085
+      }
+    ]
+  },
+  "component_5": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "NDUFA11",
+        "spearman_correlation": 0.5811603893271781,
+        "abs_spearman_correlation": 0.5811603893271781
+      },
+      {
+        "gene_name": "UROD",
+        "spearman_correlation": 0.5768761682397562,
+        "abs_spearman_correlation": 0.5768761682397562
+      },
+      {
+        "gene_name": "KIAA1324",
+        "spearman_correlation": -0.5712997483014448,
+        "abs_spearman_correlation": 0.5712997483014448
+      },
+      {
+        "gene_name": "NDUFB7",
+        "spearman_correlation": 0.5654830439274245,
+        "abs_spearman_correlation": 0.5654830439274245
+      },
+      {
+        "gene_name": "MRPL2",
+        "spearman_correlation": 0.561792855785404,
+        "abs_spearman_correlation": 0.561792855785404
+      },
+      {
+        "gene_name": "GADD45GIP1",
+        "spearman_correlation": 0.554161050281408,
+        "abs_spearman_correlation": 0.554161050281408
+      },
+      {
+        "gene_name": "C9orf152",
+        "spearman_correlation": -0.5510417817788953,
+        "abs_spearman_correlation": 0.5510417817788953
+      },
+      {
+        "gene_name": "BCAS1",
+        "spearman_correlation": -0.5493638249493042,
+        "abs_spearman_correlation": 0.5493638249493042
+      },
+      {
+        "gene_name": "KIAA1244",
+        "spearman_correlation": -0.548400108764984,
+        "abs_spearman_correlation": 0.548400108764984
+      },
+      {
+        "gene_name": "ETFB",
+        "spearman_correlation": 0.5470148455575676,
+        "abs_spearman_correlation": 0.5470148455575676
+      }
+    ]
+  },
+  "component_9": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "SERPINB11",
+        "spearman_correlation": 0.5194124074054409,
+        "abs_spearman_correlation": 0.5194124074054409
+      },
+      {
+        "gene_name": "CDH26",
+        "spearman_correlation": 0.4695984047356214,
+        "abs_spearman_correlation": 0.4695984047356214
+      },
+      {
+        "gene_name": "WNT3A",
+        "spearman_correlation": 0.4654579135350445,
+        "abs_spearman_correlation": 0.4654579135350445
+      },
+      {
+        "gene_name": "SCGB1A1",
+        "spearman_correlation": 0.4455693393428987,
+        "abs_spearman_correlation": 0.4455693393428987
+      },
+      {
+        "gene_name": "ALOX12B",
+        "spearman_correlation": 0.4452898956215573,
+        "abs_spearman_correlation": 0.4452898956215573
+      },
+      {
+        "gene_name": "ADRB2",
+        "spearman_correlation": 0.44125364217216734,
+        "abs_spearman_correlation": 0.44125364217216734
+      },
+      {
+        "gene_name": "NOS1",
+        "spearman_correlation": 0.44032417896498355,
+        "abs_spearman_correlation": 0.44032417896498355
+      },
+      {
+        "gene_name": "SERPINB13",
+        "spearman_correlation": 0.4387880223831114,
+        "abs_spearman_correlation": 0.4387880223831114
+      },
+      {
+        "gene_name": "WFDC5",
+        "spearman_correlation": 0.4350437793235935,
+        "abs_spearman_correlation": 0.4350437793235935
+      },
+      {
+        "gene_name": "IL31RA",
+        "spearman_correlation": 0.4336564664923075,
+        "abs_spearman_correlation": 0.4336564664923075
+      }
+    ]
+  },
+  "component_14": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "CLTB",
+        "spearman_correlation": 0.4147686305271207,
+        "abs_spearman_correlation": 0.4147686305271207
+      },
+      {
+        "gene_name": "COX7A1",
+        "spearman_correlation": 0.3752345161425864,
+        "abs_spearman_correlation": 0.3752345161425864
+      },
+      {
+        "gene_name": "INAFM1",
+        "spearman_correlation": 0.35850933184674744,
+        "abs_spearman_correlation": 0.35850933184674744
+      },
+      {
+        "gene_name": "ZBTB7A",
+        "spearman_correlation": 0.3464607693315573,
+        "abs_spearman_correlation": 0.3464607693315573
+      },
+      {
+        "gene_name": "RIN1",
+        "spearman_correlation": 0.34235181914222484,
+        "abs_spearman_correlation": 0.34235181914222484
+      },
+      {
+        "gene_name": "PPDPF",
+        "spearman_correlation": 0.3363736129339192,
+        "abs_spearman_correlation": 0.3363736129339192
+      },
+      {
+        "gene_name": "BDKRB2",
+        "spearman_correlation": 0.3253331309277175,
+        "abs_spearman_correlation": 0.3253331309277175
+      },
+      {
+        "gene_name": "GCNT2",
+        "spearman_correlation": -0.3244757620412676,
+        "abs_spearman_correlation": 0.3244757620412676
+      },
+      {
+        "gene_name": "MAPK3",
+        "spearman_correlation": 0.32095509709053827,
+        "abs_spearman_correlation": 0.32095509709053827
+      },
+      {
+        "gene_name": "SLC9A1",
+        "spearman_correlation": 0.31936413323982643,
+        "abs_spearman_correlation": 0.31936413323982643
+      }
+    ]
+  },
+  "component_2": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "PLK1",
+        "spearman_correlation": -0.6288675257244712,
+        "abs_spearman_correlation": 0.6288675257244712
+      },
+      {
+        "gene_name": "ORC1",
+        "spearman_correlation": -0.6247006436953831,
+        "abs_spearman_correlation": 0.6247006436953831
+      },
+      {
+        "gene_name": "TROAP",
+        "spearman_correlation": -0.6225388566080353,
+        "abs_spearman_correlation": 0.6225388566080353
+      },
+      {
+        "gene_name": "AURKB",
+        "spearman_correlation": -0.6218204361608445,
+        "abs_spearman_correlation": 0.6218204361608445
+      },
+      {
+        "gene_name": "SKA3",
+        "spearman_correlation": -0.6206775096296973,
+        "abs_spearman_correlation": 0.6206775096296973
+      },
+      {
+        "gene_name": "CDC45",
+        "spearman_correlation": -0.6174231287553467,
+        "abs_spearman_correlation": 0.6174231287553467
+      },
+      {
+        "gene_name": "TICRR",
+        "spearman_correlation": -0.6164459217358907,
+        "abs_spearman_correlation": 0.6164459217358907
+      },
+      {
+        "gene_name": "ESPL1",
+        "spearman_correlation": -0.6159021171638853,
+        "abs_spearman_correlation": 0.6159021171638853
+      },
+      {
+        "gene_name": "TPX2",
+        "spearman_correlation": -0.6134009363799583,
+        "abs_spearman_correlation": 0.6134009363799583
+      },
+      {
+        "gene_name": "AURKA",
+        "spearman_correlation": -0.613387744211806,
+        "abs_spearman_correlation": 0.613387744211806
+      }
+    ]
+  },
+  "component_13": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "CCDC88B",
+        "spearman_correlation": 0.5024071568177151,
+        "abs_spearman_correlation": 0.5024071568177151
+      },
+      {
+        "gene_name": "APOBR",
+        "spearman_correlation": 0.49524584741302197,
+        "abs_spearman_correlation": 0.49524584741302197
+      },
+      {
+        "gene_name": "DEF6",
+        "spearman_correlation": 0.4572455303278548,
+        "abs_spearman_correlation": 0.4572455303278548
+      },
+      {
+        "gene_name": "FGD3",
+        "spearman_correlation": 0.4426470032596299,
+        "abs_spearman_correlation": 0.4426470032596299
+      },
+      {
+        "gene_name": "HMHA1",
+        "spearman_correlation": 0.43838121683174036,
+        "abs_spearman_correlation": 0.43838121683174036
+      },
+      {
+        "gene_name": "CORO1A",
+        "spearman_correlation": 0.4316397010359453,
+        "abs_spearman_correlation": 0.4316397010359453
+      },
+      {
+        "gene_name": "PSMB10",
+        "spearman_correlation": 0.4230966272721124,
+        "abs_spearman_correlation": 0.4230966272721124
+      },
+      {
+        "gene_name": "PSTPIP1",
+        "spearman_correlation": 0.42167873141242773,
+        "abs_spearman_correlation": 0.42167873141242773
+      },
+      {
+        "gene_name": "SPNS3",
+        "spearman_correlation": 0.41321701171757036,
+        "abs_spearman_correlation": 0.41321701171757036
+      },
+      {
+        "gene_name": "RHOH",
+        "spearman_correlation": 0.4095495439936391,
+        "abs_spearman_correlation": 0.4095495439936391
+      }
+    ]
+  },
+  "component_10": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "EBLN2",
+        "spearman_correlation": 0.40993754984452924,
+        "abs_spearman_correlation": 0.40993754984452924
+      },
+      {
+        "gene_name": "MSRB1",
+        "spearman_correlation": -0.39101877849029715,
+        "abs_spearman_correlation": 0.39101877849029715
+      },
+      {
+        "gene_name": "EFCAB13",
+        "spearman_correlation": 0.3835485645559675,
+        "abs_spearman_correlation": 0.3835485645559675
+      },
+      {
+        "gene_name": "NKTR",
+        "spearman_correlation": 0.37485815426282376,
+        "abs_spearman_correlation": 0.37485815426282376
+      },
+      {
+        "gene_name": "MRPL28",
+        "spearman_correlation": -0.36994751303707984,
+        "abs_spearman_correlation": 0.36994751303707984
+      },
+      {
+        "gene_name": "EGLN3",
+        "spearman_correlation": -0.36775853165464145,
+        "abs_spearman_correlation": 0.36775853165464145
+      },
+      {
+        "gene_name": "SYCP3",
+        "spearman_correlation": 0.3629953541163449,
+        "abs_spearman_correlation": 0.3629953541163449
+      },
+      {
+        "gene_name": "LRCH4",
+        "spearman_correlation": 0.35730677247289666,
+        "abs_spearman_correlation": 0.35730677247289666
+      },
+      {
+        "gene_name": "GUK1",
+        "spearman_correlation": -0.35697810268808144,
+        "abs_spearman_correlation": 0.35697810268808144
+      },
+      {
+        "gene_name": "AC090154.1",
+        "spearman_correlation": 0.3555954511089532,
+        "abs_spearman_correlation": 0.3555954511089532
+      }
+    ]
+  },
+  "component_15": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "PFKFB2",
+        "spearman_correlation": 0.3857124385862198,
+        "abs_spearman_correlation": 0.3857124385862198
+      },
+      {
+        "gene_name": "ABR",
+        "spearman_correlation": 0.34574005862977036,
+        "abs_spearman_correlation": 0.34574005862977036
+      },
+      {
+        "gene_name": "PLXNB3",
+        "spearman_correlation": 0.34212783750835113,
+        "abs_spearman_correlation": 0.34212783750835113
+      },
+      {
+        "gene_name": "CLCN7",
+        "spearman_correlation": 0.33009781624007195,
+        "abs_spearman_correlation": 0.33009781624007195
+      },
+      {
+        "gene_name": "NPC1",
+        "spearman_correlation": 0.3265637327290462,
+        "abs_spearman_correlation": 0.3265637327290462
+      },
+      {
+        "gene_name": "MLPH",
+        "spearman_correlation": 0.31505789077040774,
+        "abs_spearman_correlation": 0.31505789077040774
+      },
+      {
+        "gene_name": "BTBD9",
+        "spearman_correlation": 0.31264855400323194,
+        "abs_spearman_correlation": 0.31264855400323194
+      },
+      {
+        "gene_name": "KIF13B",
+        "spearman_correlation": 0.31154598548603074,
+        "abs_spearman_correlation": 0.31154598548603074
+      },
+      {
+        "gene_name": "STK32A",
+        "spearman_correlation": 0.3072466171416172,
+        "abs_spearman_correlation": 0.3072466171416172
+      },
+      {
+        "gene_name": "ZDHHC7",
+        "spearman_correlation": 0.30674173258313425,
+        "abs_spearman_correlation": 0.30674173258313425
+      }
+    ]
+  },
+  "component_29": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "NDRG2",
+        "spearman_correlation": 0.292382706857321,
+        "abs_spearman_correlation": 0.292382706857321
+      },
+      {
+        "gene_name": "MYZAP",
+        "spearman_correlation": 0.2643813299673765,
+        "abs_spearman_correlation": 0.2643813299673765
+      },
+      {
+        "gene_name": "PLCD1",
+        "spearman_correlation": 0.25147367510296137,
+        "abs_spearman_correlation": 0.25147367510296137
+      },
+      {
+        "gene_name": "PINK1",
+        "spearman_correlation": 0.23923106912818817,
+        "abs_spearman_correlation": 0.23923106912818817
+      },
+      {
+        "gene_name": "MPP3",
+        "spearman_correlation": -0.23455488719737982,
+        "abs_spearman_correlation": 0.23455488719737982
+      },
+      {
+        "gene_name": "ALDH1L1",
+        "spearman_correlation": 0.23177755218980953,
+        "abs_spearman_correlation": 0.23177755218980953
+      },
+      {
+        "gene_name": "SLMO1",
+        "spearman_correlation": -0.22970849940016538,
+        "abs_spearman_correlation": 0.22970849940016538
+      },
+      {
+        "gene_name": "HSF4",
+        "spearman_correlation": -0.2262545815271452,
+        "abs_spearman_correlation": 0.2262545815271452
+      },
+      {
+        "gene_name": "DNAH14",
+        "spearman_correlation": -0.22506568528399098,
+        "abs_spearman_correlation": 0.22506568528399098
+      },
+      {
+        "gene_name": "ACKR2",
+        "spearman_correlation": 0.22475447835504828,
+        "abs_spearman_correlation": 0.22475447835504828
+      }
+    ]
+  },
+  "component_4": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "TLR8",
+        "spearman_correlation": -0.5886871523853493,
+        "abs_spearman_correlation": 0.5886871523853493
+      },
+      {
+        "gene_name": "IL10RA",
+        "spearman_correlation": -0.584411570025354,
+        "abs_spearman_correlation": 0.584411570025354
+      },
+      {
+        "gene_name": "MYO1F",
+        "spearman_correlation": -0.56975201876441,
+        "abs_spearman_correlation": 0.56975201876441
+      },
+      {
+        "gene_name": "LILRB2",
+        "spearman_correlation": -0.5696884803069654,
+        "abs_spearman_correlation": 0.5696884803069654
+      },
+      {
+        "gene_name": "DOCK2",
+        "spearman_correlation": -0.5655912439361115,
+        "abs_spearman_correlation": 0.5655912439361115
+      },
+      {
+        "gene_name": "SLC7A7",
+        "spearman_correlation": -0.5641630259877131,
+        "abs_spearman_correlation": 0.5641630259877131
+      },
+      {
+        "gene_name": "LILRB1",
+        "spearman_correlation": -0.5629975000434368,
+        "abs_spearman_correlation": 0.5629975000434368
+      },
+      {
+        "gene_name": "CD53",
+        "spearman_correlation": -0.5626386889786071,
+        "abs_spearman_correlation": 0.5626386889786071
+      },
+      {
+        "gene_name": "LILRB3",
+        "spearman_correlation": -0.5625500386143617,
+        "abs_spearman_correlation": 0.5625500386143617
+      },
+      {
+        "gene_name": "TFEC",
+        "spearman_correlation": -0.5616410421166008,
+        "abs_spearman_correlation": 0.5616410421166008
+      }
+    ]
+  },
+  "component_52": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "SPNS1",
+        "spearman_correlation": 0.14169245685058768,
+        "abs_spearman_correlation": 0.14169245685058768
+      },
+      {
+        "gene_name": "MRPL4",
+        "spearman_correlation": 0.1394475283445299,
+        "abs_spearman_correlation": 0.1394475283445299
+      },
+      {
+        "gene_name": "GET4",
+        "spearman_correlation": 0.13543079648086992,
+        "abs_spearman_correlation": 0.13543079648086992
+      },
+      {
+        "gene_name": "FBXW9",
+        "spearman_correlation": 0.13315123947205018,
+        "abs_spearman_correlation": 0.13315123947205018
+      },
+      {
+        "gene_name": "RPS5",
+        "spearman_correlation": 0.1323830724871726,
+        "abs_spearman_correlation": 0.1323830724871726
+      },
+      {
+        "gene_name": "PTX4",
+        "spearman_correlation": 0.13002150306517354,
+        "abs_spearman_correlation": 0.13002150306517354
+      },
+      {
+        "gene_name": "MAZ",
+        "spearman_correlation": 0.12885984360813632,
+        "abs_spearman_correlation": 0.12885984360813632
+      },
+      {
+        "gene_name": "C2",
+        "spearman_correlation": -0.1265212365673366,
+        "abs_spearman_correlation": 0.1265212365673366
+      },
+      {
+        "gene_name": "GPR12",
+        "spearman_correlation": 0.1264583376951005,
+        "abs_spearman_correlation": 0.1264583376951005
+      },
+      {
+        "gene_name": "MRI1",
+        "spearman_correlation": 0.12557082927054578,
+        "abs_spearman_correlation": 0.12557082927054578
+      }
+    ]
+  },
+  "component_22": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "IFT20",
+        "spearman_correlation": -0.326049385734565,
+        "abs_spearman_correlation": 0.326049385734565
+      },
+      {
+        "gene_name": "OPN1SW",
+        "spearman_correlation": -0.319331585250199,
+        "abs_spearman_correlation": 0.319331585250199
+      },
+      {
+        "gene_name": "TFPI",
+        "spearman_correlation": -0.30713593792597754,
+        "abs_spearman_correlation": 0.30713593792597754
+      },
+      {
+        "gene_name": "SPOCD1",
+        "spearman_correlation": -0.29633183915868755,
+        "abs_spearman_correlation": 0.29633183915868755
+      },
+      {
+        "gene_name": "RGS17",
+        "spearman_correlation": -0.2940202165115936,
+        "abs_spearman_correlation": 0.2940202165115936
+      },
+      {
+        "gene_name": "WSB1",
+        "spearman_correlation": -0.28963212094741825,
+        "abs_spearman_correlation": 0.28963212094741825
+      },
+      {
+        "gene_name": "SEC61G",
+        "spearman_correlation": -0.28622136719730673,
+        "abs_spearman_correlation": 0.28622136719730673
+      },
+      {
+        "gene_name": "P3H4",
+        "spearman_correlation": -0.28382319181831606,
+        "abs_spearman_correlation": 0.28382319181831606
+      },
+      {
+        "gene_name": "TMEM44",
+        "spearman_correlation": -0.2815931984986149,
+        "abs_spearman_correlation": 0.2815931984986149
+      },
+      {
+        "gene_name": "SRPX2",
+        "spearman_correlation": -0.2792737549960609,
+        "abs_spearman_correlation": 0.2792737549960609
+      }
+    ]
+  },
+  "component_18": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "SCARF2",
+        "spearman_correlation": -0.3652361830326372,
+        "abs_spearman_correlation": 0.3652361830326372
+      },
+      {
+        "gene_name": "PLEC",
+        "spearman_correlation": -0.3576596082198911,
+        "abs_spearman_correlation": 0.3576596082198911
+      },
+      {
+        "gene_name": "MAP3K11",
+        "spearman_correlation": -0.32080827018748304,
+        "abs_spearman_correlation": 0.32080827018748304
+      },
+      {
+        "gene_name": "PARM1",
+        "spearman_correlation": 0.31861718907942055,
+        "abs_spearman_correlation": 0.31861718907942055
+      },
+      {
+        "gene_name": "CMC4",
+        "spearman_correlation": -0.31125296803361774,
+        "abs_spearman_correlation": 0.31125296803361774
+      },
+      {
+        "gene_name": "MNT",
+        "spearman_correlation": -0.30388328205938925,
+        "abs_spearman_correlation": 0.30388328205938925
+      },
+      {
+        "gene_name": "NDST1",
+        "spearman_correlation": -0.30292693376008145,
+        "abs_spearman_correlation": 0.30292693376008145
+      },
+      {
+        "gene_name": "BCL9L",
+        "spearman_correlation": -0.301043907201428,
+        "abs_spearman_correlation": 0.301043907201428
+      },
+      {
+        "gene_name": "SKI",
+        "spearman_correlation": -0.29936898091386627,
+        "abs_spearman_correlation": 0.29936898091386627
+      },
+      {
+        "gene_name": "PTPN23",
+        "spearman_correlation": -0.29860812485998955,
+        "abs_spearman_correlation": 0.29860812485998955
+      }
+    ]
+  },
+  "component_25": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "NMNAT3",
+        "spearman_correlation": 0.24951172880250166,
+        "abs_spearman_correlation": 0.24951172880250166
+      },
+      {
+        "gene_name": "LGI3",
+        "spearman_correlation": 0.21973650247853777,
+        "abs_spearman_correlation": 0.21973650247853777
+      },
+      {
+        "gene_name": "SFTPC",
+        "spearman_correlation": 0.2159070892933904,
+        "abs_spearman_correlation": 0.2159070892933904
+      },
+      {
+        "gene_name": "KRTAP19.1",
+        "spearman_correlation": 0.21397914245713148,
+        "abs_spearman_correlation": 0.21397914245713148
+      },
+      {
+        "gene_name": "FGFBP2",
+        "spearman_correlation": 0.2127893715851811,
+        "abs_spearman_correlation": 0.2127893715851811
+      },
+      {
+        "gene_name": "DAPL1",
+        "spearman_correlation": 0.20508228034591436,
+        "abs_spearman_correlation": 0.20508228034591436
+      },
+      {
+        "gene_name": "TSPAN7",
+        "spearman_correlation": 0.2039216320776955,
+        "abs_spearman_correlation": 0.2039216320776955
+      },
+      {
+        "gene_name": "GSTM4",
+        "spearman_correlation": 0.1967930089071365,
+        "abs_spearman_correlation": 0.1967930089071365
+      },
+      {
+        "gene_name": "IGFBP2",
+        "spearman_correlation": 0.1945790602831935,
+        "abs_spearman_correlation": 0.1945790602831935
+      },
+      {
+        "gene_name": "PIR",
+        "spearman_correlation": 0.19002023860319447,
+        "abs_spearman_correlation": 0.19002023860319447
+      }
+    ]
+  },
+  "component_8": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "C1orf228",
+        "spearman_correlation": -0.5278120391511535,
+        "abs_spearman_correlation": 0.5278120391511535
+      },
+      {
+        "gene_name": "REC8",
+        "spearman_correlation": -0.5209863203638103,
+        "abs_spearman_correlation": 0.5209863203638103
+      },
+      {
+        "gene_name": "MXD3",
+        "spearman_correlation": -0.5055877720524145,
+        "abs_spearman_correlation": 0.5055877720524145
+      },
+      {
+        "gene_name": "LIMD2",
+        "spearman_correlation": -0.5019944530812072,
+        "abs_spearman_correlation": 0.5019944530812072
+      },
+      {
+        "gene_name": "SAP25",
+        "spearman_correlation": -0.5004353506237326,
+        "abs_spearman_correlation": 0.5004353506237326
+      },
+      {
+        "gene_name": "ADM5",
+        "spearman_correlation": -0.4959233194275435,
+        "abs_spearman_correlation": 0.4959233194275435
+      },
+      {
+        "gene_name": "CCDC42B",
+        "spearman_correlation": -0.49439967120866896,
+        "abs_spearman_correlation": 0.49439967120866896
+      },
+      {
+        "gene_name": "MMP23B",
+        "spearman_correlation": -0.48570801727058105,
+        "abs_spearman_correlation": 0.48570801727058105
+      },
+      {
+        "gene_name": "FGF18",
+        "spearman_correlation": -0.4767528264290148,
+        "abs_spearman_correlation": 0.4767528264290148
+      },
+      {
+        "gene_name": "REM2",
+        "spearman_correlation": -0.47535958991106797,
+        "abs_spearman_correlation": 0.47535958991106797
+      }
+    ]
+  },
+  "component_7": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "FOXQ1",
+        "spearman_correlation": 0.6578530372361421,
+        "abs_spearman_correlation": 0.6578530372361421
+      },
+      {
+        "gene_name": "ADAP1",
+        "spearman_correlation": 0.6159991174489672,
+        "abs_spearman_correlation": 0.6159991174489672
+      },
+      {
+        "gene_name": "FA2H",
+        "spearman_correlation": 0.5987278899783189,
+        "abs_spearman_correlation": 0.5987278899783189
+      },
+      {
+        "gene_name": "ID1",
+        "spearman_correlation": 0.5943427996639539,
+        "abs_spearman_correlation": 0.5943427996639539
+      },
+      {
+        "gene_name": "FAM150A",
+        "spearman_correlation": 0.5892079379923532,
+        "abs_spearman_correlation": 0.5892079379923532
+      },
+      {
+        "gene_name": "CFTR",
+        "spearman_correlation": 0.5880358579427625,
+        "abs_spearman_correlation": 0.5880358579427625
+      },
+      {
+        "gene_name": "PDE4C",
+        "spearman_correlation": 0.5806455596858979,
+        "abs_spearman_correlation": 0.5806455596858979
+      },
+      {
+        "gene_name": "LZTS3",
+        "spearman_correlation": 0.5790587631211779,
+        "abs_spearman_correlation": 0.5790587631211779
+      },
+      {
+        "gene_name": "DTX4",
+        "spearman_correlation": 0.5675760406829161,
+        "abs_spearman_correlation": 0.5675760406829161
+      },
+      {
+        "gene_name": "ASCL5",
+        "spearman_correlation": 0.5655203197589929,
+        "abs_spearman_correlation": 0.5655203197589929
+      }
+    ]
+  },
+  "component_19": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "SALL1",
+        "spearman_correlation": 0.2544862283598497,
+        "abs_spearman_correlation": 0.2544862283598497
+      },
+      {
+        "gene_name": "CD274",
+        "spearman_correlation": -0.246506782810164,
+        "abs_spearman_correlation": 0.246506782810164
+      },
+      {
+        "gene_name": "ACOXL",
+        "spearman_correlation": -0.24493273917715314,
+        "abs_spearman_correlation": 0.24493273917715314
+      },
+      {
+        "gene_name": "PPP1R16B",
+        "spearman_correlation": -0.23516567543275424,
+        "abs_spearman_correlation": 0.23516567543275424
+      },
+      {
+        "gene_name": "EEPD1",
+        "spearman_correlation": 0.2305348899537324,
+        "abs_spearman_correlation": 0.2305348899537324
+      },
+      {
+        "gene_name": "CXCL9",
+        "spearman_correlation": -0.22856804152973093,
+        "abs_spearman_correlation": 0.22856804152973093
+      },
+      {
+        "gene_name": "TDRKH",
+        "spearman_correlation": -0.22360458822604679,
+        "abs_spearman_correlation": 0.22360458822604679
+      },
+      {
+        "gene_name": "WARS",
+        "spearman_correlation": -0.22115595995113502,
+        "abs_spearman_correlation": 0.22115595995113502
+      },
+      {
+        "gene_name": "SEPT1",
+        "spearman_correlation": -0.22113878605345505,
+        "abs_spearman_correlation": 0.22113878605345505
+      },
+      {
+        "gene_name": "PKD2L2",
+        "spearman_correlation": -0.2190291700638412,
+        "abs_spearman_correlation": 0.2190291700638412
+      }
+    ]
+  },
+  "component_31": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "D4S234E",
+        "spearman_correlation": -0.29505099657328926,
+        "abs_spearman_correlation": 0.29505099657328926
+      },
+      {
+        "gene_name": "GALNT10",
+        "spearman_correlation": 0.2397769516240291,
+        "abs_spearman_correlation": 0.2397769516240291
+      },
+      {
+        "gene_name": "SH3TC2",
+        "spearman_correlation": -0.23901850066911975,
+        "abs_spearman_correlation": 0.23901850066911975
+      },
+      {
+        "gene_name": "ENDOG",
+        "spearman_correlation": 0.23054140020799557,
+        "abs_spearman_correlation": 0.23054140020799557
+      },
+      {
+        "gene_name": "RDH12",
+        "spearman_correlation": -0.22152994317710908,
+        "abs_spearman_correlation": 0.22152994317710908
+      },
+      {
+        "gene_name": "TIAM1",
+        "spearman_correlation": -0.22127054080529054,
+        "abs_spearman_correlation": 0.22127054080529054
+      },
+      {
+        "gene_name": "KITLG",
+        "spearman_correlation": 0.21964116125556463,
+        "abs_spearman_correlation": 0.21964116125556463
+      },
+      {
+        "gene_name": "ITPKA",
+        "spearman_correlation": 0.21955550718916378,
+        "abs_spearman_correlation": 0.21955550718916378
+      },
+      {
+        "gene_name": "S100A1",
+        "spearman_correlation": -0.21816957333379836,
+        "abs_spearman_correlation": 0.21816957333379836
+      },
+      {
+        "gene_name": "BHLHE41",
+        "spearman_correlation": -0.21488287551062463,
+        "abs_spearman_correlation": 0.21488287551062463
+      }
+    ]
+  },
+  "component_56": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "CCDC113",
+        "spearman_correlation": 0.16545780533183885,
+        "abs_spearman_correlation": 0.16545780533183885
+      },
+      {
+        "gene_name": "STEAP3",
+        "spearman_correlation": 0.14833526439600164,
+        "abs_spearman_correlation": 0.14833526439600164
+      },
+      {
+        "gene_name": "TCF7",
+        "spearman_correlation": 0.1418059530144346,
+        "abs_spearman_correlation": 0.1418059530144346
+      },
+      {
+        "gene_name": "MMP20",
+        "spearman_correlation": 0.13895903404455184,
+        "abs_spearman_correlation": 0.13895903404455184
+      },
+      {
+        "gene_name": "SLC6A2",
+        "spearman_correlation": 0.13467673477978115,
+        "abs_spearman_correlation": 0.13467673477978115
+      },
+      {
+        "gene_name": "NFASC",
+        "spearman_correlation": 0.1332793343018079,
+        "abs_spearman_correlation": 0.1332793343018079
+      },
+      {
+        "gene_name": "RBM38",
+        "spearman_correlation": 0.13275640822364332,
+        "abs_spearman_correlation": 0.13275640822364332
+      },
+      {
+        "gene_name": "DGKG",
+        "spearman_correlation": 0.13209570459278788,
+        "abs_spearman_correlation": 0.13209570459278788
+      },
+      {
+        "gene_name": "CCDC71L",
+        "spearman_correlation": 0.13077459103846492,
+        "abs_spearman_correlation": 0.13077459103846492
+      },
+      {
+        "gene_name": "RASD2",
+        "spearman_correlation": 0.13051816156369606,
+        "abs_spearman_correlation": 0.13051816156369606
+      }
+    ]
+  },
+  "component_42": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "ASPHD2",
+        "spearman_correlation": 0.17675508610573662,
+        "abs_spearman_correlation": 0.17675508610573662
+      },
+      {
+        "gene_name": "KCNG2",
+        "spearman_correlation": -0.175169376351923,
+        "abs_spearman_correlation": 0.175169376351923
+      },
+      {
+        "gene_name": "KCNQ4",
+        "spearman_correlation": -0.17494670438046495,
+        "abs_spearman_correlation": 0.17494670438046495
+      },
+      {
+        "gene_name": "PABPC3",
+        "spearman_correlation": -0.16990673579059434,
+        "abs_spearman_correlation": 0.16990673579059434
+      },
+      {
+        "gene_name": "EVA1C",
+        "spearman_correlation": -0.16803043869505951,
+        "abs_spearman_correlation": 0.16803043869505951
+      },
+      {
+        "gene_name": "SOX15",
+        "spearman_correlation": -0.16452281123239304,
+        "abs_spearman_correlation": 0.16452281123239304
+      },
+      {
+        "gene_name": "PCP4L1",
+        "spearman_correlation": -0.16384384840653352,
+        "abs_spearman_correlation": 0.16384384840653352
+      },
+      {
+        "gene_name": "PITPNM2",
+        "spearman_correlation": -0.1630835885432444,
+        "abs_spearman_correlation": 0.1630835885432444
+      },
+      {
+        "gene_name": "PPP1R14A",
+        "spearman_correlation": -0.15980275365128388,
+        "abs_spearman_correlation": 0.15980275365128388
+      },
+      {
+        "gene_name": "CEBPD",
+        "spearman_correlation": -0.1557922912122234,
+        "abs_spearman_correlation": 0.1557922912122234
+      }
+    ]
+  },
+  "component_74": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "TPRN",
+        "spearman_correlation": -0.14812545117774034,
+        "abs_spearman_correlation": 0.14812545117774034
+      },
+      {
+        "gene_name": "CDK5RAP2",
+        "spearman_correlation": -0.13979797056050894,
+        "abs_spearman_correlation": 0.13979797056050894
+      },
+      {
+        "gene_name": "SDCCAG3",
+        "spearman_correlation": -0.13703099706145047,
+        "abs_spearman_correlation": 0.13703099706145047
+      },
+      {
+        "gene_name": "SSNA1",
+        "spearman_correlation": -0.13400650248068108,
+        "abs_spearman_correlation": 0.13400650248068108
+      },
+      {
+        "gene_name": "FANCC",
+        "spearman_correlation": -0.12989775669712364,
+        "abs_spearman_correlation": 0.12989775669712364
+      },
+      {
+        "gene_name": "TUBB4B",
+        "spearman_correlation": -0.12744028333970248,
+        "abs_spearman_correlation": 0.12744028333970248
+      },
+      {
+        "gene_name": "PKN3",
+        "spearman_correlation": -0.12734345508015088,
+        "abs_spearman_correlation": 0.12734345508015088
+      },
+      {
+        "gene_name": "C9orf40",
+        "spearman_correlation": -0.12733250571767618,
+        "abs_spearman_correlation": 0.12733250571767618
+      },
+      {
+        "gene_name": "WDR5",
+        "spearman_correlation": -0.12605632644594006,
+        "abs_spearman_correlation": 0.12605632644594006
+      },
+      {
+        "gene_name": "ZMYND19",
+        "spearman_correlation": -0.12485242292749313,
+        "abs_spearman_correlation": 0.12485242292749313
+      }
+    ]
+  },
+  "component_84": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "IL33",
+        "spearman_correlation": -0.11676433491058161,
+        "abs_spearman_correlation": 0.11676433491058161
+      },
+      {
+        "gene_name": "ZNF214",
+        "spearman_correlation": 0.11479692210127594,
+        "abs_spearman_correlation": 0.11479692210127594
+      },
+      {
+        "gene_name": "LRRIQ4",
+        "spearman_correlation": 0.1143811845060652,
+        "abs_spearman_correlation": 0.1143811845060652
+      },
+      {
+        "gene_name": "NCAN",
+        "spearman_correlation": 0.11147078929645382,
+        "abs_spearman_correlation": 0.11147078929645382
+      },
+      {
+        "gene_name": "ELOVL6",
+        "spearman_correlation": 0.11048152132519239,
+        "abs_spearman_correlation": 0.11048152132519239
+      },
+      {
+        "gene_name": "CCDC28B",
+        "spearman_correlation": 0.10854292731030703,
+        "abs_spearman_correlation": 0.10854292731030703
+      },
+      {
+        "gene_name": "RTBDN",
+        "spearman_correlation": 0.10717261311791207,
+        "abs_spearman_correlation": 0.10717261311791207
+      },
+      {
+        "gene_name": "LANCL3",
+        "spearman_correlation": 0.10463165789520684,
+        "abs_spearman_correlation": 0.10463165789520684
+      },
+      {
+        "gene_name": "ELOVL4",
+        "spearman_correlation": 0.10400695107785367,
+        "abs_spearman_correlation": 0.10400695107785367
+      },
+      {
+        "gene_name": "ASPRV1",
+        "spearman_correlation": 0.10399213233306352,
+        "abs_spearman_correlation": 0.10399213233306352
+      }
+    ]
+  },
+  "component_49": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "ADCK3",
+        "spearman_correlation": 0.1397456865757745,
+        "abs_spearman_correlation": 0.1397456865757745
+      },
+      {
+        "gene_name": "URI1",
+        "spearman_correlation": 0.13755545685949458,
+        "abs_spearman_correlation": 0.13755545685949458
+      },
+      {
+        "gene_name": "HS6ST1",
+        "spearman_correlation": 0.1352349430766222,
+        "abs_spearman_correlation": 0.1352349430766222
+      },
+      {
+        "gene_name": "FAM171A1",
+        "spearman_correlation": 0.12785187855848,
+        "abs_spearman_correlation": 0.12785187855848
+      },
+      {
+        "gene_name": "RRP12",
+        "spearman_correlation": 0.12577472832741188,
+        "abs_spearman_correlation": 0.12577472832741188
+      },
+      {
+        "gene_name": "ANKRD16",
+        "spearman_correlation": 0.1254402570792843,
+        "abs_spearman_correlation": 0.1254402570792843
+      },
+      {
+        "gene_name": "POLE2",
+        "spearman_correlation": -0.12278535111838958,
+        "abs_spearman_correlation": 0.12278535111838958
+      },
+      {
+        "gene_name": "RIPK2",
+        "spearman_correlation": 0.12236308738448184,
+        "abs_spearman_correlation": 0.12236308738448184
+      },
+      {
+        "gene_name": "PPA1",
+        "spearman_correlation": 0.12106878665244793,
+        "abs_spearman_correlation": 0.12106878665244793
+      },
+      {
+        "gene_name": "ANKRD13B",
+        "spearman_correlation": 0.12040406740773607,
+        "abs_spearman_correlation": 0.12040406740773607
+      }
+    ]
+  },
+  "component_96": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "TIGD5",
+        "spearman_correlation": 0.1279622292493774,
+        "abs_spearman_correlation": 0.1279622292493774
+      },
+      {
+        "gene_name": "XKR8",
+        "spearman_correlation": 0.11885163257679768,
+        "abs_spearman_correlation": 0.11885163257679768
+      },
+      {
+        "gene_name": "DGAT1",
+        "spearman_correlation": 0.11841834534216589,
+        "abs_spearman_correlation": 0.11841834534216589
+      },
+      {
+        "gene_name": "CHRAC1",
+        "spearman_correlation": 0.11362688030141767,
+        "abs_spearman_correlation": 0.11362688030141767
+      },
+      {
+        "gene_name": "SCRIB",
+        "spearman_correlation": 0.11326773001495466,
+        "abs_spearman_correlation": 0.11326773001495466
+      },
+      {
+        "gene_name": "CYHR1",
+        "spearman_correlation": 0.11132545116119069,
+        "abs_spearman_correlation": 0.11132545116119069
+      },
+      {
+        "gene_name": "SHARPIN",
+        "spearman_correlation": 0.11036692916754759,
+        "abs_spearman_correlation": 0.11036692916754759
+      },
+      {
+        "gene_name": "GPAA1",
+        "spearman_correlation": 0.10916757397706882,
+        "abs_spearman_correlation": 0.10916757397706882
+      },
+      {
+        "gene_name": "ZNF517",
+        "spearman_correlation": 0.10816643462756959,
+        "abs_spearman_correlation": 0.10816643462756959
+      },
+      {
+        "gene_name": "HMGCL",
+        "spearman_correlation": 0.10743422663588621,
+        "abs_spearman_correlation": 0.10743422663588621
+      }
+    ]
+  },
+  "component_72": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "OXR1",
+        "spearman_correlation": -0.13480359324482263,
+        "abs_spearman_correlation": 0.13480359324482263
+      },
+      {
+        "gene_name": "EBAG9",
+        "spearman_correlation": -0.1270282873599601,
+        "abs_spearman_correlation": 0.1270282873599601
+      },
+      {
+        "gene_name": "MRPL41",
+        "spearman_correlation": 0.11922104471602764,
+        "abs_spearman_correlation": 0.11922104471602764
+      },
+      {
+        "gene_name": "TLR5",
+        "spearman_correlation": -0.11774475975840464,
+        "abs_spearman_correlation": 0.11774475975840464
+      },
+      {
+        "gene_name": "ANK1",
+        "spearman_correlation": -0.11707627969627456,
+        "abs_spearman_correlation": 0.11707627969627456
+      },
+      {
+        "gene_name": "DDIT4",
+        "spearman_correlation": -0.11473794879965069,
+        "abs_spearman_correlation": 0.11473794879965069
+      },
+      {
+        "gene_name": "PEX2",
+        "spearman_correlation": -0.11305218278326767,
+        "abs_spearman_correlation": 0.11305218278326767
+      },
+      {
+        "gene_name": "ZNF34",
+        "spearman_correlation": -0.1118287292073789,
+        "abs_spearman_correlation": 0.1118287292073789
+      },
+      {
+        "gene_name": "NDUFA3",
+        "spearman_correlation": 0.11156867743282063,
+        "abs_spearman_correlation": 0.11156867743282063
+      },
+      {
+        "gene_name": "KLLN",
+        "spearman_correlation": -0.11080097818045949,
+        "abs_spearman_correlation": 0.11080097818045949
+      }
+    ]
+  },
+  "component_36": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "RPS15",
+        "spearman_correlation": -0.2172276730984219,
+        "abs_spearman_correlation": 0.2172276730984219
+      },
+      {
+        "gene_name": "IDH2",
+        "spearman_correlation": 0.21354880008971455,
+        "abs_spearman_correlation": 0.21354880008971455
+      },
+      {
+        "gene_name": "KIF25",
+        "spearman_correlation": 0.21332553349779979,
+        "abs_spearman_correlation": 0.21332553349779979
+      },
+      {
+        "gene_name": "EEF1B2",
+        "spearman_correlation": -0.2074033291280007,
+        "abs_spearman_correlation": 0.2074033291280007
+      },
+      {
+        "gene_name": "RPL36",
+        "spearman_correlation": -0.1995231215294361,
+        "abs_spearman_correlation": 0.1995231215294361
+      },
+      {
+        "gene_name": "HENMT1",
+        "spearman_correlation": 0.19740383550507987,
+        "abs_spearman_correlation": 0.19740383550507987
+      },
+      {
+        "gene_name": "ERVV.2",
+        "spearman_correlation": 0.1972618395176988,
+        "abs_spearman_correlation": 0.1972618395176988
+      },
+      {
+        "gene_name": "RPS28",
+        "spearman_correlation": -0.1925791818585749,
+        "abs_spearman_correlation": 0.1925791818585749
+      },
+      {
+        "gene_name": "RP11.766F14.2",
+        "spearman_correlation": 0.19138514608518206,
+        "abs_spearman_correlation": 0.19138514608518206
+      },
+      {
+        "gene_name": "RPL27",
+        "spearman_correlation": -0.19097598346532954,
+        "abs_spearman_correlation": 0.19097598346532954
+      }
+    ]
+  },
+  "component_89": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "MID1IP1",
+        "spearman_correlation": 0.12570170891110757,
+        "abs_spearman_correlation": 0.12570170891110757
+      },
+      {
+        "gene_name": "CSAG1",
+        "spearman_correlation": 0.11138726581700666,
+        "abs_spearman_correlation": 0.11138726581700666
+      },
+      {
+        "gene_name": "TSKU",
+        "spearman_correlation": -0.11132849268791663,
+        "abs_spearman_correlation": 0.11132849268791663
+      },
+      {
+        "gene_name": "KRCC1",
+        "spearman_correlation": -0.10974918062415642,
+        "abs_spearman_correlation": 0.10974918062415642
+      },
+      {
+        "gene_name": "MAP1LC3C",
+        "spearman_correlation": -0.1049144647036484,
+        "abs_spearman_correlation": 0.1049144647036484
+      },
+      {
+        "gene_name": "UBE2H",
+        "spearman_correlation": -0.10368587725027092,
+        "abs_spearman_correlation": 0.10368587725027092
+      },
+      {
+        "gene_name": "IL33",
+        "spearman_correlation": -0.10311292895336295,
+        "abs_spearman_correlation": 0.10311292895336295
+      },
+      {
+        "gene_name": "GATSL3",
+        "spearman_correlation": -0.1024464013885297,
+        "abs_spearman_correlation": 0.1024464013885297
+      },
+      {
+        "gene_name": "TLK1",
+        "spearman_correlation": -0.10133016103894725,
+        "abs_spearman_correlation": 0.10133016103894725
+      },
+      {
+        "gene_name": "MEOX1",
+        "spearman_correlation": -0.10031849287357195,
+        "abs_spearman_correlation": 0.10031849287357195
+      }
+    ]
+  },
+  "component_39": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "STPG1",
+        "spearman_correlation": -0.18269837703620523,
+        "abs_spearman_correlation": 0.18269837703620523
+      },
+      {
+        "gene_name": "KIAA2012",
+        "spearman_correlation": -0.18148064706029157,
+        "abs_spearman_correlation": 0.18148064706029157
+      },
+      {
+        "gene_name": "MED18",
+        "spearman_correlation": -0.17785469626326425,
+        "abs_spearman_correlation": 0.17785469626326425
+      },
+      {
+        "gene_name": "TBC1D10A",
+        "spearman_correlation": -0.17362322164948718,
+        "abs_spearman_correlation": 0.17362322164948718
+      },
+      {
+        "gene_name": "RSG1",
+        "spearman_correlation": -0.17335237514648782,
+        "abs_spearman_correlation": 0.17335237514648782
+      },
+      {
+        "gene_name": "SNTN",
+        "spearman_correlation": -0.17244832826574788,
+        "abs_spearman_correlation": 0.17244832826574788
+      },
+      {
+        "gene_name": "CCDC170",
+        "spearman_correlation": -0.17065916933426573,
+        "abs_spearman_correlation": 0.17065916933426573
+      },
+      {
+        "gene_name": "DOK1",
+        "spearman_correlation": -0.17026959410483425,
+        "abs_spearman_correlation": 0.17026959410483425
+      },
+      {
+        "gene_name": "PIGT",
+        "spearman_correlation": -0.168610273909065,
+        "abs_spearman_correlation": 0.168610273909065
+      },
+      {
+        "gene_name": "AKR7A2",
+        "spearman_correlation": -0.16700791874883866,
+        "abs_spearman_correlation": 0.16700791874883866
+      }
+    ]
+  },
+  "component_17": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "DNM1",
+        "spearman_correlation": 0.2644671077199342,
+        "abs_spearman_correlation": 0.2644671077199342
+      },
+      {
+        "gene_name": "C9orf89",
+        "spearman_correlation": 0.2589372943461051,
+        "abs_spearman_correlation": 0.2589372943461051
+      },
+      {
+        "gene_name": "THBS3",
+        "spearman_correlation": 0.2538846859494216,
+        "abs_spearman_correlation": 0.2538846859494216
+      },
+      {
+        "gene_name": "SPNS1",
+        "spearman_correlation": 0.2517908094893214,
+        "abs_spearman_correlation": 0.2517908094893214
+      },
+      {
+        "gene_name": "MEGF6",
+        "spearman_correlation": 0.2455809092815456,
+        "abs_spearman_correlation": 0.2455809092815456
+      },
+      {
+        "gene_name": "SLC39A13",
+        "spearman_correlation": 0.24548992798347427,
+        "abs_spearman_correlation": 0.24548992798347427
+      },
+      {
+        "gene_name": "GTF3C6",
+        "spearman_correlation": -0.24054896518120605,
+        "abs_spearman_correlation": 0.24054896518120605
+      },
+      {
+        "gene_name": "RPL34",
+        "spearman_correlation": -0.23986238319342384,
+        "abs_spearman_correlation": 0.23986238319342384
+      },
+      {
+        "gene_name": "FAM131A",
+        "spearman_correlation": 0.2397669185465075,
+        "abs_spearman_correlation": 0.2397669185465075
+      },
+      {
+        "gene_name": "KIFC2",
+        "spearman_correlation": 0.23785201141049475,
+        "abs_spearman_correlation": 0.23785201141049475
+      }
+    ]
+  },
+  "component_76": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "YARS",
+        "spearman_correlation": 0.12157755717362843,
+        "abs_spearman_correlation": 0.12157755717362843
+      },
+      {
+        "gene_name": "NUDC",
+        "spearman_correlation": 0.1209913900548816,
+        "abs_spearman_correlation": 0.1209913900548816
+      },
+      {
+        "gene_name": "BOLA1",
+        "spearman_correlation": -0.1183228108952244,
+        "abs_spearman_correlation": 0.1183228108952244
+      },
+      {
+        "gene_name": "TMEM86B",
+        "spearman_correlation": 0.1167279826400328,
+        "abs_spearman_correlation": 0.1167279826400328
+      },
+      {
+        "gene_name": "DPM2",
+        "spearman_correlation": 0.1136105104523563,
+        "abs_spearman_correlation": 0.1136105104523563
+      },
+      {
+        "gene_name": "PSMB2",
+        "spearman_correlation": 0.11009218069818717,
+        "abs_spearman_correlation": 0.11009218069818717
+      },
+      {
+        "gene_name": "NUDT17",
+        "spearman_correlation": -0.10994593052584103,
+        "abs_spearman_correlation": 0.10994593052584103
+      },
+      {
+        "gene_name": "GLTPD2",
+        "spearman_correlation": -0.10932272588995914,
+        "abs_spearman_correlation": 0.10932272588995914
+      },
+      {
+        "gene_name": "CREG1",
+        "spearman_correlation": -0.10915043271710438,
+        "abs_spearman_correlation": 0.10915043271710438
+      },
+      {
+        "gene_name": "CAV3",
+        "spearman_correlation": 0.10873912386340248,
+        "abs_spearman_correlation": 0.10873912386340248
+      }
+    ]
+  },
+  "component_30": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "TAF1D",
+        "spearman_correlation": 0.24864010755513963,
+        "abs_spearman_correlation": 0.24864010755513963
+      },
+      {
+        "gene_name": "RPL34",
+        "spearman_correlation": 0.23342435621429342,
+        "abs_spearman_correlation": 0.23342435621429342
+      },
+      {
+        "gene_name": "RPL5",
+        "spearman_correlation": 0.22616975728146305,
+        "abs_spearman_correlation": 0.22616975728146305
+      },
+      {
+        "gene_name": "EIF3E",
+        "spearman_correlation": 0.22403083380398275,
+        "abs_spearman_correlation": 0.22403083380398275
+      },
+      {
+        "gene_name": "TPT1",
+        "spearman_correlation": 0.2233993804755419,
+        "abs_spearman_correlation": 0.2233993804755419
+      },
+      {
+        "gene_name": "EVA1A",
+        "spearman_correlation": 0.213176994215032,
+        "abs_spearman_correlation": 0.213176994215032
+      },
+      {
+        "gene_name": "ODF2L",
+        "spearman_correlation": 0.21058341108446002,
+        "abs_spearman_correlation": 0.21058341108446002
+      },
+      {
+        "gene_name": "CYP39A1",
+        "spearman_correlation": 0.21021895590351736,
+        "abs_spearman_correlation": 0.21021895590351736
+      },
+      {
+        "gene_name": "SLC25A27",
+        "spearman_correlation": 0.20947622249544803,
+        "abs_spearman_correlation": 0.20947622249544803
+      },
+      {
+        "gene_name": "AP1B1",
+        "spearman_correlation": -0.20788207356903535,
+        "abs_spearman_correlation": 0.20788207356903535
+      }
+    ]
+  },
+  "component_21": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "FAM111A",
+        "spearman_correlation": 0.28438737050104024,
+        "abs_spearman_correlation": 0.28438737050104024
+      },
+      {
+        "gene_name": "NFIA",
+        "spearman_correlation": 0.2719932766063286,
+        "abs_spearman_correlation": 0.2719932766063286
+      },
+      {
+        "gene_name": "RSRP1",
+        "spearman_correlation": 0.2686035022134026,
+        "abs_spearman_correlation": 0.2686035022134026
+      },
+      {
+        "gene_name": "GBP1",
+        "spearman_correlation": 0.2658558764418144,
+        "abs_spearman_correlation": 0.2658558764418144
+      },
+      {
+        "gene_name": "SCML1",
+        "spearman_correlation": 0.2655925930173617,
+        "abs_spearman_correlation": 0.2655925930173617
+      },
+      {
+        "gene_name": "C5orf56",
+        "spearman_correlation": 0.2616652632185675,
+        "abs_spearman_correlation": 0.2616652632185675
+      },
+      {
+        "gene_name": "SLC29A4",
+        "spearman_correlation": -0.25195003961017637,
+        "abs_spearman_correlation": 0.25195003961017637
+      },
+      {
+        "gene_name": "IL15",
+        "spearman_correlation": 0.24746535792715973,
+        "abs_spearman_correlation": 0.24746535792715973
+      },
+      {
+        "gene_name": "UBA7",
+        "spearman_correlation": 0.2457272714610136,
+        "abs_spearman_correlation": 0.2457272714610136
+      },
+      {
+        "gene_name": "EGFL7",
+        "spearman_correlation": -0.24229504309102673,
+        "abs_spearman_correlation": 0.24229504309102673
+      }
+    ]
+  },
+  "component_16": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "CALML6",
+        "spearman_correlation": -0.40547628133048547,
+        "abs_spearman_correlation": 0.40547628133048547
+      },
+      {
+        "gene_name": "CCNL2",
+        "spearman_correlation": -0.39863309218597526,
+        "abs_spearman_correlation": 0.39863309218597526
+      },
+      {
+        "gene_name": "EGFL8",
+        "spearman_correlation": -0.3983157282555825,
+        "abs_spearman_correlation": 0.3983157282555825
+      },
+      {
+        "gene_name": "ENGASE",
+        "spearman_correlation": -0.3757080300933221,
+        "abs_spearman_correlation": 0.3757080300933221
+      },
+      {
+        "gene_name": "FAM193B",
+        "spearman_correlation": -0.37065919615180754,
+        "abs_spearman_correlation": 0.37065919615180754
+      },
+      {
+        "gene_name": "SNRNP70",
+        "spearman_correlation": -0.36905940387951586,
+        "abs_spearman_correlation": 0.36905940387951586
+      },
+      {
+        "gene_name": "RP4.583P15.15",
+        "spearman_correlation": -0.36882706719787306,
+        "abs_spearman_correlation": 0.36882706719787306
+      },
+      {
+        "gene_name": "ABCA10",
+        "spearman_correlation": -0.3676267791343641,
+        "abs_spearman_correlation": 0.3676267791343641
+      },
+      {
+        "gene_name": "JMJD7.PLA2G4B",
+        "spearman_correlation": -0.36537957196646925,
+        "abs_spearman_correlation": 0.36537957196646925
+      },
+      {
+        "gene_name": "CDK3",
+        "spearman_correlation": -0.3643448300914054,
+        "abs_spearman_correlation": 0.3643448300914054
+      }
+    ]
+  },
+  "component_24": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "CEP68",
+        "spearman_correlation": -0.28831754327597553,
+        "abs_spearman_correlation": 0.28831754327597553
+      },
+      {
+        "gene_name": "LIMS2",
+        "spearman_correlation": -0.25868609264700104,
+        "abs_spearman_correlation": 0.25868609264700104
+      },
+      {
+        "gene_name": "CCNB1IP1",
+        "spearman_correlation": -0.2541158387683485,
+        "abs_spearman_correlation": 0.2541158387683485
+      },
+      {
+        "gene_name": "PRDM11",
+        "spearman_correlation": -0.2478737888146198,
+        "abs_spearman_correlation": 0.2478737888146198
+      },
+      {
+        "gene_name": "ITPKB",
+        "spearman_correlation": -0.24568766249648288,
+        "abs_spearman_correlation": 0.24568766249648288
+      },
+      {
+        "gene_name": "PELI2",
+        "spearman_correlation": -0.24182596613450272,
+        "abs_spearman_correlation": 0.24182596613450272
+      },
+      {
+        "gene_name": "RPL3",
+        "spearman_correlation": -0.24010995159072562,
+        "abs_spearman_correlation": 0.24010995159072562
+      },
+      {
+        "gene_name": "NKD2",
+        "spearman_correlation": -0.23617213394860959,
+        "abs_spearman_correlation": 0.23617213394860959
+      },
+      {
+        "gene_name": "PNMAL2",
+        "spearman_correlation": -0.2350344273477696,
+        "abs_spearman_correlation": 0.2350344273477696
+      },
+      {
+        "gene_name": "STON1",
+        "spearman_correlation": -0.23460446056299417,
+        "abs_spearman_correlation": 0.23460446056299417
+      }
+    ]
+  },
+  "component_99": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "IGSF22",
+        "spearman_correlation": 0.12525119694764678,
+        "abs_spearman_correlation": 0.12525119694764678
+      },
+      {
+        "gene_name": "TRIM54",
+        "spearman_correlation": 0.12361511582526437,
+        "abs_spearman_correlation": 0.12361511582526437
+      },
+      {
+        "gene_name": "RAD51B",
+        "spearman_correlation": -0.114234936422073,
+        "abs_spearman_correlation": 0.114234936422073
+      },
+      {
+        "gene_name": "TNFRSF19",
+        "spearman_correlation": 0.11176011568759187,
+        "abs_spearman_correlation": 0.11176011568759187
+      },
+      {
+        "gene_name": "HM13",
+        "spearman_correlation": 0.11141871651504215,
+        "abs_spearman_correlation": 0.11141871651504215
+      },
+      {
+        "gene_name": "PFKL",
+        "spearman_correlation": -0.10866684400924993,
+        "abs_spearman_correlation": 0.10866684400924993
+      },
+      {
+        "gene_name": "TEX22",
+        "spearman_correlation": -0.10381555647177922,
+        "abs_spearman_correlation": 0.10381555647177922
+      },
+      {
+        "gene_name": "PLEKHG3",
+        "spearman_correlation": -0.10340869257812443,
+        "abs_spearman_correlation": 0.10340869257812443
+      },
+      {
+        "gene_name": "ISCA2",
+        "spearman_correlation": -0.10321002877066116,
+        "abs_spearman_correlation": 0.10321002877066116
+      },
+      {
+        "gene_name": "TEX29",
+        "spearman_correlation": 0.1029392994347564,
+        "abs_spearman_correlation": 0.1029392994347564
+      }
+    ]
+  },
+  "component_26": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "SH3D21",
+        "spearman_correlation": -0.26362030168307976,
+        "abs_spearman_correlation": 0.26362030168307976
+      },
+      {
+        "gene_name": "GRAMD4",
+        "spearman_correlation": -0.2222086827086333,
+        "abs_spearman_correlation": 0.2222086827086333
+      },
+      {
+        "gene_name": "PRODH",
+        "spearman_correlation": -0.2208277919760061,
+        "abs_spearman_correlation": 0.2208277919760061
+      },
+      {
+        "gene_name": "ST8SIA6",
+        "spearman_correlation": -0.2189435887637395,
+        "abs_spearman_correlation": 0.2189435887637395
+      },
+      {
+        "gene_name": "TPPP3",
+        "spearman_correlation": -0.21841788245574997,
+        "abs_spearman_correlation": 0.21841788245574997
+      },
+      {
+        "gene_name": "GOLGA7B",
+        "spearman_correlation": -0.21560099821504372,
+        "abs_spearman_correlation": 0.21560099821504372
+      },
+      {
+        "gene_name": "FHOD1",
+        "spearman_correlation": -0.21550904304296137,
+        "abs_spearman_correlation": 0.21550904304296137
+      },
+      {
+        "gene_name": "ABCC12",
+        "spearman_correlation": -0.21174109457963597,
+        "abs_spearman_correlation": 0.21174109457963597
+      },
+      {
+        "gene_name": "FOXC1",
+        "spearman_correlation": 0.20891836302229483,
+        "abs_spearman_correlation": 0.20891836302229483
+      },
+      {
+        "gene_name": "JAG2",
+        "spearman_correlation": -0.20795320507109688,
+        "abs_spearman_correlation": 0.20795320507109688
+      }
+    ]
+  },
+  "component_46": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "WNT4",
+        "spearman_correlation": 0.18151253319511662,
+        "abs_spearman_correlation": 0.18151253319511662
+      },
+      {
+        "gene_name": "SSTR3",
+        "spearman_correlation": 0.16941136424438738,
+        "abs_spearman_correlation": 0.16941136424438738
+      },
+      {
+        "gene_name": "YWHAH",
+        "spearman_correlation": -0.16442509161105917,
+        "abs_spearman_correlation": 0.16442509161105917
+      },
+      {
+        "gene_name": "KLC2",
+        "spearman_correlation": -0.15814795055192032,
+        "abs_spearman_correlation": 0.15814795055192032
+      },
+      {
+        "gene_name": "MT.ATP8",
+        "spearman_correlation": -0.15050683778199195,
+        "abs_spearman_correlation": 0.15050683778199195
+      },
+      {
+        "gene_name": "CSNK1E",
+        "spearman_correlation": -0.14749367102071545,
+        "abs_spearman_correlation": 0.14749367102071545
+      },
+      {
+        "gene_name": "MT.ND4L",
+        "spearman_correlation": -0.14572722201745428,
+        "abs_spearman_correlation": 0.14572722201745428
+      },
+      {
+        "gene_name": "MT.CO2",
+        "spearman_correlation": -0.1443743192960138,
+        "abs_spearman_correlation": 0.1443743192960138
+      },
+      {
+        "gene_name": "MT.ATP6",
+        "spearman_correlation": -0.1442665047378493,
+        "abs_spearman_correlation": 0.1442665047378493
+      },
+      {
+        "gene_name": "KRTAP5.1",
+        "spearman_correlation": -0.143703305353511,
+        "abs_spearman_correlation": 0.143703305353511
+      }
+    ]
+  },
+  "component_78": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "PHYHD1",
+        "spearman_correlation": -0.16295005462231546,
+        "abs_spearman_correlation": 0.16295005462231546
+      },
+      {
+        "gene_name": "PARD6A",
+        "spearman_correlation": -0.14776527924968405,
+        "abs_spearman_correlation": 0.14776527924968405
+      },
+      {
+        "gene_name": "HAUS4",
+        "spearman_correlation": -0.142930917538599,
+        "abs_spearman_correlation": 0.142930917538599
+      },
+      {
+        "gene_name": "GAD1",
+        "spearman_correlation": -0.14279408601857801,
+        "abs_spearman_correlation": 0.14279408601857801
+      },
+      {
+        "gene_name": "TBX6",
+        "spearman_correlation": -0.1355587880264425,
+        "abs_spearman_correlation": 0.1355587880264425
+      },
+      {
+        "gene_name": "ENO2",
+        "spearman_correlation": -0.13213515629701916,
+        "abs_spearman_correlation": 0.13213515629701916
+      },
+      {
+        "gene_name": "PFKFB4",
+        "spearman_correlation": -0.12829965705272167,
+        "abs_spearman_correlation": 0.12829965705272167
+      },
+      {
+        "gene_name": "SPAG4",
+        "spearman_correlation": -0.12486890205178637,
+        "abs_spearman_correlation": 0.12486890205178637
+      },
+      {
+        "gene_name": "KRTAP3.1",
+        "spearman_correlation": -0.12483560371631593,
+        "abs_spearman_correlation": 0.12483560371631593
+      },
+      {
+        "gene_name": "C6orf223",
+        "spearman_correlation": -0.12369919331862657,
+        "abs_spearman_correlation": 0.12369919331862657
+      }
+    ]
+  },
+  "component_12": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "SPAG17",
+        "spearman_correlation": 0.5165773942585207,
+        "abs_spearman_correlation": 0.5165773942585207
+      },
+      {
+        "gene_name": "STON2",
+        "spearman_correlation": 0.48532334763095486,
+        "abs_spearman_correlation": 0.48532334763095486
+      },
+      {
+        "gene_name": "PLA2G2A",
+        "spearman_correlation": -0.48135628080465903,
+        "abs_spearman_correlation": 0.48135628080465903
+      },
+      {
+        "gene_name": "DNAJB13",
+        "spearman_correlation": 0.4512694304478026,
+        "abs_spearman_correlation": 0.4512694304478026
+      },
+      {
+        "gene_name": "PLA2G5",
+        "spearman_correlation": -0.4509139819840894,
+        "abs_spearman_correlation": 0.4509139819840894
+      },
+      {
+        "gene_name": "CFAP53",
+        "spearman_correlation": 0.4353221997784631,
+        "abs_spearman_correlation": 0.4353221997784631
+      },
+      {
+        "gene_name": "NXNL2",
+        "spearman_correlation": 0.4335723762568059,
+        "abs_spearman_correlation": 0.4335723762568059
+      },
+      {
+        "gene_name": "EMX2",
+        "spearman_correlation": 0.42456864301071673,
+        "abs_spearman_correlation": 0.42456864301071673
+      },
+      {
+        "gene_name": "SLC43A1",
+        "spearman_correlation": -0.42370312670041554,
+        "abs_spearman_correlation": 0.42370312670041554
+      },
+      {
+        "gene_name": "DCDC1",
+        "spearman_correlation": 0.4136413090228529,
+        "abs_spearman_correlation": 0.4136413090228529
+      }
+    ]
+  },
+  "component_91": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "BCL2L1",
+        "spearman_correlation": 0.132985802100874,
+        "abs_spearman_correlation": 0.132985802100874
+      },
+      {
+        "gene_name": "TLL2",
+        "spearman_correlation": 0.12499424683762,
+        "abs_spearman_correlation": 0.12499424683762
+      },
+      {
+        "gene_name": "SMIM5",
+        "spearman_correlation": 0.11976053677116782,
+        "abs_spearman_correlation": 0.11976053677116782
+      },
+      {
+        "gene_name": "MT.ND1",
+        "spearman_correlation": 0.11230806506184726,
+        "abs_spearman_correlation": 0.11230806506184726
+      },
+      {
+        "gene_name": "RET",
+        "spearman_correlation": -0.10632167773659051,
+        "abs_spearman_correlation": 0.10632167773659051
+      },
+      {
+        "gene_name": "RGS9BP",
+        "spearman_correlation": 0.10452323278365275,
+        "abs_spearman_correlation": 0.10452323278365275
+      },
+      {
+        "gene_name": "MT.ND2",
+        "spearman_correlation": 0.10397839786667251,
+        "abs_spearman_correlation": 0.10397839786667251
+      },
+      {
+        "gene_name": "ADAM21",
+        "spearman_correlation": 0.10322355156079516,
+        "abs_spearman_correlation": 0.10322355156079516
+      },
+      {
+        "gene_name": "C18orf65",
+        "spearman_correlation": -0.10094818720106181,
+        "abs_spearman_correlation": 0.10094818720106181
+      },
+      {
+        "gene_name": "METTL8",
+        "spearman_correlation": 0.100830502557554,
+        "abs_spearman_correlation": 0.100830502557554
+      }
+    ]
+  },
+  "component_11": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "RND1",
+        "spearman_correlation": 0.587396448501948,
+        "abs_spearman_correlation": 0.587396448501948
+      },
+      {
+        "gene_name": "SYT12",
+        "spearman_correlation": 0.561864071274373,
+        "abs_spearman_correlation": 0.561864071274373
+      },
+      {
+        "gene_name": "TTC9",
+        "spearman_correlation": 0.5328381427454879,
+        "abs_spearman_correlation": 0.5328381427454879
+      },
+      {
+        "gene_name": "TAT",
+        "spearman_correlation": 0.5304605838953476,
+        "abs_spearman_correlation": 0.5304605838953476
+      },
+      {
+        "gene_name": "GLUL",
+        "spearman_correlation": 0.5215350834708866,
+        "abs_spearman_correlation": 0.5215350834708866
+      },
+      {
+        "gene_name": "SUSD4",
+        "spearman_correlation": 0.5120191716033424,
+        "abs_spearman_correlation": 0.5120191716033424
+      },
+      {
+        "gene_name": "PON3",
+        "spearman_correlation": 0.5007032518233728,
+        "abs_spearman_correlation": 0.5007032518233728
+      },
+      {
+        "gene_name": "TMPRSS6",
+        "spearman_correlation": 0.4982706677049645,
+        "abs_spearman_correlation": 0.4982706677049645
+      },
+      {
+        "gene_name": "HSD17B6",
+        "spearman_correlation": 0.4902105653523625,
+        "abs_spearman_correlation": 0.4902105653523625
+      },
+      {
+        "gene_name": "BNIPL",
+        "spearman_correlation": 0.4840170440203089,
+        "abs_spearman_correlation": 0.4840170440203089
+      }
+    ]
+  },
+  "component_34": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "SCML1",
+        "spearman_correlation": -0.19251475015400638,
+        "abs_spearman_correlation": 0.19251475015400638
+      },
+      {
+        "gene_name": "ORAI2",
+        "spearman_correlation": 0.18666808467473128,
+        "abs_spearman_correlation": 0.18666808467473128
+      },
+      {
+        "gene_name": "FLRT3",
+        "spearman_correlation": 0.18009668065971726,
+        "abs_spearman_correlation": 0.18009668065971726
+      },
+      {
+        "gene_name": "CNTLN",
+        "spearman_correlation": -0.1787918461302762,
+        "abs_spearman_correlation": 0.1787918461302762
+      },
+      {
+        "gene_name": "C2orf88",
+        "spearman_correlation": -0.1758338617967874,
+        "abs_spearman_correlation": 0.1758338617967874
+      },
+      {
+        "gene_name": "ELF5",
+        "spearman_correlation": 0.17572191769021486,
+        "abs_spearman_correlation": 0.17572191769021486
+      },
+      {
+        "gene_name": "RIMKLB",
+        "spearman_correlation": -0.17203819691173697,
+        "abs_spearman_correlation": 0.17203819691173697
+      },
+      {
+        "gene_name": "FREM2",
+        "spearman_correlation": 0.17128628423936293,
+        "abs_spearman_correlation": 0.17128628423936293
+      },
+      {
+        "gene_name": "GMPR",
+        "spearman_correlation": -0.16955502208102838,
+        "abs_spearman_correlation": 0.16955502208102838
+      },
+      {
+        "gene_name": "TRIM62",
+        "spearman_correlation": 0.16805136778600197,
+        "abs_spearman_correlation": 0.16805136778600197
+      }
+    ]
+  },
+  "component_71": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "MAFF",
+        "spearman_correlation": -0.16131876965913092,
+        "abs_spearman_correlation": 0.16131876965913092
+      },
+      {
+        "gene_name": "ADCK1",
+        "spearman_correlation": 0.14393961807253028,
+        "abs_spearman_correlation": 0.14393961807253028
+      },
+      {
+        "gene_name": "SLC35D2",
+        "spearman_correlation": -0.13950014167801267,
+        "abs_spearman_correlation": 0.13950014167801267
+      },
+      {
+        "gene_name": "ITFG3",
+        "spearman_correlation": 0.1377214293581187,
+        "abs_spearman_correlation": 0.1377214293581187
+      },
+      {
+        "gene_name": "NR4A3",
+        "spearman_correlation": -0.13597228264766018,
+        "abs_spearman_correlation": 0.13597228264766018
+      },
+      {
+        "gene_name": "C14orf159",
+        "spearman_correlation": 0.13442280076032354,
+        "abs_spearman_correlation": 0.13442280076032354
+      },
+      {
+        "gene_name": "PPP1R15A",
+        "spearman_correlation": -0.13341818921854906,
+        "abs_spearman_correlation": 0.13341818921854906
+      },
+      {
+        "gene_name": "SLC25A25",
+        "spearman_correlation": -0.13244883043172043,
+        "abs_spearman_correlation": 0.13244883043172043
+      },
+      {
+        "gene_name": "SLIRP",
+        "spearman_correlation": 0.1278472661193472,
+        "abs_spearman_correlation": 0.1278472661193472
+      },
+      {
+        "gene_name": "UGCG",
+        "spearman_correlation": -0.1248070550271302,
+        "abs_spearman_correlation": 0.1248070550271302
+      }
+    ]
+  },
+  "component_33": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "KLHL31",
+        "spearman_correlation": -0.2133508016845025,
+        "abs_spearman_correlation": 0.2133508016845025
+      },
+      {
+        "gene_name": "WDR34",
+        "spearman_correlation": 0.21180206683731742,
+        "abs_spearman_correlation": 0.21180206683731742
+      },
+      {
+        "gene_name": "PKN3",
+        "spearman_correlation": 0.19767584315488007,
+        "abs_spearman_correlation": 0.19767584315488007
+      },
+      {
+        "gene_name": "MAGEA11",
+        "spearman_correlation": -0.190671506747092,
+        "abs_spearman_correlation": 0.190671506747092
+      },
+      {
+        "gene_name": "CNNM3",
+        "spearman_correlation": 0.18892947940621857,
+        "abs_spearman_correlation": 0.18892947940621857
+      },
+      {
+        "gene_name": "PVALB",
+        "spearman_correlation": -0.18886247704622183,
+        "abs_spearman_correlation": 0.18886247704622183
+      },
+      {
+        "gene_name": "RAPSN",
+        "spearman_correlation": -0.18821076402914189,
+        "abs_spearman_correlation": 0.18821076402914189
+      },
+      {
+        "gene_name": "MAGEA4",
+        "spearman_correlation": -0.1844696960979706,
+        "abs_spearman_correlation": 0.1844696960979706
+      },
+      {
+        "gene_name": "IFT122",
+        "spearman_correlation": 0.18085713775073178,
+        "abs_spearman_correlation": 0.18085713775073178
+      },
+      {
+        "gene_name": "NUP188",
+        "spearman_correlation": 0.1804858506582749,
+        "abs_spearman_correlation": 0.1804858506582749
+      }
+    ]
+  },
+  "component_93": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "BMP8B",
+        "spearman_correlation": 0.10517392183225709,
+        "abs_spearman_correlation": 0.10517392183225709
+      },
+      {
+        "gene_name": "ATP5H",
+        "spearman_correlation": 0.10352932077009654,
+        "abs_spearman_correlation": 0.10352932077009654
+      },
+      {
+        "gene_name": "RPL19",
+        "spearman_correlation": 0.10284962755918176,
+        "abs_spearman_correlation": 0.10284962755918176
+      },
+      {
+        "gene_name": "SLC13A3",
+        "spearman_correlation": -0.10170721316748564,
+        "abs_spearman_correlation": 0.10170721316748564
+      },
+      {
+        "gene_name": "MDK",
+        "spearman_correlation": -0.10135416494990297,
+        "abs_spearman_correlation": 0.10135416494990297
+      },
+      {
+        "gene_name": "OR56A3",
+        "spearman_correlation": 0.10122302242299891,
+        "abs_spearman_correlation": 0.10122302242299891
+      },
+      {
+        "gene_name": "XAGE5",
+        "spearman_correlation": 0.10022324397647302,
+        "abs_spearman_correlation": 0.10022324397647302
+      },
+      {
+        "gene_name": "SLC34A3",
+        "spearman_correlation": -0.10014136016991627,
+        "abs_spearman_correlation": 0.10014136016991627
+      },
+      {
+        "gene_name": "TRIM7",
+        "spearman_correlation": 0.09969552764343383,
+        "abs_spearman_correlation": 0.09969552764343383
+      },
+      {
+        "gene_name": "GAGE1",
+        "spearman_correlation": 0.09891134812747282,
+        "abs_spearman_correlation": 0.09891134812747282
+      }
+    ]
+  },
+  "component_94": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "P2RX5",
+        "spearman_correlation": 0.1130225691848958,
+        "abs_spearman_correlation": 0.1130225691848958
+      },
+      {
+        "gene_name": "HIST2H2BE",
+        "spearman_correlation": 0.10727377003063955,
+        "abs_spearman_correlation": 0.10727377003063955
+      },
+      {
+        "gene_name": "TAS1R3",
+        "spearman_correlation": 0.10721203810326002,
+        "abs_spearman_correlation": 0.10721203810326002
+      },
+      {
+        "gene_name": "PNKD",
+        "spearman_correlation": -0.10281265081592904,
+        "abs_spearman_correlation": 0.10281265081592904
+      },
+      {
+        "gene_name": "JSRP1",
+        "spearman_correlation": 0.10155256916486896,
+        "abs_spearman_correlation": 0.10155256916486896
+      },
+      {
+        "gene_name": "TMEM138",
+        "spearman_correlation": -0.09980208270360556,
+        "abs_spearman_correlation": 0.09980208270360556
+      },
+      {
+        "gene_name": "CTSH",
+        "spearman_correlation": -0.09849154623917426,
+        "abs_spearman_correlation": 0.09849154623917426
+      },
+      {
+        "gene_name": "GFY",
+        "spearman_correlation": 0.09774868263246782,
+        "abs_spearman_correlation": 0.09774868263246782
+      },
+      {
+        "gene_name": "BLOC1S5.TXNDC5",
+        "spearman_correlation": 0.09502280776217417,
+        "abs_spearman_correlation": 0.09502280776217417
+      },
+      {
+        "gene_name": "SLC22A1",
+        "spearman_correlation": -0.09099263051301838,
+        "abs_spearman_correlation": 0.09099263051301838
+      }
+    ]
+  },
+  "component_79": {
+    "association_method": "spearman_correlation",
+    "top_10_genes": [
+      {
+        "gene_name": "WDR38",
+        "spearman_correlation": -0.13808406849278806,
+        "abs_spearman_correlation": 0.13808406849278806
+      },
+      {
+        "gene_name": "DUS4L",
+        "spearman_correlation": -0.1269386779812333,
+        "abs_spearman_correlation": 0.1269386779812333
+      },
+      {
+        "gene_name": "ARID5A",
+        "spearman_correlation": 0.12395675734614588,
+        "abs_spearman_correlation": 0.12395675734614588
+      },
+      {
+        "gene_name": "CCDC42B",
+        "spearman_correlation": -0.1222256822559219,
+        "abs_spearman_correlation": 0.1222256822559219
+      },
+      {
+        "gene_name": "TPPP3",
+        "spearman_correlation": -0.12023497481133771,
+        "abs_spearman_correlation": 0.12023497481133771
+      },
+      {
+        "gene_name": "GRAMD1A",
+        "spearman_correlation": 0.12010707684775015,
+        "abs_spearman_correlation": 0.12010707684775015
+      },
+      {
+        "gene_name": "RHOB",
+        "spearman_correlation": 0.11735087346662308,
+        "abs_spearman_correlation": 0.11735087346662308
+      },
+      {
+        "gene_name": "AK7",
+        "spearman_correlation": -0.11632583232374093,
+        "abs_spearman_correlation": 0.11632583232374093
+      },
+      {
+        "gene_name": "C7orf57",
+        "spearman_correlation": -0.11504678694555194,
+        "abs_spearman_correlation": 0.11504678694555194
+      },
+      {
+        "gene_name": "BAIAP3",
+        "spearman_correlation": -0.11451521652212508,
+        "abs_spearman_correlation": 0.11451521652212508
+      }
+    ]
+  }
+}
