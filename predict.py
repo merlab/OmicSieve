@@ -236,6 +236,20 @@ def infer_model_shape(state_dict: dict[str, torch.Tensor]) -> tuple[int, int]:
     return int(input_weight.shape[1]), int(output_weight.shape[0])
 
 
+def load_mlp_checkpoint(path: Path) -> tuple[dict[str, torch.Tensor], int, int, list[int]]:
+    checkpoint = torch.load(path, map_location="cpu")
+    if isinstance(checkpoint, dict) and "model_state_dict" in checkpoint:
+        state_dict = checkpoint["model_state_dict"]
+        n_input_genes = int(checkpoint.get("n_input_genes", infer_model_shape(state_dict)[0]))
+        n_output_components = int(checkpoint.get("n_output_components", infer_model_shape(state_dict)[1]))
+        hidden_dims = list(checkpoint.get("hidden_dims", [1024, 512, 256, 128]))
+        return state_dict, n_input_genes, n_output_components, hidden_dims
+
+    state_dict = checkpoint
+    n_input_genes, n_output_components = infer_model_shape(state_dict)
+    return state_dict, n_input_genes, n_output_components, [1024, 512, 256, 128]
+
+
 def predict_components(
     model: AttentionFeatureSelectorMLP,
     values: np.ndarray,
@@ -279,8 +293,7 @@ def main() -> None:
     scaler_path = require_file(model_root / "scaler.pkl", "scaler")
     mlp_path = require_file(method_dir / "component_predictor_attention_mlp.pt", "component predictor")
 
-    state_dict = torch.load(mlp_path, map_location="cpu")
-    n_input_genes, n_output_components = infer_model_shape(state_dict)
+    state_dict, n_input_genes, n_output_components, hidden_dims = load_mlp_checkpoint(mlp_path)
 
     gene_order_path = Path(args.gene_order) if args.gene_order else model_root / "gene_order.json"
     gene_order = load_gene_order(gene_order_path) if gene_order_path.exists() else None
@@ -291,7 +304,11 @@ def main() -> None:
     scaler = joblib.load(scaler_path)
     x_scaled = scaler.transform(expression.to_numpy(dtype=np.float32))
 
-    mlp = AttentionFeatureSelectorMLP(n_input_genes=n_input_genes, n_output_components=n_output_components)
+    mlp = AttentionFeatureSelectorMLP(
+        n_input_genes=n_input_genes,
+        n_output_components=n_output_components,
+        hidden_dims=hidden_dims,
+    )
     mlp.load_state_dict(state_dict)
     components = predict_components(mlp, x_scaled, args.batch_size)
 
